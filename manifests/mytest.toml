@@ -34,6 +34,6 @@ enabled = true
 # seq 0
 [[testcases]]
 name = "first-try"
-instances = { min = 16, max = 10000, default = 16 }
+instances = { min = 2, max = 10000, default = 16 }
 
   [testcases.params]

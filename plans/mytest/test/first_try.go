@@ -3,6 +3,8 @@ package test
 import (
 	"context"
 	"fmt"
+	"reflect"
+	"time"
 
 	ds "github.com/ipfs/go-datastore"
 
@@ -25,6 +27,14 @@ import (
 	"github.com/textileio/go-threads/util"
 )
 
+var threadSubtree = &sync.Subtree{
+	GroupKey: "thread",
+	KeyFunc: func(payload interface{}) string {
+		return payload.(thread.ID).KeyString()
+	},
+	PayloadType: reflect.TypeOf(&thread.ID{}),
+}
+
 func FirstTry(runenv *runtime.RunEnv) error {
 	runenv.Message("Starting peer")
 
@@ -45,6 +55,7 @@ func FirstTry(runenv *runtime.RunEnv) error {
 	runenv.Message("My seq is %d and peer id %s", seq, addrinfo.ID)
 
 	if seq == 1 {
+		time.Sleep(time.Second * 5)
 		id := thread.NewIDV1(thread.Raw, 32)
 		fk, err := symmetric.CreateKey()
 		if err != nil {
@@ -59,6 +70,16 @@ func FirstTry(runenv *runtime.RunEnv) error {
 			return fmt.Errorf("creating thread: %s", err)
 		}
 		runenv.Message("Created thread %s", info.ID)
+		if _, err = writer.Write(ctx, threadSubtree, &id); err != nil {
+			return fmt.Errorf("writing to threadSubtree: %s", err)
+		}
+	} else {
+		ch := make(chan *thread.ID)
+		if err := watcher.Subscribe(ctx, threadSubtree, ch); err != nil {
+			return fmt.Errorf("subscribing to threadSubtree: %s", err)
+		}
+		valID := <-ch
+		runenv.Message("I noticed there's a new thread: %s", valID)
 	}
 
 	return nil
