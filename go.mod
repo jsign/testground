@@ -25,12 +25,10 @@ require (
 	github.com/hashicorp/go-getter v1.4.0
 	github.com/hashicorp/go-multierror v1.0.0
 	github.com/imdario/mergo v0.3.8
-	github.com/ipfs/go-cid v0.0.4 // indirect
+	github.com/ipfs/testground/plans/dht v0.0.0-20200221170422-4f93fa2782e2 // indirect
 	github.com/ipfs/testground/sdk/runtime v0.1.0
 	github.com/ipfs/testground/sdk/sync v0.1.0
-	github.com/libp2p/go-libp2p-core v0.3.0 // indirect
 	github.com/logrusorgru/aurora v0.0.0-20191017060258-dc85c304c434
-	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.0
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/morikuni/aec v1.0.0 // indirect
@@ -38,6 +36,7 @@ require (
 	github.com/opencontainers/runc v0.1.1 // indirect
 	github.com/otiai10/copy v1.0.2
 	github.com/pborman/uuid v1.2.0
+	github.com/textileio/go-threads v0.1.9 // indirect
 	github.com/urfave/cli v1.22.1
 	github.com/vishvananda/netlink v1.0.0
 	github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df

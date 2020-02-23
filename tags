@@ -1,0 +1,2077 @@
+!_TAG_FILE_FORMAT	2
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Joel Stemmer	/stemmertech@gmail.com/
+!_TAG_PROGRAM_NAME	gotags
+!_TAG_PROGRAM_URL	https://github.com/jstemmer/gotags
+!_TAG_PROGRAM_VERSION	1.4.1	/go1.13.4/
+*NetlinkLink	pkg/sidecar/docker_instance.go	277;"	e	access:private	ctype:dockerLink	line:277	type:*NetlinkLink
+*NetlinkLink	pkg/sidecar/k8s_instance.go	251;"	e	access:private	ctype:k8sLink	line:251	type:*NetlinkLink
+*client.Client	pkg/dockermanager/dockermanager.go	24;"	e	access:public	ctype:Manager	line:24	type:*client.Client
+*logger	sdk/runtime/runenv.go	100;"	e	access:private	ctype:RunEnv	line:100	type:*logger
+*peer.AddrInfo	sdk/sync/presets.go	20;"	e	access:public	ctype:PeerPayload	line:20	type:*peer.AddrInfo
+AWS	pkg/config/environment.go	30;"	w	access:public	ctype:EnvConfig	line:30	type:AWSConfig
+AWSConfig	pkg/config/environment.go	48;"	t	access:public	line:48	type:struct
+Accept	sdk/sync/presets.go	36;"	c	access:public	line:36	type:FilterAction
+AcceptDirs	plans/chew-datasets/test/ipfs_add_defaults.go	20;"	m	access:public	ctype:IpfsAddDefaults	line:20	signature:()	type:bool
+AcceptDirs	plans/chew-datasets/test/ipfs_add_dir_sharding.go	20;"	m	access:public	ctype:IpfsAddDirSharding	line:20	signature:()	type:bool
+AcceptDirs	plans/chew-datasets/test/ipfs_add_trickle_dag.go	23;"	m	access:public	ctype:IpfsAddTrickleDag	line:23	signature:()	type:bool
+AcceptDirs	plans/chew-datasets/test/ipfs_file_store.go	21;"	m	access:public	ctype:IpfsFileStore	line:21	signature:()	type:bool
+AcceptDirs	plans/chew-datasets/test/ipfs_mfs.go	19;"	m	access:public	ctype:IpfsMfs	line:19	signature:()	type:bool
+AcceptDirs	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	19;"	m	access:public	ctype:IpfsMfsDirSharding	line:19	signature:()	type:bool
+AcceptDirs	plans/chew-datasets/test/ipfs_url_store.go	20;"	m	access:public	ctype:IpfsUrlStore	line:20	signature:()	type:bool
+AcceptDirs	plans/chew-datasets/utils/testcase.go	18;"	m	access:public	line:18	ntype:TestCase	signature:()	type:bool
+AcceptFiles	plans/chew-datasets/test/ipfs_add_defaults.go	16;"	m	access:public	ctype:IpfsAddDefaults	line:16	signature:()	type:bool
+AcceptFiles	plans/chew-datasets/test/ipfs_add_dir_sharding.go	16;"	m	access:public	ctype:IpfsAddDirSharding	line:16	signature:()	type:bool
+AcceptFiles	plans/chew-datasets/test/ipfs_add_trickle_dag.go	19;"	m	access:public	ctype:IpfsAddTrickleDag	line:19	signature:()	type:bool
+AcceptFiles	plans/chew-datasets/test/ipfs_file_store.go	17;"	m	access:public	ctype:IpfsFileStore	line:17	signature:()	type:bool
+AcceptFiles	plans/chew-datasets/test/ipfs_mfs.go	15;"	m	access:public	ctype:IpfsMfs	line:15	signature:()	type:bool
+AcceptFiles	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	15;"	m	access:public	ctype:IpfsMfsDirSharding	line:15	signature:()	type:bool
+AcceptFiles	plans/chew-datasets/test/ipfs_url_store.go	16;"	m	access:public	ctype:IpfsUrlStore	line:16	signature:()	type:bool
+AcceptFiles	plans/chew-datasets/utils/testcase.go	15;"	m	access:public	line:15	ntype:TestCase	signature:()	type:bool
+AccessKeyID	pkg/config/environment.go	49;"	w	access:public	ctype:AWSConfig	line:49	type:string
+AccessToken	pkg/config/environment.go	57;"	w	access:public	ctype:DockerHubConfig	line:57	type:string
+Acquire	pkg/runner/client_pool.go	38;"	m	access:public	ctype:pool	line:38	signature:()	type:*kubernetes.Clientset
+Action	sdk/sync/presets.go	11;"	t	access:public	line:11	type:int
+Action	sdk/sync/presets.go	19;"	e	access:public	ctype:PeerPayload	line:19	type:Action
+ActionAdded	sdk/sync/presets.go	14;"	c	access:public	line:14	type:Action
+ActionDeleted	sdk/sync/presets.go	15;"	c	access:public	line:15
+Add	plans/bitswap-tuning/utils/createnode.go	104;"	m	access:public	ctype:Node	line:104	signature:(ctx context.Context, r io.Reader)	type:ipld.Node, error
+AddNodesDefaultConfig	sdk/iptb/spec.go	34;"	m	access:public	ctype:TestEnsembleSpec	line:34	signature:(opts NodeOpts, tags )
+AddRepoOptions	plans/chew-datasets/test/ipfs_add_defaults.go	24;"	m	access:public	ctype:IpfsAddDefaults	line:24	signature:()	type:iptb.AddRepoOptions
+AddRepoOptions	plans/chew-datasets/test/ipfs_add_dir_sharding.go	24;"	m	access:public	ctype:IpfsAddDirSharding	line:24	signature:()	type:iptb.AddRepoOptions
+AddRepoOptions	plans/chew-datasets/test/ipfs_add_trickle_dag.go	27;"	m	access:public	ctype:IpfsAddTrickleDag	line:27	signature:()	type:iptb.AddRepoOptions
+AddRepoOptions	plans/chew-datasets/test/ipfs_file_store.go	25;"	m	access:public	ctype:IpfsFileStore	line:25	signature:()	type:iptb.AddRepoOptions
+AddRepoOptions	plans/chew-datasets/test/ipfs_mfs.go	23;"	m	access:public	ctype:IpfsMfs	line:23	signature:()	type:iptb.AddRepoOptions
+AddRepoOptions	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	23;"	m	access:public	ctype:IpfsMfsDirSharding	line:23	signature:()	type:iptb.AddRepoOptions
+AddRepoOptions	plans/chew-datasets/test/ipfs_url_store.go	24;"	m	access:public	ctype:IpfsUrlStore	line:24	signature:()	type:iptb.AddRepoOptions
+AddRepoOptions	plans/chew-datasets/utils/create-ipfs-instance.go	100;"	w	access:public	ctype:IpfsInstanceOptions	line:100	type:func(*config.Config) error
+AddRepoOptions	plans/chew-datasets/utils/testcase.go	22;"	m	access:public	line:22	ntype:TestCase	signature:()	type:iptb.AddRepoOptions
+AddRepoOptions	sdk/iptb/spec.go	13;"	t	access:public	line:13	type:func(*config.Config) error
+AddRepoOptions	sdk/iptb/spec.go	21;"	w	access:public	ctype:NodeOpts	line:21	type:AddRepoOptions
+AddSettings	plans/bitswap-tuning/utils/createnode.go	94;"	t	access:public	line:94	type:struct
+Addr	pkg/daemon/daemon.go	83;"	m	access:public	ctype:Daemon	line:83	signature:()	type:string
+AddrAdd	pkg/sidecar/link.go	190;"	m	access:public	ctype:NetlinkLink	line:190	signature:(ip *net.IPNet)	type:error
+AddrDel	pkg/sidecar/link.go	197;"	m	access:public	ctype:NetlinkLink	line:197	signature:(ip *net.IPNet)	type:error
+AddrInfosFromChan	plans/bitswap-tuning/utils/peers.go	13;"	f	access:public	line:13	signature:(peerCh chan *peer.AddrInfo, count int)	type:[]peer.AddrInfo, error
+AllBuilders	pkg/engine/engine.go	23;"	v	access:public	line:23
+AllRunners	pkg/engine/engine.go	29;"	v	access:public	line:29
+Allowed	cmd/enum_flag.go	12;"	w	access:public	ctype:EnumValue	line:12	type:[]string
+Append	pkg/config/coalescing.go	13;"	m	access:public	ctype:CoalescedConfig	line:13	signature:(in map[string]interface{})	type:CoalescedConfig
+Artifact	pkg/api/composition.go	116;"	w	access:public	ctype:Run	line:116	type:string
+ArtifactPath	pkg/api/builder.go	52;"	w	access:public	ctype:BuildOutput	line:52	type:string
+ArtifactPath	pkg/api/runner.go	75;"	w	access:public	ctype:RunGroup	line:75	type:string
+AsMap	pkg/api/composition.go	106;"	m	access:public	ctype:Dependencies	line:106	signature:()	type:map[string]string
+AssertType	sdk/sync/types.go	33;"	m	access:public	ctype:Subtree	line:33	signature:(typ reflect.Type)	type:error
+Author	pkg/api/composition.go	57;"	w	access:public	ctype:Metadata	line:57	type:string
+AutoRefresh	plans/dht/test/common.go	43;"	w	access:public	ctype:SetupOpts	line:43	type:bool
+Background	pkg/runner/cluster_swarm.go	39;"	w	access:public	ctype:ClusterSwarmRunnerConfig	line:39	type:bool
+Background	pkg/runner/local_docker.go	53;"	w	access:public	ctype:LocalDockerRunnerConfig	line:53	type:bool
+Bandwidth	sdk/sync/presets.go	50;"	w	access:public	ctype:LinkShape	line:50	type:uint64
+Barrier	sdk/sync/watch.go	102;"	m	access:public	ctype:Watcher	line:102	signature:(ctx context.Context, state State, required int64)	type:chan error
+Bitswap	plans/bitswap-tuning/utils/createnode.go	51;"	w	access:public	ctype:Node	line:51	type:*bs.Bitswap
+BooleanParam	sdk/runtime/runenv.go	283;"	m	access:public	ctype:RunParams	line:283	signature:(name string)	type:bool
+Bootstrap	plans/dht/test/common.go	218;"	f	access:public	line:218	signature:(ctx context.Context, runenv *runtime.RunEnv, watcher *sync.Watcher, writer *sync.Writer, opts *SetupOpts, dht *kaddht.IpfsDHT, peers []peer.AddrInfo, seq int64)	type:error
+BootstrapSubtree	plans/dht/test/common.go	50;"	v	access:public	line:50
+Branch	pkg/auto/types.go	27;"	w	access:public	ctype:RepoCommand	line:27	type:string
+BucketSize	plans/dht/test/common.go	42;"	w	access:public	ctype:SetupOpts	line:42	type:int
+Build	pkg/api/builder.go	19;"	m	access:public	line:19	ntype:Builder	signature:(ctx context.Context, input *BuildInput, output io.Writer)	type:*BuildOutput, error
+Build	pkg/api/composition.go	100;"	t	access:public	line:100	type:struct
+Build	pkg/api/composition.go	68;"	w	access:public	ctype:Group	line:68	type:Build
+Build	pkg/build/golang/docker.go	77;"	m	access:public	ctype:DockerGoBuilder	line:77	signature:(ctx context.Context, in *api.BuildInput, output io.Writer)	type:*api.BuildOutput, error
+Build	pkg/build/golang/exec.go	36;"	m	access:public	ctype:ExecGoBuilder	line:36	signature:(ctx context.Context, input *api.BuildInput, output io.Writer)	type:*api.BuildOutput, error
+Build	pkg/client/client.go	70;"	m	access:public	ctype:Client	line:70	signature:(ctx context.Context, r *BuildRequest)	type:io.ReadCloser, error
+BuildCommand	cmd/build.go	16;"	v	access:public	line:16
+BuildConfig	pkg/api/builder.go	43;"	w	access:public	ctype:BuildInput	line:43	type:interface{}
+BuildConfig	pkg/api/composition.go	43;"	w	access:public	ctype:Global	line:43	type:map[string]interface{}
+BuildID	pkg/api/builder.go	28;"	w	access:public	ctype:BuildInput	line:28	type:string
+BuildInput	pkg/api/builder.go	26;"	t	access:public	line:26	type:struct
+BuildOutput	pkg/api/builder.go	47;"	t	access:public	line:47	type:struct
+BuildRequest	pkg/client/types.go	11;"	t	access:public	line:11	type:struct
+BuildResponse	pkg/client/types.go	16;"	t	access:public	line:16	type:[]api.BuildOutput
+BuildStrategies	pkg/api/definitions.go	17;"	w	access:public	ctype:TestPlanDefinition	line:17	type:map[string]config.ConfigMap
+BuildStrategies	pkg/config/environment.go	32;"	w	access:public	ctype:EnvConfig	line:32	type:map[string]ConfigMap
+Builder	pkg/api/builder.go	14;"	n	access:public	line:14	type:interface
+Builder	pkg/api/composition.go	40;"	w	access:public	ctype:Global	line:40	type:string
+Builder	pkg/api/definitions.go	26;"	w	access:public	ctype:TestPlanDefaults	line:26	type:string
+BuilderByName	pkg/api/engine.go	13;"	m	access:public	line:13	ntype:Engine	signature:(name string)	type:Builder, bool
+BuilderByName	pkg/engine/engine.go	114;"	m	access:public	ctype:Engine	line:114	signature:(name string)	type:api.Builder, bool
+BuilderID	pkg/api/builder.go	49;"	w	access:public	ctype:BuildOutput	line:49	type:string
+Builders	pkg/engine/engine.go	60;"	w	access:public	ctype:EngineConfig	line:60	type:[]api.Builder
+CalculatedInstanceCount	pkg/api/composition.go	81;"	m	access:public	ctype:Group	line:81	signature:()	type:uint
+Case	pkg/api/composition.go	33;"	w	access:public	ctype:Global	line:33	type:string
+CastAsStringMap	pkg/conv/conversions.go	53;"	f	access:public	line:53	signature:(input map[string]interface{})	type:map[string]string, error
+Chunker	plans/bitswap-tuning/utils/createnode.go	96;"	w	access:public	ctype:AddSettings	line:96	type:string
+Cleanup	plans/chew-datasets/utils/testconfig.go	123;"	m	access:public	ctype:TestConfig	line:123	signature:()
+ClearBlockstore	plans/bitswap-tuning/utils/createnode.go	67;"	f	access:public	line:67	signature:(ctx context.Context, bstore blockstore.Blockstore)	type:error
+Client	pkg/client/client.go	21;"	t	access:public	line:21	type:struct
+Client	pkg/config/environment.go	35;"	w	access:public	ctype:EnvConfig	line:35	type:ClientConfig
+Client	sdk/iptb/node.go	32;"	m	access:public	ctype:testNode	line:32	signature:()	type:*shell.Shell
+ClientConfig	pkg/config/environment.go	64;"	t	access:public	line:64	type:struct
+Close	pkg/client/client.go	38;"	m	access:public	ctype:Client	line:38	signature:()	type:error
+Close	pkg/dockermanager/dockermanager.go	42;"	m	access:public	ctype:Manager	line:42	signature:()	type:error
+Close	pkg/sidecar/docker_instance.go	129;"	m	access:public	ctype:DockerInstanceManager	line:129	signature:()	type:error
+Close	pkg/sidecar/docker_instance.go	288;"	m	access:public	ctype:DockerNetwork	line:288	signature:()	type:error
+Close	pkg/sidecar/instance.go	63;"	m	access:public	ctype:Instance	line:63	signature:()	type:error
+Close	pkg/sidecar/k8s_instance.go	267;"	m	access:public	ctype:K8sNetwork	line:267	signature:()	type:error
+Close	pkg/sidecar/k8s_instance.go	81;"	m	access:public	ctype:K8sInstanceManager	line:81	signature:()	type:error
+Close	plans/bitswap-tuning/utils/createnode.go	55;"	m	access:public	ctype:Node	line:55	signature:()	type:error
+Close	sdk/runtime/runenv.go	118;"	m	access:public	ctype:RunEnv	line:118	signature:()	type:error
+Close	sdk/sync/watch.go	157;"	m	access:public	ctype:Watcher	line:157	signature:()	type:error
+Close	sdk/sync/write.go	201;"	m	access:public	ctype:Writer	line:201	signature:()	type:error
+ClusterK8sRunner	pkg/runner/cluster_k8s.go	113;"	t	access:public	line:113	type:struct
+ClusterK8sRunnerConfig	pkg/runner/cluster_k8s.go	94;"	t	access:public	line:94	type:struct
+ClusterSwarmRunner	pkg/runner/cluster_swarm.go	67;"	t	access:public	line:67	type:struct
+ClusterSwarmRunnerConfig	pkg/runner/cluster_swarm.go	33;"	t	access:public	line:33	type:struct
+CoalesceIntoType	pkg/config/coalescing.go	17;"	m	access:public	ctype:CoalescedConfig	line:17	signature:(typ reflect.Type)	type:interface{}, error
+CoalescedConfig	pkg/config/coalescing.go	11;"	t	access:public	line:11	type:[]map[string]interface{}
+CollectCommand	cmd/collect.go	17;"	v	access:public	line:17
+CollectOutputs	pkg/api/runner.go	33;"	m	access:public	line:33	ntype:Runner	signature:(context.Context, *CollectionInput, io.Writer)	type:error
+CollectOutputs	pkg/client/client.go	98;"	m	access:public	ctype:Client	line:98	signature:(ctx context.Context, r *OutputsRequest)	type:io.ReadCloser, error
+CollectOutputs	pkg/runner/cluster_k8s.go	306;"	m	access:public	ctype:ClusterK8sRunner	line:306	signature:(ctx context.Context, input *api.CollectionInput, w io.Writer)	type:error
+CollectOutputs	pkg/runner/cluster_swarm.go	382;"	m	access:public	ctype:ClusterSwarmRunner	line:382	signature:(ctx context.Context, input *api.CollectionInput, w io.Writer)	type:error
+CollectOutputs	pkg/runner/local_docker.go	446;"	m	access:public	ctype:LocalDockerRunner	line:446	signature:(ctx context.Context, input *api.CollectionInput, w io.Writer)	type:error
+CollectOutputs	pkg/runner/local_exec.go	169;"	m	access:public	ctype:LocalExecutableRunner	line:169	signature:(ctx context.Context, input *api.CollectionInput, w io.Writer)	type:error
+CollectionInput	pkg/api/runner.go	86;"	t	access:public	line:86	type:struct
+Commands	cmd/all.go	16;"	v	access:public	line:16
+CommitSHA	pkg/auto/types.go	23;"	w	access:public	ctype:RepoCommand	line:23	type:string
+CompatibleBuilders	pkg/api/runner.go	29;"	m	access:public	line:29	ntype:Runner	signature:()	type:[]string
+CompatibleBuilders	pkg/runner/cluster_k8s.go	302;"	m	access:public	ctype:ClusterK8sRunner	line:302	signature:()	type:[]string
+CompatibleBuilders	pkg/runner/cluster_swarm.go	394;"	m	access:public	ctype:ClusterSwarmRunner	line:394	signature:()	type:[]string
+CompatibleBuilders	pkg/runner/local_docker.go	474;"	m	access:public	ctype:LocalDockerRunner	line:474	signature:()	type:[]string
+CompatibleBuilders	pkg/runner/local_exec.go	182;"	m	access:public	ctype:LocalExecutableRunner	line:182	signature:()	type:[]string
+Composition	pkg/api/composition.go	16;"	t	access:public	line:16	type:struct
+Composition	pkg/client/types.go	12;"	w	access:public	ctype:BuildRequest	line:12	type:api.Composition
+Composition	pkg/client/types.go	20;"	w	access:public	ctype:RunRequest	line:20	type:api.Composition
+ConfigMap	pkg/config/environment.go	68;"	t	access:public	line:68	type:map[string]interface{}
+ConfigType	pkg/api/builder.go	22;"	m	access:public	line:22	ntype:Builder	signature:()	type:reflect.Type
+ConfigType	pkg/api/runner.go	25;"	m	access:public	line:25	ntype:Runner	signature:()	type:reflect.Type
+ConfigType	pkg/build/golang/docker.go	261;"	m	access:public	ctype:DockerGoBuilder	line:261	signature:()	type:reflect.Type
+ConfigType	pkg/build/golang/exec.go	147;"	m	access:public	ctype:ExecGoBuilder	line:147	signature:()	type:reflect.Type
+ConfigType	pkg/runner/cluster_k8s.go	298;"	m	access:public	ctype:ClusterK8sRunner	line:298	signature:()	type:reflect.Type
+ConfigType	pkg/runner/cluster_swarm.go	390;"	m	access:public	ctype:ClusterSwarmRunner	line:390	signature:()	type:reflect.Type
+ConfigType	pkg/runner/local_docker.go	470;"	m	access:public	ctype:LocalDockerRunner	line:470	signature:()	type:reflect.Type
+ConfigType	pkg/runner/local_exec.go	178;"	m	access:public	ctype:LocalExecutableRunner	line:178	signature:()	type:reflect.Type
+Configure	plans/smlbench/test/simple_add.go	28;"	m	access:public	ctype:SimpleAddTC	line:28	signature:(runenv *runtime.RunEnv, spec *iptb.TestEnsembleSpec)
+Configure	plans/smlbench/test/simple_add_get.go	30;"	m	access:public	ctype:SimpleAddGetTC	line:30	signature:(runenv *runtime.RunEnv, spec *iptb.TestEnsembleSpec)
+Configure	plans/smlbench/utils/testcase.go	13;"	m	access:public	line:13	ntype:SmallBenchmarksTestCase	signature:(runenv *runtime.RunEnv, spec *iptb.TestEnsembleSpec)
+ConfigureNetwork	pkg/sidecar/docker_instance.go	309;"	m	access:public	ctype:DockerNetwork	line:309	signature:(ctx context.Context, cfg *sync.NetworkConfig)	type:error
+ConfigureNetwork	pkg/sidecar/instance.go	33;"	m	access:public	line:33	ntype:Network	signature:(ctx context.Context, cfg *sync.NetworkConfig)	type:error
+ConfigureNetwork	pkg/sidecar/k8s_instance.go	272;"	m	access:public	ctype:K8sNetwork	line:272	signature:(ctx context.Context, cfg *sync.NetworkConfig)	type:error
+ConnManagerGracePeriod	plans/dht/test/common.go	58;"	v	access:public	line:58
+Connect	plans/dht/test/common.go	421;"	f	access:public	line:421	signature:(ctx context.Context, runenv *runtime.RunEnv, dht *kaddht.IpfsDHT, toDial )	type:error
+Container	pkg/dockermanager/dockermanager.go	47;"	t	access:public	line:47	type:struct
+ContainerConfig	pkg/docker/container.go	19;"	w	access:public	ctype:EnsureContainerOpts	line:19	type:*container.Config
+ContainerName	pkg/docker/container.go	18;"	w	access:public	ctype:EnsureContainerOpts	line:18	type:string
+Context	pkg/api/engine.go	25;"	m	access:public	line:25	ntype:Engine	signature:()	type:context.Context
+Context	pkg/engine/engine.go	463;"	m	access:public	ctype:Engine	line:463	signature:()	type:context.Context
+Context	sdk/iptb/ensemble.go	155;"	m	access:public	ctype:TestEnsemble	line:155	signature:()	type:context.Context
+ConvertToUnixfs	plans/chew-datasets/utils/testconfig.go	106;"	f	access:public	line:106	signature:(path string, isDir bool)	type:files.Node, error
+Corrupt	sdk/sync/presets.go	60;"	w	access:public	ctype:LinkShape	line:60	type:float32
+CorruptCorr	sdk/sync/presets.go	63;"	w	access:public	ctype:LinkShape	line:63	type:float32
+Count	pkg/api/composition.go	89;"	w	access:public	ctype:Instances	line:89	type:uint
+Crash	pkg/runner/pretty.go	26;"	c	access:public	line:26
+CreateBitswapNode	plans/bitswap-tuning/utils/createnode.go	82;"	f	access:public	ctype:Node	line:82	signature:(ctx context.Context, h core.Host, bstore blockstore.Blockstore)	type:*Node, error
+CreateBlockstore	plans/bitswap-tuning/utils/createnode.go	59;"	f	access:public	line:59	signature:(ctx context.Context, bstoreDelay time.Duration)	type:blockstore.Blockstore, error
+CreateIpfsInstance	plans/chew-datasets/utils/create-ipfs-instance.go	104;"	f	access:public	line:104	signature:(ctx context.Context, opts *IpfsInstanceOptions)	type:iCore.CoreAPI, error
+CreateRandomDirectory	sdk/runtime/files.go	45;"	m	access:public	ctype:RunEnv	line:45	signature:(directoryPath string, depth uint)	type:string, error
+CreateRandomFile	sdk/runtime/files.go	18;"	m	access:public	ctype:RunEnv	line:18	signature:(directoryPath string, size int64)	type:string, error
+CreateRawAsset	sdk/runtime/files.go	72;"	m	access:public	ctype:RunEnv	line:72	signature:(name string)	type:*os.File, error
+CreateStructuredAsset	sdk/runtime/files.go	88;"	m	access:public	ctype:RunEnv	line:88	signature:(name string, config zap.Config)	type:*zap.Logger, *zap.SugaredLogger, error
+CurrentRunEnv	sdk/runtime/runenv.go	202;"	f	access:public	ctype:RunEnv	line:202	signature:()	type:*RunEnv
+Daemon	pkg/config/environment.go	34;"	w	access:public	ctype:EnvConfig	line:34	type:DaemonConfig
+Daemon	pkg/daemon/daemon.go	16;"	t	access:public	line:16	type:struct
+DaemonCommand	cmd/daemon.go	16;"	v	access:public	line:16
+DaemonConfig	pkg/config/environment.go	60;"	t	access:public	line:60	type:struct
+Default	cmd/enum_flag.go	13;"	w	access:public	ctype:EnumValue	line:13	type:string
+Default	pkg/api/definitions.go	49;"	w	access:public	ctype:Parameter	line:49	type:interface{}
+Default	pkg/api/definitions.go	56;"	w	access:public	ctype:TestCaseInstances	line:56	type:int
+Default	sdk/sync/presets.go	107;"	w	access:public	ctype:NetworkConfig	line:107	type:LinkShape
+DefaultListenAddr	pkg/config/environment.go	19;"	c	access:public	line:19
+Defaults	pkg/api/definitions.go	20;"	w	access:public	ctype:TestPlanDefinition	line:20	type:TestPlanDefaults
+Dependencies	pkg/api/builder.go	40;"	w	access:public	ctype:BuildInput	line:40	type:map[string]string
+Dependencies	pkg/api/builder.go	56;"	w	access:public	ctype:BuildOutput	line:56	type:map[string]string
+Dependencies	pkg/api/composition.go	103;"	w	access:public	ctype:Build	line:103	type:Dependencies
+Dependencies	pkg/api/composition.go	98;"	t	access:public	line:98	type:[]Dependency
+Dependency	pkg/api/composition.go	123;"	t	access:public	line:123	type:struct
+Depth	plans/chew-datasets/utils/testconfig.go	130;"	w	access:public	ctype:rawDirConfig	line:130	type:uint
+Depth	plans/chew-datasets/utils/testconfig.go	19;"	w	access:public	ctype:TestDir	line:19	type:uint
+Describe	pkg/api/definitions.go	107;"	m	access:public	ctype:TestCase	line:107	signature:(w io.Writer)
+Describe	pkg/api/definitions.go	69;"	m	access:public	ctype:TestPlanDefinition	line:69	signature:(w io.Writer)
+Describe	pkg/client/client.go	56;"	m	access:public	ctype:Client	line:56	signature:(ctx context.Context, r *DescribeRequest)	type:io.ReadCloser, error
+DescribeCommand	cmd/describe.go	14;"	v	access:public	line:14
+DescribeRequest	pkg/client/types.go	6;"	t	access:public	line:6	type:struct
+Description	pkg/api/definitions.go	47;"	w	access:public	ctype:Parameter	line:47	type:string
+Destroy	sdk/iptb/ensemble.go	128;"	m	access:public	ctype:TestEnsemble	line:128	signature:()
+DevelopmentMode	pkg/logging/log.go	53;"	f	access:public	line:53	signature:()
+DialOtherPeers	plans/bitswap-tuning/utils/peers.go	25;"	f	access:public	line:25	signature:(ctx context.Context, self core.Host, ais []peer.AddrInfo)	type:[]peer.AddrInfo, error
+Directories	pkg/api/builder.go	33;"	w	access:public	ctype:BuildInput	line:33	type:Directories
+Directories	pkg/api/common.go	9;"	n	access:public	line:9	type:interface
+Directories	pkg/api/runner.go	50;"	w	access:public	ctype:RunInput	line:50	type:Directories
+DoBuild	pkg/api/engine.go	19;"	m	access:public	line:19	ntype:Engine	signature:(context.Context, *Composition, io.Writer)	type:[]*BuildOutput, error
+DoBuild	pkg/engine/engine.go	152;"	m	access:public	ctype:Engine	line:152	signature:(ctx context.Context, comp *api.Composition, output io.Writer)	type:[]*api.BuildOutput, error
+DoCollectOutputs	pkg/api/engine.go	21;"	m	access:public	line:21	ntype:Engine	signature:(ctx context.Context, runner string, runID string, w io.Writer)	type:error
+DoCollectOutputs	pkg/engine/engine.go	405;"	m	access:public	ctype:Engine	line:405	signature:(ctx context.Context, runner string, runID string, w io.Writer)	type:error
+DoRun	pkg/api/engine.go	20;"	m	access:public	line:20	ntype:Engine	signature:(context.Context, *Composition, io.Writer)	type:*RunOutput, error
+DoRun	pkg/engine/engine.go	260;"	m	access:public	ctype:Engine	line:260	signature:(ctx context.Context, comp *api.Composition, output io.Writer)	type:*api.RunOutput, error
+DoTerminate	pkg/api/engine.go	22;"	m	access:public	line:22	ntype:Engine	signature:(ctx context.Context, runner string, w io.Writer)	type:error
+DoTerminate	pkg/engine/engine.go	433;"	m	access:public	ctype:Engine	line:433	signature:(ctx context.Context, runner string, w io.Writer)	type:error
+DockerEndpoint	pkg/runner/cluster_swarm.go	43;"	w	access:public	ctype:ClusterSwarmRunnerConfig	line:43	type:string
+DockerGoBuilder	pkg/build/golang/docker.go	41;"	t	access:public	line:41	type:struct
+DockerGoBuilderConfig	pkg/build/golang/docker.go	45;"	t	access:public	line:45	type:struct
+DockerHub	pkg/config/environment.go	31;"	w	access:public	ctype:EnvConfig	line:31	type:DockerHubConfig
+DockerHubConfig	pkg/config/environment.go	54;"	t	access:public	line:54	type:struct
+DockerInstanceManager	pkg/sidecar/docker_instance.go	82;"	t	access:public	line:82	type:struct
+DockerNetwork	pkg/sidecar/docker_instance.go	281;"	t	access:public	line:281	type:struct
+DockerTLS	pkg/runner/cluster_swarm.go	46;"	w	access:public	ctype:ClusterSwarmRunnerConfig	line:46	type:bool
+DockerTLSCACertPath	pkg/runner/cluster_swarm.go	50;"	w	access:public	ctype:ClusterSwarmRunnerConfig	line:50	type:string
+DockerTLSCertPath	pkg/runner/cluster_swarm.go	54;"	w	access:public	ctype:ClusterSwarmRunnerConfig	line:54	type:string
+DockerTLSKeyPath	pkg/runner/cluster_swarm.go	57;"	w	access:public	ctype:ClusterSwarmRunnerConfig	line:57	type:string
+Down	pkg/sidecar/link.go	229;"	m	access:public	ctype:NetlinkLink	line:229	signature:()	type:error
+Drop	sdk/sync/presets.go	38;"	c	access:public	line:38
+Dserv	plans/bitswap-tuning/utils/createnode.go	52;"	w	access:public	ctype:Node	line:52	type:ipld.DAGService
+Duplicate	sdk/sync/presets.go	76;"	w	access:public	ctype:LinkShape	line:76	type:float32
+DuplicateCorr	sdk/sync/presets.go	79;"	w	access:public	ctype:LinkShape	line:79	type:float32
+ECR	pkg/aws/ecr.go	21;"	v	access:public	line:21
+EmitMetric	sdk/runtime/output.go	199;"	m	access:public	ctype:RunEnv	line:199	signature:(metric *MetricDefinition, value float64)
+Enable	sdk/sync/presets.go	104;"	w	access:public	ctype:NetworkConfig	line:104	type:bool
+Enabled	pkg/api/definitions.go	41;"	w	access:public	ctype:PlaceholderRunStrategy	line:41	type:bool
+Enabled	pkg/build/golang/docker.go	46;"	w	access:public	ctype:DockerGoBuilderConfig	line:46	type:bool
+EncodeAuthToken	pkg/aws/ecr.go	85;"	m	access:public	ctype:ecrsvc	line:85	signature:(token types.AuthConfig)	type:string
+Endpoint	pkg/config/environment.go	65;"	w	access:public	ctype:ClientConfig	line:65	type:string
+Engine	pkg/api/engine.go	10;"	n	access:public	line:10	type:interface
+Engine	pkg/engine/engine.go	45;"	t	access:public	line:45	type:struct
+EngineConfig	pkg/engine/engine.go	59;"	t	access:public	line:59	type:struct
+EnrollTestPlan	pkg/api/engine.go	29;"	m	access:public	line:29	ntype:TestCensus	signature:(tp *TestPlanDefinition)	type:error
+EnrollTestPlan	pkg/engine/census.go	28;"	m	access:public	ctype:TestCensus	line:28	signature:(tp *api.TestPlanDefinition)	type:error
+EnsureBridgeNetwork	pkg/docker/network.go	30;"	f	access:public	line:30	signature:(ctx context.Context, log *zap.SugaredLogger, cli *client.Client, name string, internal bool, config )	type:string, error
+EnsureContainer	pkg/docker/container.go	26;"	f	access:public	line:26	signature:(ctx context.Context, log *zap.SugaredLogger, cli *client.Client, opts *EnsureContainerOpts)	type:*types.ContainerJSON, bool, error
+EnsureContainerOpts	pkg/docker/container.go	17;"	t	access:public	line:17	type:struct
+EnsureRepository	pkg/aws/ecr.go	93;"	m	access:public	ctype:ecrsvc	line:93	signature:(cfg config.AWSConfig, name string)	type:string, error
+EnumValue	cmd/enum_flag.go	11;"	t	access:public	line:11	type:struct
+EnumerateOverridableFields	pkg/api/common.go	23;"	f	access:public	line:23	signature:(typ reflect.Type)	type:[]string
+EnvConfig	pkg/api/builder.go	31;"	w	access:public	ctype:BuildInput	line:31	type:config.EnvConfig
+EnvConfig	pkg/api/engine.go	24;"	m	access:public	line:24	ntype:Engine	signature:()	type:config.EnvConfig
+EnvConfig	pkg/api/runner.go	43;"	w	access:public	ctype:RunInput	line:43	type:config.EnvConfig
+EnvConfig	pkg/api/runner.go	89;"	w	access:public	ctype:CollectionInput	line:89	type:config.EnvConfig
+EnvConfig	pkg/config/environment.go	29;"	t	access:public	line:29	type:struct
+EnvConfig	pkg/engine/engine.go	459;"	m	access:public	ctype:Engine	line:459	signature:()	type:config.EnvConfig
+EnvConfig	pkg/engine/engine.go	62;"	w	access:public	ctype:EngineConfig	line:62	type:*config.EnvConfig
+EnvRedisHost	pkg/sidecar/docker_instance.go	23;"	c	access:public	line:23
+EnvRedisHost	sdk/sync/common.go	20;"	c	access:public	line:20
+EnvRedisPort	sdk/sync/common.go	21;"	c	access:public	line:21
+EnvTestBranch	sdk/runtime/runenv.go	18;"	c	access:public	line:18
+EnvTestCase	sdk/runtime/runenv.go	19;"	c	access:public	line:19
+EnvTestCaseSeq	sdk/runtime/runenv.go	24;"	c	access:public	line:24
+EnvTestGroupID	sdk/runtime/runenv.go	29;"	c	access:public	line:29
+EnvTestGroupInstanceCount	sdk/runtime/runenv.go	30;"	c	access:public	line:30
+EnvTestInstanceCount	sdk/runtime/runenv.go	26;"	c	access:public	line:26
+EnvTestInstanceParams	sdk/runtime/runenv.go	28;"	c	access:public	line:28
+EnvTestInstanceRole	sdk/runtime/runenv.go	27;"	c	access:public	line:27
+EnvTestOutputsPath	sdk/runtime/runenv.go	31;"	c	access:public	line:31
+EnvTestPlan	sdk/runtime/runenv.go	17;"	c	access:public	line:17
+EnvTestRepo	sdk/runtime/runenv.go	22;"	c	access:public	line:22
+EnvTestRun	sdk/runtime/runenv.go	21;"	c	access:public	line:21
+EnvTestSidecar	sdk/runtime/runenv.go	25;"	c	access:public	line:25
+EnvTestSubnet	sdk/runtime/runenv.go	23;"	c	access:public	line:23
+EnvTestTag	sdk/runtime/runenv.go	20;"	c	access:public	line:20
+EnvTestgroundSrcDir	pkg/config/environment.go	16;"	c	access:public	line:16
+EnvTestgroundWorkDir	pkg/config/environment.go	17;"	c	access:public	line:17
+ErrNotLinux	cmd/sidecar.go	15;"	v	access:public	line:15
+ErrUnknownSrcDir	pkg/config/environment.go	25;"	v	access:public	line:25
+Error	pkg/runner/pretty.go	22;"	c	access:public	line:22	type:eventType
+Error	pkg/tgwriter/tgwriter.go	39;"	w	access:public	ctype:Msg	line:39	type:*Error
+Error	pkg/tgwriter/tgwriter.go	42;"	t	access:public	line:42	type:struct
+Error	sdk/runtime/output.go	30;"	w	access:public	ctype:Event	line:30	type:string
+Event	sdk/runtime/output.go	27;"	t	access:public	line:27	type:struct
+EventOutcome	sdk/runtime/output.go	13;"	t	access:public	line:13	type:string
+EventOutcomeCrashed	sdk/runtime/output.go	24;"	c	access:public	line:24
+EventOutcomeFailed	sdk/runtime/output.go	23;"	c	access:public	line:23
+EventOutcomeOK	sdk/runtime/output.go	22;"	c	access:public	line:22
+EventType	sdk/runtime/output.go	12;"	t	access:public	line:12	type:string
+EventTypeFinish	sdk/runtime/output.go	20;"	c	access:public	line:20
+EventTypeMessage	sdk/runtime/output.go	18;"	c	access:public	line:18
+EventTypeMetric	sdk/runtime/output.go	19;"	c	access:public	line:19
+EventTypeStart	sdk/runtime/output.go	17;"	c	access:public	line:17
+ExampleFailure	plans/example/failure.go	10;"	f	access:public	line:10	signature:(runenv *runtime.RunEnv)	type:error
+ExampleOutput	plans/example/output.go	9;"	f	access:public	line:9	signature:(runenv *runtime.RunEnv)	type:error
+ExamplePanic	plans/example/panic.go	9;"	f	access:public	line:9	signature:(runenv *runtime.RunEnv)	type:error
+ExampleParams	plans/example/params.go	8;"	f	access:public	line:8	signature:(runenv *runtime.RunEnv)	type:error
+ExampleSync	plans/example/sync.go	19;"	f	access:public	line:19	signature:(runenv *runtime.RunEnv)	type:error
+Exec	pkg/dockermanager/dockermanager.go	83;"	m	access:public	ctype:Container	line:83	signature:(ctx context.Context, cmd )	type:error
+ExecGoBuilder	pkg/build/golang/exec.go	27;"	t	access:public	line:27	type:struct
+ExecGoBuilderConfig	pkg/build/golang/exec.go	29;"	t	access:public	line:29	type:struct
+ExecPkg	pkg/build/golang/docker.go	50;"	w	access:public	ctype:DockerGoBuilderConfig	line:50	type:string
+ExecPkg	pkg/build/golang/exec.go	31;"	w	access:public	ctype:ExecGoBuilderConfig	line:31	type:string
+Execute	plans/chew-datasets/test/ipfs_add_defaults.go	28;"	m	access:public	ctype:IpfsAddDefaults	line:28	signature:(ctx context.Context, runenv *runtime.RunEnv, cfg *utils.TestCaseOptions)	type:error
+Execute	plans/chew-datasets/test/ipfs_add_dir_sharding.go	31;"	m	access:public	ctype:IpfsAddDirSharding	line:31	signature:(ctx context.Context, runenv *runtime.RunEnv, cfg *utils.TestCaseOptions)	type:error
+Execute	plans/chew-datasets/test/ipfs_add_trickle_dag.go	31;"	m	access:public	ctype:IpfsAddTrickleDag	line:31	signature:(ctx context.Context, runenv *runtime.RunEnv, cfg *utils.TestCaseOptions)	type:error
+Execute	plans/chew-datasets/test/ipfs_file_store.go	32;"	m	access:public	ctype:IpfsFileStore	line:32	signature:(ctx context.Context, runenv *runtime.RunEnv, cfg *utils.TestCaseOptions)	type:error
+Execute	plans/chew-datasets/test/ipfs_mfs.go	27;"	m	access:public	ctype:IpfsMfs	line:27	signature:(ctx context.Context, runenv *runtime.RunEnv, cfg *utils.TestCaseOptions)	type:error
+Execute	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	27;"	m	access:public	ctype:IpfsMfsDirSharding	line:27	signature:(ctx context.Context, runenv *runtime.RunEnv, cfg *utils.TestCaseOptions)	type:error
+Execute	plans/chew-datasets/test/ipfs_url_store.go	31;"	m	access:public	ctype:IpfsUrlStore	line:31	signature:(ctx context.Context, runenv *runtime.RunEnv, cfg *utils.TestCaseOptions)	type:error
+Execute	plans/chew-datasets/utils/testcase.go	25;"	m	access:public	line:25	ntype:TestCase	signature:(ctx context.Context, runenv *runtime.RunEnv, opts *TestCaseOptions)	type:error
+Execute	plans/smlbench/test/simple_add.go	32;"	m	access:public	ctype:SimpleAddTC	line:32	signature:(runenv *runtime.RunEnv, ensemble *iptb.TestEnsemble)	type:error
+Execute	plans/smlbench/test/simple_add_get.go	34;"	m	access:public	ctype:SimpleAddGetTC	line:34	signature:(runenv *runtime.RunEnv, ensemble *iptb.TestEnsemble)	type:error
+Execute	plans/smlbench/utils/testcase.go	16;"	m	access:public	line:16	ntype:SmallBenchmarksTestCase	signature:(runenv *runtime.RunEnv, ensemble *iptb.TestEnsemble)	type:error
+Fail	pkg/runner/pretty.go	25;"	c	access:public	line:25
+FailStart	pkg/runner/pretty.go	84;"	m	access:public	ctype:PrettyPrinter	line:84	signature:(id string, message interface{})
+FakeWriterAt	pkg/runner/cluster_k8s.go	609;"	t	access:public	line:609	type:struct
+FetchGraph	plans/bitswap-tuning/utils/createnode.go	163;"	m	access:public	ctype:Node	line:163	signature:(ctx context.Context, c cid.Cid)	type:error
+Filter	sdk/sync/presets.go	54;"	w	access:public	ctype:LinkShape	line:54	type:FilterAction
+FilterAction	sdk/sync/presets.go	33;"	t	access:public	line:33	type:int
+FindPeers	plans/dht/test/find_peers.go	12;"	f	access:public	line:12	signature:(runenv *runtime.RunEnv)	type:error
+FindProviders	plans/dht/test/find_providers.go	17;"	f	access:public	line:17	signature:(runenv *runtime.RunEnv)	type:error
+FirstTry	plans/mytest/test/first_try.go	24;"	f	access:public	line:24	signature:(runenv *runtime.RunEnv)	type:error
+Flags	cmd/all.go	27;"	v	access:public	line:27
+Flush	pkg/tgwriter/tgwriter.go	118;"	m	access:public	ctype:TgWriter	line:118	signature:()
+ForEachPath	plans/chew-datasets/utils/testconfig.go	78;"	m	access:public	ctype:TestConfig	line:78	signature:(runenv *runtime.RunEnv, fn OsTestFunction)	type:error
+FreshGomod	pkg/build/golang/docker.go	51;"	w	access:public	ctype:DockerGoBuilderConfig	line:51	type:bool
+FreshGomod	pkg/build/golang/exec.go	32;"	w	access:public	ctype:ExecGoBuilderConfig	line:32	type:bool
+Get	plans/bitswap-tuning/utils/createnode.go	168;"	m	access:public	ctype:Node	line:168	signature:(ctx context.Context, c cid.Cid)	type:files.Node, error
+GetAuthToken	pkg/aws/ecr.go	47;"	m	access:public	ctype:ecrsvc	line:47	signature:(cfg config.AWSConfig)	type:types.AuthConfig, error
+GetEnvConfig	pkg/config/environment.go	70;"	f	access:public	ctype:EnvConfig	line:70	signature:()	type:*EnvConfig, error
+GetNode	sdk/iptb/ensemble.go	160;"	m	access:public	ctype:TestEnsemble	line:160	signature:(tag string)	type:*testNode
+GetPathToUnixfsDirectory	plans/chew-datasets/utils/unixfs.go	50;"	f	access:public	line:50	signature:(path string)	type:files.Node, error
+GetPathToUnixfsFile	plans/chew-datasets/utils/unixfs.go	30;"	f	access:public	line:30	signature:(path string)	type:files.File, error
+GetRunners	pkg/sidecar/other.go	9;"	f	access:public	line:9	signature:()	type:[]string
+GetRunners	pkg/sidecar/sidecar.go	21;"	f	access:public	line:21	signature:()	type:[]string
+GetTestConfig	plans/chew-datasets/utils/testconfig.go	24;"	f	access:public	line:24	signature:(runenv *runtime.RunEnv, acceptFiles bool, acceptDirs bool)	type:TestConfig, error
+Global	pkg/api/composition.go	21;"	w	access:public	ctype:Composition	line:21	type:Global
+Global	pkg/api/composition.go	28;"	t	access:public	line:28	type:struct
+GoIPFSVersion	pkg/build/golang/docker.go	48;"	w	access:public	ctype:DockerGoBuilderConfig	line:48	type:string
+GoProxyMode	pkg/build/golang/docker.go	69;"	w	access:public	ctype:DockerGoBuilderConfig	line:69	type:string
+GoProxyURL	pkg/build/golang/docker.go	72;"	w	access:public	ctype:DockerGoBuilderConfig	line:72	type:string
+GoVersion	pkg/build/golang/docker.go	47;"	w	access:public	ctype:DockerGoBuilderConfig	line:47	type:string
+Group	pkg/api/composition.go	60;"	t	access:public	line:60	type:struct
+GroupKey	sdk/sync/types.go	14;"	w	access:public	ctype:Subtree	line:14	type:string
+Groups	pkg/api/composition.go	25;"	w	access:public	ctype:Composition	line:25	type:[]Group
+Groups	pkg/api/runner.go	63;"	w	access:public	ctype:RunInput	line:63	type:[]RunGroup
+HTTPPeriodicSnapshots	sdk/runtime/metrics.go	36;"	m	access:public	ctype:RunEnv	line:36	signature:(ctx context.Context, addr string, dur time.Duration, outDir string)	type:error
+HashFunc	plans/bitswap-tuning/utils/createnode.go	100;"	w	access:public	ctype:AddSettings	line:100	type:string
+Hidden	plans/bitswap-tuning/utils/createnode.go	98;"	w	access:public	ctype:AddSettings	line:98	type:bool
+HostConfig	pkg/docker/container.go	20;"	w	access:public	ctype:EnsureContainerOpts	line:20	type:*container.HostConfig
+HostHostname	sdk/sync/common.go	23;"	c	access:public	line:23
+Hostname	pkg/sidecar/instance.go	21;"	w	access:public	ctype:Instance	line:21	type:string
+ID	pkg/api/builder.go	16;"	m	access:public	line:16	ntype:Builder	signature:()	type:string
+ID	pkg/api/composition.go	62;"	w	access:public	ctype:Group	line:62	type:string
+ID	pkg/api/runner.go	19;"	m	access:public	line:19	ntype:Runner	signature:()	type:string
+ID	pkg/api/runner.go	68;"	w	access:public	ctype:RunGroup	line:68	type:string
+ID	pkg/build/golang/docker.go	257;"	m	access:public	ctype:DockerGoBuilder	line:257	signature:()	type:string
+ID	pkg/build/golang/exec.go	143;"	m	access:public	ctype:ExecGoBuilder	line:143	signature:()	type:string
+ID	pkg/dockermanager/dockermanager.go	49;"	w	access:public	ctype:Container	line:49	type:string
+ID	pkg/runner/cluster_k8s.go	294;"	m	access:public	ctype:ClusterK8sRunner	line:294	signature:()	type:string
+ID	pkg/runner/cluster_swarm.go	386;"	m	access:public	ctype:ClusterSwarmRunner	line:386	signature:()	type:string
+ID	pkg/runner/local_docker.go	466;"	m	access:public	ctype:LocalDockerRunner	line:466	signature:()	type:string
+ID	pkg/runner/local_exec.go	174;"	m	access:public	ctype:LocalExecutableRunner	line:174	signature:()	type:string
+IPNet	sdk/runtime/runenv.go	34;"	t	access:public	line:34	type:struct
+IPv4	pkg/sidecar/docker_instance.go	278;"	w	access:public	ctype:dockerLink	line:278	type:*net.IPNet
+IPv4	pkg/sidecar/docker_instance.go	28;"	w	access:public	ctype:link	line:28	type:*net.IPNet
+IPv4	pkg/sidecar/k8s_instance.go	252;"	w	access:public	ctype:k8sLink	line:252	type:*net.IPNet
+IPv4	sdk/sync/presets.go	101;"	w	access:public	ctype:NetworkConfig	line:101	type:*net.IPNet
+IPv6	pkg/sidecar/docker_instance.go	278;"	w	access:public	ctype:dockerLink	line:278	type:*net.IPNet
+IPv6	pkg/sidecar/docker_instance.go	28;"	w	access:public	ctype:link	line:28	type:*net.IPNet
+IPv6	pkg/sidecar/k8s_instance.go	252;"	w	access:public	ctype:k8sLink	line:252	type:*net.IPNet
+IPv6	sdk/sync/presets.go	101;"	w	access:public	ctype:NetworkConfig	line:101	type:*net.IPNet
+ImprovementDir	sdk/runtime/output.go	40;"	w	access:public	ctype:MetricDefinition	line:40	type:int
+Incomplete	pkg/runner/pretty.go	27;"	c	access:public	line:27
+InferTypedMap	pkg/conv/conversions.go	13;"	f	access:public	line:13	signature:(in map[string]string)	type:map[string]interface{}
+Initialize	sdk/iptb/ensemble.go	37;"	m	access:public	ctype:TestEnsemble	line:37	signature:()
+Initialize	sdk/iptb/spec.go	17;"	w	access:public	ctype:NodeOpts	line:17	type:bool
+Inspect	pkg/dockermanager/dockermanager.go	54;"	m	access:public	ctype:Container	line:54	signature:(ctx context.Context)	type:types.ContainerJSON, error
+Instance	pkg/sidecar/instance.go	18;"	t	access:public	line:18	type:struct
+InstanceManager	pkg/sidecar/sidecar.go	29;"	n	access:public	line:29	type:interface
+Instances	pkg/api/composition.go	65;"	w	access:public	ctype:Group	line:65	type:Instances
+Instances	pkg/api/composition.go	85;"	t	access:public	line:85	type:struct
+Instances	pkg/api/definitions.go	33;"	w	access:public	ctype:TestCase	line:33	type:TestCaseInstances
+Instances	pkg/api/runner.go	71;"	w	access:public	ctype:RunGroup	line:71	type:int
+IntParam	sdk/runtime/runenv.go	269;"	m	access:public	ctype:RunParams	line:269	signature:(name string)	type:int
+InternalErr	pkg/runner/pretty.go	31;"	c	access:public	line:31
+Invoke	sdk/runtime/runner.go	11;"	f	access:public	line:11	signature:(tc func(*RunEnv) error)
+IpfsAddDefaults	plans/chew-datasets/test/ipfs_add_defaults.go	14;"	t	access:public	line:14	type:struct
+IpfsAddDirSharding	plans/chew-datasets/test/ipfs_add_dir_sharding.go	14;"	t	access:public	line:14	type:struct
+IpfsAddTrickleDag	plans/chew-datasets/test/ipfs_add_trickle_dag.go	17;"	t	access:public	line:17	type:struct
+IpfsDaemon	plans/chew-datasets/utils/testcase.go	37;"	w	access:public	ctype:TestCaseOptions	line:37	type:*ipfsClient.Shell
+IpfsFileStore	plans/chew-datasets/test/ipfs_file_store.go	15;"	t	access:public	line:15	type:struct
+IpfsInstance	plans/chew-datasets/utils/testcase.go	34;"	w	access:public	ctype:TestCaseOptions	line:34	type:iface.CoreAPI
+IpfsInstanceOptions	plans/chew-datasets/utils/create-ipfs-instance.go	99;"	t	access:public	line:99	type:struct
+IpfsMfs	plans/chew-datasets/test/ipfs_mfs.go	13;"	t	access:public	line:13	type:struct
+IpfsMfsDirSharding	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	13;"	t	access:public	line:13	type:struct
+IpfsUrlStore	plans/chew-datasets/test/ipfs_url_store.go	14;"	t	access:public	line:14	type:struct
+IsOnline	pkg/dockermanager/dockermanager.go	68;"	m	access:public	ctype:Container	line:68	signature:(ctx context.Context)	type:bool, error
+IsParamSet	sdk/runtime/runenv.go	244;"	m	access:public	ctype:RunParams	line:244	signature:(name string)	type:bool
+IsTerminal	pkg/logging/log.go	24;"	f	access:public	line:24	signature:()	type:bool
+JSONParam	sdk/runtime/runenv.go	316;"	m	access:public	ctype:RunParams	line:316	signature:(name string, v interface{})
+Jitter	sdk/sync/presets.go	47;"	w	access:public	ctype:LinkShape	line:47	type:time.Duration
+K8sInstanceManager	pkg/sidecar/k8s_instance.go	34;"	t	access:public	line:34	type:struct
+K8sNetwork	pkg/sidecar/k8s_instance.go	258;"	t	access:public	line:258	type:struct
+KeepAlivePeriod	sdk/sync/write.go	22;"	v	access:public	line:22
+KeepContainers	pkg/runner/local_docker.go	46;"	w	access:public	ctype:LocalDockerRunnerConfig	line:46	type:bool
+KeepService	pkg/runner/cluster_k8s.go	98;"	w	access:public	ctype:ClusterK8sRunnerConfig	line:98	type:bool
+KeepService	pkg/runner/cluster_swarm.go	62;"	w	access:public	ctype:ClusterSwarmRunnerConfig	line:62	type:bool
+Key	sdk/sync/types.go	28;"	m	access:public	ctype:State	line:28	signature:(parent string)	type:string
+KeyFunc	sdk/sync/types.go	21;"	w	access:public	ctype:Subtree	line:21	type:func(payload interface{}) string
+KubeConfigPath	pkg/runner/cluster_k8s.go	125;"	w	access:public	ctype:KubernetesConfig	line:125	type:string
+KubernetesConfig	pkg/runner/cluster_k8s.go	123;"	t	access:public	line:123	type:struct
+L	pkg/logging/log.go	65;"	f	access:public	line:65	signature:()	type:*zap.Logger
+L	pkg/logging/log.go	89;"	m	access:public	ctype:Logging	line:89	signature:()	type:*zap.Logger
+Latency	sdk/sync/presets.go	44;"	w	access:public	ctype:LinkShape	line:44	type:time.Duration
+Layout	plans/bitswap-tuning/utils/createnode.go	95;"	w	access:public	ctype:AddSettings	line:95	type:string
+Leech	plans/bitswap-tuning/utils/createnode.go	39;"	c	access:public	line:39
+LinkRule	sdk/sync/presets.go	83;"	t	access:public	line:83	type:struct
+LinkShape	sdk/sync/presets.go	42;"	t	access:public	line:42	type:struct
+LinkShape	sdk/sync/presets.go	84;"	e	access:public	ctype:LinkRule	line:84	type:LinkShape
+List	pkg/client/client.go	48;"	m	access:public	ctype:Client	line:48	signature:(ctx context.Context)	type:io.ReadCloser, error
+ListActive	pkg/sidecar/docker_instance.go	301;"	m	access:public	ctype:DockerNetwork	line:301	signature:()	type:[]string
+ListActive	pkg/sidecar/instance.go	34;"	m	access:public	line:34	ntype:Network	signature:()	type:[]string
+ListActive	pkg/sidecar/k8s_instance.go	385;"	m	access:public	ctype:K8sNetwork	line:385	signature:()	type:[]string
+ListAvailable	pkg/sidecar/docker_instance.go	293;"	m	access:public	ctype:DockerNetwork	line:293	signature:()	type:[]string
+ListBuilders	pkg/api/engine.go	16;"	m	access:public	line:16	ntype:Engine	signature:()	type:map[string]Builder
+ListBuilders	pkg/engine/engine.go	130;"	m	access:public	ctype:Engine	line:130	signature:()	type:map[string]api.Builder
+ListCommand	cmd/list.go	12;"	v	access:public	line:12
+ListPlans	pkg/api/engine.go	31;"	m	access:public	line:31	ntype:TestCensus	signature:()	type:[]*TestPlanDefinition
+ListPlans	pkg/engine/census.go	51;"	m	access:public	ctype:TestCensus	line:51	signature:()	type:[]*api.TestPlanDefinition
+ListRunners	pkg/api/engine.go	17;"	m	access:public	line:17	ntype:Engine	signature:()	type:map[string]Runner
+ListRunners	pkg/engine/engine.go	141;"	m	access:public	ctype:Engine	line:141	signature:()	type:map[string]api.Runner
+ListV4	pkg/sidecar/link.go	202;"	m	access:public	ctype:NetlinkLink	line:202	signature:()	type:[]*net.IPNet, error
+ListV6	pkg/sidecar/link.go	207;"	m	access:public	ctype:NetlinkLink	line:207	signature:()	type:[]*net.IPNet, error
+Listen	pkg/config/environment.go	61;"	w	access:public	ctype:DaemonConfig	line:61	type:string
+LocalDockerRunner	pkg/runner/local_docker.go	74;"	t	access:public	line:74	type:struct
+LocalDockerRunnerConfig	pkg/runner/local_docker.go	43;"	t	access:public	line:43	type:struct
+LocalExecutableRunner	pkg/runner/local_exec.go	30;"	t	access:public	line:30	type:struct
+LocalExecutableRunnerCfg	pkg/runner/local_exec.go	35;"	t	access:public	line:35	type:struct
+LogLevel	pkg/runner/cluster_k8s.go	96;"	w	access:public	ctype:ClusterK8sRunnerConfig	line:96	type:string
+LogLevel	pkg/runner/cluster_swarm.go	35;"	w	access:public	ctype:ClusterSwarmRunnerConfig	line:35	type:string
+LogLevel	pkg/runner/local_docker.go	48;"	w	access:public	ctype:LocalDockerRunnerConfig	line:48	type:string
+Loggers	sdk/runtime/logger.go	78;"	m	access:public	ctype:logger	line:78	signature:()	type:*zap.Logger, *zap.SugaredLogger
+Logging	pkg/logging/log.go	75;"	t	access:public	line:75	type:struct
+Logs	pkg/dockermanager/dockermanager.go	59;"	m	access:public	ctype:Container	line:59	signature:(ctx context.Context)	type:io.ReadCloser, error
+Logs	pkg/sidecar/instance.go	38;"	n	access:public	line:38	type:interface
+Loss	sdk/sync/presets.go	57;"	w	access:public	ctype:LinkShape	line:57	type:float32
+MakeTimeToAddMetric	plans/chew-datasets/utils/metrics.go	9;"	f	access:public	line:9	signature:(size int64, method string)	type:*runtime.MetricDefinition
+Manage	pkg/dockermanager/dockermanager.go	99;"	m	access:public	ctype:Manager	line:99	signature:(ctx context.Context, worker func(context.Context, *Container) error, labels )	type:error
+Manage	pkg/runner/pretty.go	190;"	m	access:public	ctype:PrettyPrinter	line:190	signature:(id string, stdout, stderr io.ReadCloser)
+Manage	pkg/sidecar/docker_instance.go	107;"	m	access:public	ctype:DockerInstanceManager	line:107	signature:(globalctx context.Context, worker func(context.Context, *Instance) error)	type:error
+Manage	pkg/sidecar/k8s_instance.go	58;"	m	access:public	ctype:K8sInstanceManager	line:58	signature:(ctx context.Context, worker func(context.Context, *Instance) error)	type:error
+Manage	pkg/sidecar/sidecar.go	31;"	m	access:public	line:31	ntype:InstanceManager	signature:(context.Context, func(context.Context, *Instance) error)	type:error
+Manager	pkg/dockermanager/dockermanager.go	22;"	t	access:public	line:22	type:struct
+Manager	pkg/dockermanager/dockermanager.go	50;"	w	access:public	ctype:Container	line:50	type:*Manager
+MarshalJSON	sdk/runtime/runenv.go	38;"	m	access:public	ctype:IPNet	line:38	signature:()	type:[]byte, error
+MarshalLogObject	sdk/runtime/output.go	48;"	m	access:public	ctype:Event	line:48	signature:(oe zapcore.ObjectEncoder)	type:error
+MarshalLogObject	sdk/runtime/output.go	77;"	m	access:public	ctype:MetricValue	line:77	signature:(oe zapcore.ObjectEncoder)	type:error
+MarshalLogObject	sdk/runtime/output.go	88;"	m	access:public	ctype:RunParams	line:88	signature:(oe zapcore.ObjectEncoder)	type:error
+MaxLinks	plans/bitswap-tuning/utils/createnode.go	101;"	w	access:public	ctype:AddSettings	line:101	type:int
+Maximum	pkg/api/definitions.go	55;"	w	access:public	ctype:TestCaseInstances	line:55	type:int
+Message	pkg/runner/pretty.go	28;"	c	access:public	line:28
+Message	pkg/tgwriter/tgwriter.go	43;"	w	access:public	ctype:Error	line:43	type:string
+Message	sdk/runtime/output.go	191;"	m	access:public	ctype:RunEnv	line:191	signature:(msg string, a )
+Message	sdk/runtime/output.go	32;"	w	access:public	ctype:Event	line:32	type:string
+Metadata	pkg/api/composition.go	18;"	w	access:public	ctype:Composition	line:18	type:Metadata
+Metadata	pkg/api/composition.go	52;"	t	access:public	line:52	type:struct
+Metric	pkg/runner/pretty.go	29;"	c	access:public	line:29
+Metric	sdk/runtime/output.go	33;"	w	access:public	ctype:Event	line:33	type:*MetricValue
+MetricBlksRcvd	plans/bitswap-tuning/utils/metrics.go	28;"	v	access:public	line:28
+MetricBlksSent	plans/bitswap-tuning/utils/metrics.go	25;"	v	access:public	line:25
+MetricDataRcvd	plans/bitswap-tuning/utils/metrics.go	19;"	v	access:public	line:19
+MetricDataSent	plans/bitswap-tuning/utils/metrics.go	16;"	v	access:public	line:16
+MetricDefinition	sdk/runtime/output.go	37;"	t	access:public	line:37	type:struct
+MetricDefinition	sdk/runtime/output.go	44;"	e	access:public	ctype:MetricValue	line:44	type:MetricDefinition
+MetricDupBlksRcvd	plans/bitswap-tuning/utils/metrics.go	31;"	v	access:public	line:31
+MetricDupDataRcvd	plans/bitswap-tuning/utils/metrics.go	22;"	v	access:public	line:22
+MetricMsgsRcvd	plans/bitswap-tuning/utils/metrics.go	13;"	v	access:public	line:13
+MetricTimeToAdd	plans/smlbench/utils/metrics.go	6;"	v	access:public	line:6
+MetricTimeToConnect	plans/smlbench/utils/metrics.go	7;"	v	access:public	line:7
+MetricTimeToFetch	plans/bitswap-tuning/utils/metrics.go	10;"	v	access:public	line:10
+MetricTimeToGet	plans/smlbench/utils/metrics.go	8;"	v	access:public	line:8
+MetricValue	sdk/runtime/output.go	43;"	t	access:public	line:43	type:struct
+Minimum	pkg/api/definitions.go	54;"	w	access:public	ctype:TestCaseInstances	line:54	type:int
+Module	pkg/api/composition.go	125;"	w	access:public	ctype:Dependency	line:125	type:string
+ModulePath	pkg/build/golang/docker.go	49;"	w	access:public	ctype:DockerGoBuilderConfig	line:49	type:string
+ModulePath	pkg/build/golang/exec.go	30;"	w	access:public	ctype:ExecGoBuilderConfig	line:30	type:string
+Msg	pkg/tgwriter/tgwriter.go	36;"	t	access:public	line:36	type:struct
+MustExportPrometheus	sdk/runtime/metrics.go	19;"	m	access:public	ctype:RunEnv	line:19	signature:()	type:net.Listener
+MustWatcherWriter	sdk/sync/common.go	139;"	f	access:public	line:139	signature:(ctx context.Context, runenv *runtime.RunEnv)	type:*Watcher, *Writer
+NBootstrap	plans/dht/test/common.go	40;"	w	access:public	ctype:SetupOpts	line:40	type:int
+NFindPeers	plans/dht/test/common.go	41;"	w	access:public	ctype:SetupOpts	line:41	type:int
+Name	pkg/api/composition.go	54;"	w	access:public	ctype:Metadata	line:54	type:string
+Name	pkg/api/definitions.go	15;"	w	access:public	ctype:TestPlanDefinition	line:15	type:string
+Name	pkg/api/definitions.go	32;"	w	access:public	ctype:TestCase	line:32	type:string
+Name	plans/smlbench/test/simple_add.go	23;"	m	access:public	ctype:SimpleAddTC	line:23	signature:()	type:string
+Name	plans/smlbench/test/simple_add_get.go	25;"	m	access:public	ctype:SimpleAddGetTC	line:25	signature:()	type:string
+Name	plans/smlbench/utils/testcase.go	10;"	m	access:public	line:10	ntype:SmallBenchmarksTestCase	signature:()	type:string
+Name	sdk/runtime/output.go	38;"	w	access:public	ctype:MetricDefinition	line:38	type:string
+Namespace	pkg/runner/cluster_k8s.go	127;"	w	access:public	ctype:KubernetesConfig	line:127	type:string
+NetlinkLink	pkg/sidecar/link.go	40;"	t	access:public	line:40	type:struct
+Network	pkg/sidecar/instance.go	25;"	w	access:public	ctype:Instance	line:25	type:Network
+Network	pkg/sidecar/instance.go	31;"	n	access:public	line:31	type:interface
+Network	sdk/sync/presets.go	91;"	w	access:public	ctype:NetworkConfig	line:91	type:string
+NetworkConfig	sdk/sync/presets.go	89;"	t	access:public	line:89	type:struct
+NetworkInitialisationFailed	pkg/runner/cluster_k8s.go	64;"	c	access:public	line:64
+NetworkInitialisationFailed	sdk/sync/helper.go	15;"	c	access:public	line:15
+NetworkInitialisationSuccessful	pkg/runner/cluster_k8s.go	63;"	c	access:public	line:63
+NetworkInitialisationSuccessful	sdk/sync/helper.go	14;"	c	access:public	line:14
+NetworkSubtree	sdk/sync/presets.go	122;"	f	access:public	line:122	signature:(container string)	type:*Subtree
+NetworkingConfig	pkg/docker/container.go	21;"	w	access:public	ctype:EnsureContainerOpts	line:21	type:*network.NetworkingConfig
+New	pkg/client/client.go	28;"	f	access:public	ctype:Client	line:28	signature:(endpoint string)	type:*Client
+New	pkg/daemon/daemon.go	29;"	f	access:public	ctype:Daemon	line:29	signature:(listenAddr string)	type:*Daemon, error
+New	pkg/tgwriter/tgwriter.go	16;"	f	access:public	ctype:TgWriter	line:16	signature:(w http.ResponseWriter, log *zap.SugaredLogger)	type:*TgWriter
+NewBridgeNetwork	pkg/docker/network.go	14;"	f	access:public	line:14	signature:(ctx context.Context, cli *client.Client, name string, internal bool, labels map[string]string, config )	type:string, error
+NewDHTNode	plans/dht/test/common.go	61;"	f	access:public	line:61	signature:(ctx context.Context, runenv *runtime.RunEnv, opts *SetupOpts)	type:host.Host, *kaddht.IpfsDHT, error
+NewDefaultEngine	pkg/engine/engine.go	85;"	f	access:public	ctype:Engine	line:85	signature:()	type:*Engine, error
+NewDockerManager	pkg/sidecar/docker_instance.go	87;"	f	access:public	line:87	signature:()	type:InstanceManager, error
+NewEngine	pkg/engine/engine.go	65;"	f	access:public	ctype:Engine	line:65	signature:(cfg *EngineConfig)	type:*Engine, error
+NewHandle	pkg/dockermanager/dockermanager.go	226;"	m	access:public	ctype:Manager	line:226	signature:(container string)	type:*Container
+NewInstance	pkg/sidecar/instance.go	45;"	f	access:public	ctype:Instance	line:45	signature:(ctx context.Context, runenv *runtime.RunEnv, hostname string, network Network)	type:*Instance, error
+NewK8sManager	pkg/sidecar/k8s_instance.go	39;"	f	access:public	line:39	signature:()	type:InstanceManager, error
+NewLogging	pkg/logging/log.go	81;"	f	access:public	ctype:Logging	line:81	signature:(logger *zap.Logger)	type:Logging
+NewManager	pkg/dockermanager/dockermanager.go	29;"	f	access:public	ctype:Manager	line:29	signature:()	type:*Manager, error
+NewNetlinkLink	pkg/sidecar/link.go	46;"	f	access:public	ctype:NetlinkLink	line:46	signature:(handle *netlink.Handle, link netlink.Link)	type:*NetlinkLink, error
+NewPrettyPrinter	pkg/runner/pretty.go	52;"	f	access:public	ctype:PrettyPrinter	line:52	signature:()	type:*PrettyPrinter
+NewRunEnv	sdk/runtime/runenv.go	107;"	f	access:public	ctype:RunEnv	line:107	signature:(params RunParams)	type:*RunEnv
+NewTestEnsemble	sdk/iptb/ensemble.go	28;"	f	access:public	ctype:TestEnsemble	line:28	signature:(ctx context.Context, spec *TestEnsembleSpec)	type:*TestEnsemble
+NewTestEnsembleSpec	sdk/iptb/spec.go	25;"	f	access:public	ctype:TestEnsembleSpec	line:25	signature:()	type:*TestEnsembleSpec
+NewWatcher	sdk/sync/watch.go	29;"	f	access:public	ctype:Watcher	line:29	signature:(ctx context.Context, runenv *runtime.RunEnv)	type:*Watcher, error
+NewWriter	sdk/sync/write.go	53;"	f	access:public	ctype:Writer	line:53	signature:(ctx context.Context, runenv *runtime.RunEnv)	type:*Writer, error
+NoCopy	plans/bitswap-tuning/utils/createnode.go	99;"	w	access:public	ctype:AddSettings	line:99	type:bool
+Node	plans/bitswap-tuning/utils/createnode.go	50;"	t	access:public	line:50	type:struct
+NodeOpts	sdk/iptb/spec.go	15;"	t	access:public	line:15	type:struct
+NodeType	plans/bitswap-tuning/utils/createnode.go	33;"	t	access:public	line:33	type:int
+NodesProviding	plans/dht/test/common.go	44;"	w	access:public	ctype:SetupOpts	line:44	type:int
+Ok	pkg/runner/pretty.go	24;"	c	access:public	line:24
+OsTestFunction	plans/chew-datasets/utils/testconfig.go	76;"	t	access:public	line:76	type:func(path string, size int64, isDir bool) string, error
+Other	pkg/runner/pretty.go	30;"	c	access:public	line:30
+Outcome	sdk/runtime/output.go	29;"	w	access:public	ctype:Event	line:29	type:EventOutcome
+OutputsBucket	pkg/runner/cluster_k8s.go	101;"	w	access:public	ctype:ClusterK8sRunnerConfig	line:101	type:string
+OutputsBucketRegion	pkg/runner/cluster_k8s.go	104;"	w	access:public	ctype:ClusterK8sRunnerConfig	line:104	type:string
+OutputsRequest	pkg/client/types.go	25;"	t	access:public	line:25	type:struct
+Parameter	pkg/api/definitions.go	45;"	t	access:public	line:45	type:struct
+Parameters	pkg/api/definitions.go	35;"	w	access:public	ctype:TestCase	line:35	type:map[string]Parameter
+Parameters	pkg/api/runner.go	78;"	w	access:public	ctype:RunGroup	line:78	type:map[string]string
+ParseBuildResponse	pkg/client/client.go	182;"	f	access:public	line:182	signature:(r io.ReadCloser)	type:BuildResponse, error
+ParseDescribeResponse	pkg/client/client.go	195;"	f	access:public	line:195	signature:(r io.ReadCloser)	type:error
+ParseIntArray	plans/bitswap-tuning/utils/params.go	9;"	f	access:public	line:9	signature:(value string)	type:[]int, error
+ParseKeyValues	pkg/conv/conversions.go	39;"	f	access:public	line:39	signature:(in []string)	type:map[string]string, error
+ParseKeyValues	sdk/runtime/runenv.go	329;"	f	access:public	line:329	signature:(in []string)	type:map[string]string, error
+ParseListResponse	pkg/client/client.go	171;"	f	access:public	line:171	signature:(r io.ReadCloser)	type:error
+ParseRunEnv	sdk/runtime/runenv.go	234;"	f	access:public	ctype:RunEnv	line:234	signature:(env []string)	type:*RunEnv, error
+ParseRunParams	sdk/runtime/runenv.go	208;"	f	access:public	ctype:RunParams	line:208	signature:(env []string)	type:*RunParams, error
+ParseRunResponse	pkg/client/client.go	158;"	f	access:public	line:158	signature:(r io.ReadCloser)	type:RunResponse, error
+ParseTerminateRequest	pkg/client/client.go	206;"	f	access:public	line:206	signature:(r io.ReadCloser)	type:error
+Passive	plans/bitswap-tuning/utils/createnode.go	41;"	c	access:public	line:41
+Path	plans/chew-datasets/utils/testconfig.go	18;"	w	access:public	ctype:TestDir	line:18	type:string
+Payload	pkg/tgwriter/tgwriter.go	38;"	w	access:public	ctype:Msg	line:38	type:interface{}
+PayloadType	sdk/sync/types.go	17;"	w	access:public	ctype:Subtree	line:17	type:reflect.Type
+PeerPayload	sdk/sync/presets.go	18;"	t	access:public	line:18	type:struct
+PeerSubtree	sdk/sync/presets.go	25;"	v	access:public	line:25
+Percentage	pkg/api/composition.go	95;"	w	access:public	ctype:Instances	line:95	type:float64
+PickGroups	pkg/api/composition.go	166;"	m	access:public	ctype:Composition	line:166	signature:(indices )	type:Composition, error
+PipeOutput	pkg/docker/output.go	13;"	f	access:public	line:13	signature:(r io.ReadCloser, w io.Writer)	type:error
+PlaceholderRunStrategy	pkg/api/definitions.go	40;"	t	access:public	line:40	type:struct
+Plan	pkg/api/composition.go	30;"	w	access:public	ctype:Global	line:30	type:string
+PlanByName	pkg/api/engine.go	30;"	m	access:public	line:30	ntype:TestCensus	signature:(name string)	type:*TestPlanDefinition
+PlanByName	pkg/engine/census.go	43;"	m	access:public	ctype:TestCensus	line:43	signature:(name string)	type:*api.TestPlanDefinition
+PodResourceCPU	pkg/runner/cluster_k8s.go	108;"	w	access:public	ctype:ClusterK8sRunnerConfig	line:108	type:string
+PodResourceMemory	pkg/runner/cluster_k8s.go	107;"	w	access:public	ctype:ClusterK8sRunnerConfig	line:107	type:string
+Port	pkg/daemon/daemon.go	87;"	m	access:public	ctype:Daemon	line:87	signature:()	type:int
+PrettyPrinter	pkg/runner/pretty.go	39;"	t	access:public	line:39	type:struct
+ProcessContext	cmd/context.go	18;"	f	access:public	line:18	signature:()	type:context.Context
+ProvideStress	plans/dht/test/provide_stress.go	11;"	f	access:public	line:11	signature:(runenv *runtime.RunEnv)	type:error
+PullImageIfMissing	pkg/docker/container.go	22;"	w	access:public	ctype:EnsureContainerOpts	line:22	type:bool
+PullRequestURL	pkg/auto/types.go	29;"	w	access:public	ctype:RepoCommand	line:29	type:string
+PushRegistry	pkg/build/golang/docker.go	55;"	w	access:public	ctype:DockerGoBuilderConfig	line:55	type:bool
+RandReader	plans/bitswap-tuning/utils/files.go	11;"	f	access:public	line:11	signature:(len int)	type:io.Reader
+RandomWalk	plans/dht/test/common.go	39;"	w	access:public	ctype:SetupOpts	line:39	type:bool
+RandomWalk	plans/dht/test/common.go	454;"	f	access:public	line:454	signature:(ctx context.Context, runenv *runtime.RunEnv, dht *kaddht.IpfsDHT)	type:error
+RawLeaves	plans/bitswap-tuning/utils/createnode.go	97;"	w	access:public	ctype:AddSettings	line:97	type:bool
+RecordCount	plans/dht/test/common.go	45;"	w	access:public	ctype:SetupOpts	line:45	type:int
+RecordCrash	sdk/runtime/output.go	165;"	m	access:public	ctype:logger	line:165	signature:(err interface{})
+RecordFailure	sdk/runtime/output.go	154;"	m	access:public	ctype:logger	line:154	signature:(err error)
+RecordMessage	sdk/runtime/output.go	123;"	m	access:public	ctype:logger	line:123	signature:(msg string, a )
+RecordMetric	sdk/runtime/output.go	177;"	m	access:public	ctype:logger	line:177	signature:(metric *MetricDefinition, value float64)
+RecordStart	sdk/runtime/output.go	134;"	m	access:public	ctype:logger	line:134	signature:()
+RecordSuccess	sdk/runtime/output.go	144;"	m	access:public	ctype:logger	line:144	signature:()
+RedisHostname	sdk/sync/common.go	22;"	c	access:public	line:22
+RedisStreamPayloadKey	sdk/sync/subscription.go	10;"	c	access:public	line:10
+Region	pkg/config/environment.go	51;"	w	access:public	ctype:AWSConfig	line:51	type:string
+RegistryType	pkg/build/golang/docker.go	59;"	w	access:public	ctype:DockerGoBuilderConfig	line:59	type:string
+Reject	sdk/sync/presets.go	37;"	c	access:public	line:37
+Release	pkg/auto/types.go	25;"	w	access:public	ctype:RepoCommand	line:25	type:string
+Release	pkg/runner/client_pool.go	42;"	m	access:public	ctype:pool	line:42	signature:(cs *kubernetes.Clientset)
+Reorder	sdk/sync/presets.go	70;"	w	access:public	ctype:LinkShape	line:70	type:float32
+ReorderCorr	sdk/sync/presets.go	73;"	w	access:public	ctype:LinkShape	line:73	type:float32
+Repo	pkg/config/environment.go	55;"	w	access:public	ctype:DockerHubConfig	line:55	type:string
+RepoCommand	pkg/auto/types.go	14;"	t	access:public	line:14	type:struct
+RepoURL	pkg/auto/types.go	21;"	w	access:public	ctype:RepoCommand	line:21	type:string
+Roles	pkg/api/definitions.go	37;"	w	access:public	ctype:TestCase	line:37	type:[]string
+Rules	sdk/sync/presets.go	111;"	w	access:public	ctype:NetworkConfig	line:111	type:[]LinkRule
+Run	pkg/api/composition.go	114;"	t	access:public	line:114	type:struct
+Run	pkg/api/composition.go	71;"	w	access:public	ctype:Group	line:71	type:Run
+Run	pkg/api/runner.go	22;"	m	access:public	line:22	ntype:Runner	signature:(ctx context.Context, job *RunInput, outputWriter io.Writer)	type:*RunOutput, error
+Run	pkg/client/client.go	84;"	m	access:public	ctype:Client	line:84	signature:(ctx context.Context, r *RunRequest)	type:io.ReadCloser, error
+Run	pkg/runner/cluster_k8s.go	140;"	m	access:public	ctype:ClusterK8sRunner	line:140	signature:(ctx context.Context, input *api.RunInput, ow io.Writer)	type:*api.RunOutput, error
+Run	pkg/runner/cluster_swarm.go	71;"	m	access:public	ctype:ClusterSwarmRunner	line:71	signature:(ctx context.Context, input *api.RunInput, ow io.Writer)	type:*api.RunOutput, error
+Run	pkg/runner/local_docker.go	80;"	m	access:public	ctype:LocalDockerRunner	line:80	signature:(ctx context.Context, input *api.RunInput, ow io.Writer)	type:*api.RunOutput, error
+Run	pkg/runner/local_exec.go	37;"	m	access:public	ctype:LocalExecutableRunner	line:37	signature:(ctx context.Context, input *api.RunInput, ow io.Writer)	type:*api.RunOutput, error
+Run	pkg/sidecar/other.go	13;"	f	access:public	line:13	signature:(_ string)	type:error
+Run	pkg/sidecar/sidecar.go	35;"	f	access:public	line:35	signature:(runnerName string)	type:error
+RunCommand	cmd/run.go	19;"	v	access:public	line:19
+RunConfig	pkg/api/composition.go	49;"	w	access:public	ctype:Global	line:49	type:map[string]interface{}
+RunEnv	pkg/sidecar/instance.go	24;"	w	access:public	ctype:Instance	line:24	type:*runtime.RunEnv
+RunEnv	sdk/runtime/runenv.go	98;"	t	access:public	line:98	type:struct
+RunGroup	pkg/api/runner.go	66;"	t	access:public	line:66	type:struct
+RunID	pkg/api/runner.go	39;"	w	access:public	ctype:RunInput	line:39	type:string
+RunID	pkg/api/runner.go	83;"	w	access:public	ctype:RunOutput	line:83	type:string
+RunID	pkg/api/runner.go	90;"	w	access:public	ctype:CollectionInput	line:90	type:string
+RunID	pkg/client/types.go	27;"	w	access:public	ctype:OutputsRequest	line:27	type:string
+RunInput	pkg/api/runner.go	37;"	t	access:public	line:37	type:struct
+RunOutput	pkg/api/runner.go	81;"	t	access:public	line:81	type:struct
+RunParams	sdk/runtime/runenv.go	65;"	t	access:public	line:65	type:struct
+RunParams	sdk/runtime/runenv.go	99;"	e	access:public	ctype:RunEnv	line:99	type:RunParams
+RunRequest	pkg/client/types.go	19;"	t	access:public	line:19	type:struct
+RunResponse	pkg/client/types.go	23;"	t	access:public	line:23	type:api.RunOutput
+RunStrategies	pkg/api/definitions.go	18;"	w	access:public	ctype:TestPlanDefinition	line:18	type:map[string]config.ConfigMap
+RunStrategies	pkg/config/environment.go	33;"	w	access:public	ctype:EnvConfig	line:33	type:map[string]ConfigMap
+Runenv	sdk/runtime/output.go	34;"	w	access:public	ctype:Event	line:34	type:*RunParams
+Runner	pkg/api/composition.go	46;"	w	access:public	ctype:Global	line:46	type:string
+Runner	pkg/api/definitions.go	27;"	w	access:public	ctype:TestPlanDefaults	line:27	type:string
+Runner	pkg/api/runner.go	17;"	n	access:public	line:17	type:interface
+Runner	pkg/client/types.go	26;"	w	access:public	ctype:OutputsRequest	line:26	type:string
+Runner	pkg/client/types.go	31;"	w	access:public	ctype:TerminateRequest	line:31	type:string
+RunnerByName	pkg/api/engine.go	14;"	m	access:public	line:14	ntype:Engine	signature:(name string)	type:Runner, bool
+RunnerByName	pkg/engine/engine.go	122;"	m	access:public	ctype:Engine	line:122	signature:(name string)	type:api.Runner, bool
+RunnerConfig	pkg/api/runner.go	47;"	w	access:public	ctype:RunInput	line:47	type:interface{}
+RunnerConfig	pkg/api/runner.go	95;"	w	access:public	ctype:CollectionInput	line:95	type:interface{}
+RunnerID	pkg/api/runner.go	91;"	w	access:public	ctype:CollectionInput	line:91	type:string
+Runners	pkg/engine/engine.go	61;"	w	access:public	ctype:EngineConfig	line:61	type:[]api.Runner
+S	pkg/logging/log.go	70;"	f	access:public	line:70	signature:()	type:*zap.SugaredLogger
+S	pkg/logging/log.go	94;"	m	access:public	ctype:Logging	line:94	signature:()	type:*zap.SugaredLogger
+SLogger	sdk/runtime/logger.go	73;"	m	access:public	ctype:logger	line:73	signature:()	type:*zap.SugaredLogger
+SecretAccessKey	pkg/config/environment.go	50;"	w	access:public	ctype:AWSConfig	line:50	type:string
+Seed	plans/bitswap-tuning/utils/createnode.go	37;"	c	access:public	line:37	type:NodeType
+Seq	pkg/api/runner.go	57;"	w	access:public	ctype:RunInput	line:57	type:int
+Serve	pkg/daemon/daemon.go	72;"	m	access:public	ctype:Daemon	line:72	signature:()	type:error
+Set	cmd/enum_flag.go	19;"	m	access:public	ctype:EnumValue	line:19	signature:(value string)	type:error
+SetLevel	pkg/logging/log.go	29;"	f	access:public	line:29	signature:(l zapcore.Level)
+Setup	plans/dht/test/common.go	150;"	f	access:public	line:150	signature:(ctx context.Context, runenv *runtime.RunEnv, watcher *sync.Watcher, writer *sync.Writer, opts *SetupOpts)	type:host.Host, *kaddht.IpfsDHT, []peer.AddrInfo, int64, error
+SetupNetwork	plans/bitswap-tuning/utils/net.go	16;"	f	access:public	line:16	signature:(ctx context.Context, runenv *runtime.RunEnv, watcher *sync.Watcher, writer *sync.Writer, nodetp NodeType, tpindex int)	type:time.Duration, int, error
+SetupNetwork	plans/dht/test/common.go	113;"	f	access:public	line:113	signature:(ctx context.Context, runenv *runtime.RunEnv, watcher *sync.Watcher, writer *sync.Writer)	type:error
+SetupOpts	plans/dht/test/common.go	37;"	t	access:public	line:37	type:struct
+Shape	pkg/sidecar/link.go	154;"	m	access:public	ctype:NetlinkLink	line:154	signature:(shape sync.LinkShape)	type:error
+Shutdown	pkg/daemon/daemon.go	91;"	m	access:public	ctype:Daemon	line:91	signature:(ctx context.Context)	type:error
+SidecarCommand	cmd/sidecar.go	17;"	v	access:public	line:17
+SignalAndWaitForAll	plans/bitswap-tuning/utils/state.go	9;"	f	access:public	line:9	signature:(ctx context.Context, instanceCount int, stateName string, watcher *sync.Watcher, writer *sync.Writer)	type:error
+SignalEntry	sdk/sync/write.go	174;"	m	access:public	ctype:Writer	line:174	signature:(ctx context.Context, s State)	type:int64, error
+SimpleAddGetTC	plans/smlbench/test/simple_add_get.go	19;"	t	access:public	line:19	type:struct
+SimpleAddTC	plans/smlbench/test/simple_add.go	17;"	t	access:public	line:17	type:struct
+Size	plans/chew-datasets/utils/testconfig.go	131;"	w	access:public	ctype:rawDirConfig	line:131	type:string
+Size	plans/chew-datasets/utils/testconfig.go	20;"	w	access:public	ctype:TestDir	line:20	type:int64
+SizeArrayParam	sdk/runtime/runenv.go	299;"	m	access:public	ctype:RunParams	line:299	signature:(name string)	type:[]uint64
+SizeBytes	plans/smlbench/test/simple_add.go	18;"	w	access:public	ctype:SimpleAddTC	line:18	type:int64
+SizeBytes	plans/smlbench/test/simple_add_get.go	20;"	w	access:public	ctype:SimpleAddGetTC	line:20	type:int64
+SizeParam	sdk/runtime/runenv.go	258;"	m	access:public	ctype:RunParams	line:258	signature:(name string)	type:uint64
+SmallBenchmarksTestCase	plans/smlbench/utils/testcase.go	8;"	n	access:public	line:8	type:interface
+Source	pkg/auto/types.go	17;"	w	access:public	ctype:RepoCommand	line:17	type:TriggerSource
+SourceDir	pkg/api/common.go	10;"	m	access:public	line:10	ntype:Directories	signature:()	type:string
+SourceDir	pkg/config/environment.go	40;"	m	access:public	ctype:EnvConfig	line:40	signature:()	type:string
+SourcePath	pkg/api/definitions.go	16;"	w	access:public	ctype:TestPlanDefinition	line:16	type:string
+SpawnDaemon	sdk/iptb/daemon.go	12;"	f	access:public	line:12	signature:(ctx context.Context, opts NodeOpts)	type:*TestEnsemble, *ipfsClient.Shell
+SrcDir	pkg/config/environment.go	36;"	w	access:public	ctype:EnvConfig	line:36	type:string
+Stacktrace	sdk/runtime/output.go	31;"	w	access:public	ctype:Event	line:31	type:string
+StandardJSONConfig	sdk/runtime/files.go	109;"	f	access:public	line:109	signature:()	type:zap.Config
+Start	pkg/runner/pretty.go	23;"	c	access:public	line:23
+Start	sdk/iptb/spec.go	19;"	w	access:public	ctype:NodeOpts	line:19	type:bool
+State	sdk/sync/presets.go	116;"	w	access:public	ctype:NetworkConfig	line:116	type:State
+State	sdk/sync/types.go	25;"	t	access:public	line:25	type:string
+Stderr	pkg/sidecar/instance.go	40;"	m	access:public	line:40	ntype:Logs	signature:()	type:io.Reader
+Stdout	pkg/sidecar/instance.go	41;"	m	access:public	line:41	ntype:Logs	signature:()	type:io.Reader
+StoreGetValue	plans/dht/test/store_get_value.go	10;"	f	access:public	line:10	signature:(runenv *runtime.RunEnv)	type:error
+String	cmd/enum_flag.go	29;"	m	access:public	ctype:EnumValue	line:29	signature:()	type:string
+String	pkg/runner/pretty.go	34;"	m	access:public	ctype:eventType	line:34	signature:()	type:string
+String	plans/bitswap-tuning/utils/createnode.go	44;"	m	access:public	ctype:NodeType	line:44	signature:()	type:string
+String	sdk/sync/types.go	41;"	m	access:public	ctype:Subtree	line:41	signature:()	type:string
+StringArrayParam	sdk/runtime/runenv.go	290;"	m	access:public	ctype:RunParams	line:290	signature:(name string)	type:[]string
+StringParam	sdk/runtime/runenv.go	250;"	m	access:public	ctype:RunParams	line:250	signature:(name string)	type:string
+Subnet	sdk/sync/presets.go	85;"	w	access:public	ctype:LinkRule	line:85	type:net.IPNet
+Subscribe	sdk/sync/watch.go	56;"	m	access:public	ctype:Watcher	line:56	signature:(ctx context.Context, subtree *Subtree, ch interface{})	type:error
+Subtree	sdk/sync/types.go	12;"	t	access:public	line:12	type:struct
+Sync	plans/dht/test/common.go	464;"	f	access:public	line:464	signature:(ctx context.Context, runenv *runtime.RunEnv, watcher *sync.Watcher, writer *sync.Writer, state sync.State)	type:error
+TTL	sdk/sync/write.go	18;"	v	access:public	line:18
+Teardown	plans/dht/test/common.go	501;"	f	access:public	line:501	signature:(ctx context.Context, runenv *runtime.RunEnv, watcher *sync.Watcher, writer *sync.Writer)
+TempDir	sdk/iptb/ensemble.go	165;"	m	access:public	ctype:TestEnsemble	line:165	signature:()	type:string
+Term	pkg/client/types.go	7;"	w	access:public	ctype:DescribeRequest	line:7	type:string
+TermExplanation	pkg/daemon/describe.go	15;"	v	access:public	line:15
+TerminalMode	pkg/logging/log.go	34;"	f	access:public	line:34	signature:()
+Terminatable	pkg/api/runner.go	100;"	n	access:public	line:100	type:interface
+Terminate	pkg/client/client.go	109;"	m	access:public	ctype:Client	line:109	signature:(ctx context.Context, r *TerminateRequest)	type:io.ReadCloser, error
+TerminateAll	pkg/api/runner.go	101;"	m	access:public	line:101	ntype:Terminatable	signature:()	type:error
+TerminateCommand	cmd/terminate.go	10;"	v	access:public	line:10
+TerminateRequest	pkg/client/types.go	30;"	t	access:public	line:30	type:struct
+TestAbortedTestShouldFailDocker	cmd/itest/run_test.go	25;"	f	access:public	line:25	signature:(t *testing.T)
+TestAbortedTestShouldFailLocal	cmd/itest/run_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestBarrier	sdk/sync/redis_test.go	113;"	f	access:public	line:113	signature:(t *testing.T)
+TestBarrierCancel	sdk/sync/redis_test.go	142;"	f	access:public	line:142	signature:(t *testing.T)
+TestBranch	sdk/runtime/runenv.go	73;"	w	access:public	ctype:RunParams	line:73	type:string
+TestBuildDockerGo	cmd/itest/build_test.go	21;"	f	access:public	line:21	signature:(t *testing.T)
+TestBuildExecGo	cmd/itest/build_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestCase	pkg/api/definitions.go	31;"	t	access:public	line:31	type:struct
+TestCase	plans/chew-datasets/utils/testcase.go	13;"	n	access:public	line:13	type:interface
+TestCase	sdk/runtime/runenv.go	67;"	w	access:public	ctype:RunParams	line:67	type:string
+TestCaseByName	pkg/api/definitions.go	60;"	m	access:public	ctype:TestPlanDefinition	line:60	signature:(name string)	type:int, *TestCase, bool
+TestCaseInstances	pkg/api/definitions.go	53;"	t	access:public	line:53	type:struct
+TestCaseOptions	plans/chew-datasets/utils/testcase.go	29;"	t	access:public	line:29	type:struct
+TestCaseSeq	sdk/runtime/runenv.go	69;"	w	access:public	ctype:RunParams	line:69	type:int
+TestCases	pkg/api/definitions.go	19;"	w	access:public	ctype:TestPlanDefinition	line:19	type:[]*TestCase
+TestCensus	pkg/api/engine.go	11;"	m	access:public	line:11	ntype:Engine	signature:()	type:TestCensus
+TestCensus	pkg/api/engine.go	28;"	n	access:public	line:28	type:interface
+TestCensus	pkg/engine/census.go	14;"	t	access:public	line:14	type:struct
+TestCensus	pkg/engine/engine.go	107;"	m	access:public	ctype:Engine	line:107	signature:()	type:api.TestCensus
+TestCloseSubscription	sdk/sync/redis_test.go	284;"	f	access:public	line:284	signature:(t *testing.T)
+TestCommit	sdk/runtime/runenv.go	72;"	w	access:public	ctype:RunParams	line:72	type:string
+TestCompatibleRunDocker	cmd/itest/run_test.go	79;"	f	access:public	line:79	signature:(t *testing.T)
+TestCompatibleRunLocal	cmd/itest/run_test.go	61;"	f	access:public	line:61	signature:(t *testing.T)
+TestConfig	plans/chew-datasets/utils/testcase.go	31;"	e	access:public	ctype:TestCaseOptions	line:31	type:TestConfig
+TestConfig	plans/chew-datasets/utils/testconfig.go	13;"	t	access:public	line:13	type:[]*TestDir
+TestDescribeExistingPlan	cmd/itest/describe_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestDescribeInexistentPlan	cmd/itest/describe_test.go	18;"	f	access:public	line:18	signature:(t *testing.T)
+TestDir	plans/chew-datasets/utils/testconfig.go	17;"	t	access:public	line:17	type:struct
+TestEnsemble	sdk/iptb/ensemble.go	19;"	t	access:public	line:19	type:struct
+TestEnsembleSpec	sdk/iptb/spec.go	9;"	t	access:public	line:9	type:struct
+TestGroupID	sdk/runtime/runenv.go	82;"	w	access:public	ctype:RunParams	line:82	type:string
+TestGroupInstanceCount	sdk/runtime/runenv.go	83;"	w	access:public	ctype:RunParams	line:83	type:int
+TestIncompatibleRun	cmd/itest/run_test.go	43;"	f	access:public	line:43	signature:(t *testing.T)
+TestInstanceCount	sdk/runtime/runenv.go	78;"	w	access:public	ctype:RunParams	line:78	type:int
+TestInstanceParams	sdk/runtime/runenv.go	80;"	w	access:public	ctype:RunParams	line:80	type:map[string]string
+TestInstanceRole	sdk/runtime/runenv.go	79;"	w	access:public	ctype:RunParams	line:79	type:string
+TestList	cmd/itest/list_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestNextDataNetwork	pkg/runner/common_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestOutputsPath	sdk/runtime/runenv.go	76;"	w	access:public	ctype:RunParams	line:76	type:string
+TestParams	pkg/api/composition.go	120;"	w	access:public	ctype:Run	line:120	type:map[string]string
+TestParseDependencies	pkg/build/golang/deps_test.go	42;"	f	access:public	line:42	signature:(t *testing.T)
+TestParseKeyValues	sdk/runtime/runenv_test.go	8;"	f	access:public	line:8	signature:(t *testing.T)
+TestPlan	pkg/api/builder.go	35;"	w	access:public	ctype:BuildInput	line:35	type:*TestPlanDefinition
+TestPlan	pkg/api/runner.go	54;"	w	access:public	ctype:RunInput	line:54	type:*TestPlanDefinition
+TestPlan	sdk/runtime/runenv.go	66;"	w	access:public	ctype:RunParams	line:66	type:string
+TestPlanDefaults	pkg/api/definitions.go	25;"	t	access:public	line:25	type:struct
+TestPlanDefinition	pkg/api/definitions.go	14;"	t	access:public	line:14	type:struct
+TestRedisHost	sdk/sync/redis_test.go	325;"	f	access:public	line:325	signature:(t *testing.T)
+TestRepo	sdk/runtime/runenv.go	71;"	w	access:public	ctype:RunParams	line:71	type:string
+TestRun	sdk/runtime/runenv.go	68;"	w	access:public	ctype:RunParams	line:68	type:string
+TestSequenceOnWrite	sdk/sync/redis_test.go	251;"	f	access:public	line:251	signature:(t *testing.T)
+TestSidecar	cmd/itest/sidecar_test.go	7;"	f	access:public	line:7	signature:(t *testing.T)
+TestSidecar	sdk/runtime/runenv.go	86;"	w	access:public	ctype:RunParams	line:86	type:bool
+TestSubnet	sdk/runtime/runenv.go	94;"	w	access:public	ctype:RunParams	line:94	type:*IPNet
+TestTag	sdk/runtime/runenv.go	74;"	w	access:public	ctype:RunParams	line:74	type:string
+TestWatchInexistentKeyThenWrite	sdk/sync/redis_test.go	173;"	f	access:public	line:173	signature:(t *testing.T)
+TestWatcherWriter	sdk/sync/redis_test.go	59;"	f	access:public	line:59	signature:(t *testing.T)
+TestWriteAllBeforeWatch	sdk/sync/redis_test.go	212;"	f	access:public	line:212	signature:(t *testing.T)
+TgWriter	pkg/tgwriter/tgwriter.go	25;"	t	access:public	line:25	type:struct
+Timeout	plans/dht/test/common.go	38;"	w	access:public	ctype:SetupOpts	line:38	type:time.Duration
+Timestamp	pkg/auto/types.go	15;"	w	access:public	ctype:RepoCommand	line:15	type:time.Time
+ToEnvVar	pkg/conv/conversions.go	75;"	f	access:public	line:75	signature:(input map[string]string)	type:[]v1.EnvVar
+ToEnvVars	sdk/runtime/runenv.go	136;"	m	access:public	ctype:RunParams	line:136	signature:()	type:map[string]string
+ToOptionsSlice	pkg/conv/conversions.go	67;"	f	access:public	line:67	signature:(input map[string]string)	type:[]string
+TotalInstances	pkg/api/composition.go	37;"	w	access:public	ctype:Global	line:37	type:uint
+TotalInstances	pkg/api/runner.go	60;"	w	access:public	ctype:RunInput	line:60	type:int
+TraceConnections	plans/dht/test/tracers.go	21;"	f	access:public	line:21	signature:(runenv *runtime.RunEnv, node host.Host)	type:error
+TraceQuery	plans/dht/test/tracers.go	43;"	f	access:public	line:43	signature:(ctx context.Context, runenv *runtime.RunEnv, target string)	type:context.Context
+Transfer	plans/bitswap-tuning/test/transfer.go	24;"	f	access:public	line:24	signature:(runenv *runtime.RunEnv)	type:error
+TriggerSource	pkg/auto/types.go	5;"	t	access:public	line:5	type:int
+TriggerSourceGithubCommit	pkg/auto/types.go	10;"	c	access:public	line:10
+TriggerSourceGithubMention	pkg/auto/types.go	9;"	c	access:public	line:9
+TriggerSourceGithubRelease	pkg/auto/types.go	11;"	c	access:public	line:11
+TriggerSourceManual	pkg/auto/types.go	8;"	c	access:public	line:8	type:TriggerSource
+Type	pkg/api/definitions.go	46;"	w	access:public	ctype:Parameter	line:46	type:string
+Type	pkg/tgwriter/tgwriter.go	37;"	w	access:public	ctype:Msg	line:37	type:string
+Type	sdk/runtime/output.go	28;"	w	access:public	ctype:Event	line:28	type:EventType
+URL	sdk/iptb/node.go	15;"	m	access:public	ctype:testNode	line:15	signature:()	type:string
+Unit	pkg/api/definitions.go	48;"	w	access:public	ctype:Parameter	line:48	type:string
+Unit	sdk/runtime/output.go	39;"	w	access:public	ctype:MetricDefinition	line:39	type:string
+UnmarshalJSON	sdk/runtime/runenv.go	45;"	m	access:public	ctype:IPNet	line:45	signature:(data []byte)	type:error
+Unstarted	pkg/runner/local_docker.go	50;"	w	access:public	ctype:LocalDockerRunnerConfig	line:50	type:bool
+Up	pkg/sidecar/link.go	224;"	m	access:public	ctype:NetlinkLink	line:224	signature:()	type:error
+User	pkg/auto/types.go	19;"	w	access:public	ctype:RepoCommand	line:19	type:string
+Username	pkg/config/environment.go	56;"	w	access:public	ctype:DockerHubConfig	line:56	type:string
+ValidateForBuild	pkg/api/composition.go	132;"	m	access:public	ctype:Composition	line:132	signature:()	type:error
+ValidateForRun	pkg/api/composition.go	141;"	m	access:public	ctype:Composition	line:141	signature:()	type:error
+ValidateInstances	pkg/api/composition.go	185;"	f	access:public	line:185	signature:(sl validator.StructLevel)
+Value	sdk/runtime/output.go	45;"	w	access:public	ctype:MetricValue	line:45	type:float64
+Version	pkg/api/composition.go	128;"	w	access:public	ctype:Dependency	line:128	type:string
+Wait	pkg/runner/pretty.go	74;"	m	access:public	ctype:PrettyPrinter	line:74	signature:()	type:error
+WaitNetworkInitialized	sdk/sync/helper.go	19;"	f	access:public	line:19	signature:(ctx context.Context, runenv *runtime.RunEnv, watcher *Watcher)	type:error
+WaitRoutingTable	plans/dht/test/common.go	485;"	f	access:public	line:485	signature:(ctx context.Context, runenv *runtime.RunEnv, dht *kaddht.IpfsDHT)	type:error
+Walk	plans/bitswap-tuning/utils/walker.go	13;"	f	access:public	line:13	signature:(ctx context.Context, c cid.Cid, ng ipld.NodeGetter)	type:error
+Watcher	pkg/sidecar/instance.go	22;"	w	access:public	ctype:Instance	line:22	type:*sync.Watcher
+Watcher	sdk/sync/watch.go	16;"	t	access:public	line:16	type:struct
+WatcherWriter	sdk/sync/common.go	152;"	f	access:public	line:152	signature:(ctx context.Context, runenv *runtime.RunEnv)	type:*Watcher, *Writer, error
+WorkDir	pkg/api/common.go	11;"	m	access:public	line:11	ntype:Directories	signature:()	type:string
+WorkDir	pkg/config/environment.go	44;"	m	access:public	ctype:EnvConfig	line:44	signature:()	type:string
+Write	pkg/tgwriter/tgwriter.go	46;"	m	access:public	ctype:TgWriter	line:46	signature:(p []byte)	type:int, error
+Write	sdk/sync/write.go	116;"	m	access:public	ctype:Writer	line:116	signature:(ctx context.Context, subtree *Subtree, payload interface{})	type:int64, error
+WriteAt	pkg/runner/cluster_k8s.go	613;"	m	access:public	ctype:FakeWriterAt	line:613	signature:(p []byte, offset int64)	type:int, error
+WriteError	pkg/tgwriter/tgwriter.go	84;"	m	access:public	ctype:TgWriter	line:84	signature:(message string, keysAndValues )
+WriteResult	pkg/tgwriter/tgwriter.go	63;"	m	access:public	ctype:TgWriter	line:63	signature:(res interface{})
+Writer	pkg/sidecar/instance.go	23;"	w	access:public	ctype:Instance	line:23	type:*sync.Writer
+Writer	sdk/sync/write.go	33;"	t	access:public	line:33	type:struct
+WrkDir	pkg/config/environment.go	37;"	w	access:public	ctype:EnvConfig	line:37	type:string
+activeLinks	pkg/sidecar/docker_instance.go	283;"	w	access:private	ctype:DockerNetwork	line:283	type:map[string]*dockerLink
+activeLinks	pkg/sidecar/k8s_instance.go	260;"	w	access:private	ctype:K8sNetwork	line:260	type:map[string]*k8sLink
+api	pkg/api/builder.go	1;"	p	line:1
+api	pkg/api/common.go	1;"	p	line:1
+api	pkg/api/composition.go	1;"	p	line:1
+api	pkg/api/definitions.go	1;"	p	line:1
+api	pkg/api/engine.go	1;"	p	line:1
+api	pkg/api/runner.go	1;"	p	line:1
+applyDefaults	pkg/config/environment.go	95;"	f	access:private	line:95	signature:(ec *EnvConfig)
+archive/zip	pkg/runner/cluster_k8s.go	4;"	i	line:4
+archive/zip	pkg/runner/common.go	4;"	i	line:4
+attachContainerToNetwork	pkg/runner/local_docker.go	453;"	f	access:private	line:453	signature:(ctx context.Context, cli *client.Client, containerID string, networkID string)	type:error
+aurora	pkg/runner/pretty.go	40;"	w	access:private	ctype:PrettyPrinter	line:40	type:aurora.Aurora
+auto	pkg/auto/doc.go	20;"	p	line:20
+auto	pkg/auto/types.go	1;"	p	line:1
+availableC	pkg/runner/client_pool.go	12;"	w	access:private	ctype:pool	line:12	type:chan *kubernetes.Clientset
+availableLinks	pkg/sidecar/docker_instance.go	284;"	w	access:private	ctype:DockerNetwork	line:284	type:map[string]string
+aws	pkg/aws/ecr.go	1;"	p	line:1
+basePrefix	sdk/sync/common.go	166;"	f	access:private	line:166	signature:(runenv *runtime.RunEnv)	type:string
+bufio	pkg/config/environment.go	4;"	i	line:4
+bufio	pkg/runner/cluster_k8s.go	5;"	i	line:5
+bufio	pkg/runner/cluster_swarm.go	4;"	i	line:4
+bufio	pkg/runner/pretty.go	4;"	i	line:4
+bufio	sdk/runtime/files.go	4;"	i	line:4
+buildCompositionCmd	cmd/build.go	60;"	f	access:private	line:60	signature:(c *cli.Context)	type:error
+buildHandler	pkg/daemon/build.go	14;"	m	access:private	ctype:Daemon	line:14	signature:(engine api.Engine)	type:func(w http.ResponseWriter, r *http.Request)
+buildSingleCmd	cmd/build.go	93;"	f	access:private	line:93	signature:(c *cli.Context)	type:error
+builders	pkg/engine/engine.go	50;"	w	access:private	ctype:Engine	line:50	type:map[string]api.Builder
+bytes	pkg/client/client.go	4;"	i	line:4
+bytes	pkg/config/coalescing.go	4;"	i	line:4
+bytes	pkg/runner/cluster_k8s.go	6;"	i	line:6
+bytes	plans/bitswap-tuning/utils/files.go	4;"	i	line:4
+bytes	plans/bitswap-tuning/utils/peers.go	4;"	i	line:4
+bytes	sdk/iptb/ensemble.go	4;"	i	line:4
+calculatedInstanceCnt	pkg/api/composition.go	75;"	w	access:private	ctype:Group	line:75	type:uint
+cancel	sdk/sync/write.go	37;"	w	access:private	ctype:Writer	line:37	type:context.CancelFunc
+census	pkg/engine/engine.go	48;"	w	access:private	ctype:Engine	line:48	type:*TestCensus
+classes	pkg/runner/pretty.go	41;"	w	access:private	ctype:PrettyPrinter	line:41	type:[10]aurora.Value
+client	pkg/client/client.go	1;"	p	line:1
+client	pkg/client/client.go	23;"	w	access:private	ctype:Client	line:23	type:*http.Client
+client	pkg/client/doc.go	11;"	p	line:11
+client	pkg/client/types.go	1;"	p	line:1
+client	sdk/sync/subscription.go	14;"	w	access:private	ctype:subscription	line:14	type:*redis.Client
+client	sdk/sync/watch.go	18;"	w	access:private	ctype:Watcher	line:18	type:*redis.Client
+client	sdk/sync/write.go	35;"	w	access:private	ctype:Writer	line:35	type:*redis.Client
+close	sdk/sync/watch.go	21;"	w	access:private	ctype:Watcher	line:21	type:chan 
+closeOnce	sdk/sync/watch.go	22;"	w	access:private	ctype:Watcher	line:22	type:sync.Once
+cmd	cmd/all.go	1;"	p	line:1
+cmd	cmd/build.go	1;"	p	line:1
+cmd	cmd/collect.go	1;"	p	line:1
+cmd	cmd/context.go	1;"	p	line:1
+cmd	cmd/daemon.go	1;"	p	line:1
+cmd	cmd/describe.go	1;"	p	line:1
+cmd	cmd/enum_flag.go	1;"	p	line:1
+cmd	cmd/list.go	1;"	p	line:1
+cmd	cmd/run.go	1;"	p	line:1
+cmd	cmd/sidecar.go	1;"	p	line:1
+cmd	cmd/terminate.go	1;"	p	line:1
+cmd_test	cmd/itest/build_test.go	1;"	p	line:1
+cmd_test	cmd/itest/common_test.go	1;"	p	line:1
+cmd_test	cmd/itest/describe_test.go	1;"	p	line:1
+cmd_test	cmd/itest/list_test.go	1;"	p	line:1
+cmd_test	cmd/itest/run_test.go	1;"	p	line:1
+cmd_test	cmd/itest/sidecar_test.go	1;"	p	line:1
+cninet	pkg/sidecar/k8s_instance.go	262;"	w	access:private	ctype:K8sNetwork	line:262	type:*libcni.CNIConfig
+collectCommand	cmd/collect.go	35;"	f	access:private	line:35	signature:(c *cli.Context)	type:error
+compositionValidator	pkg/api/composition.go	10;"	v	access:private	line:10
+config	pkg/config/coalescing.go	1;"	p	line:1
+config	pkg/config/environment.go	1;"	p	line:1
+config	pkg/runner/cluster_k8s.go	114;"	w	access:private	ctype:ClusterK8sRunner	line:114	type:KubernetesConfig
+configureLogging	./main.go	35;"	f	access:private	line:35	signature:(c *cli.Context)
+consumeOrdered	sdk/sync/redis_test.go	378;"	f	access:private	line:378	signature:(t *testing.T, ctx context.Context, ch chan *string, values []string)
+consumeUnordered	sdk/sync/redis_test.go	393;"	f	access:private	line:393	signature:(t *testing.T, ctx context.Context, ch chan *string, values []string)
+container	pkg/sidecar/docker_instance.go	282;"	w	access:private	ctype:DockerNetwork	line:282	type:*dockermanager.Container
+container	pkg/sidecar/k8s_instance.go	259;"	w	access:private	ctype:K8sNetwork	line:259	type:*dockermanager.Container
+context	cmd/build.go	4;"	i	line:4
+context	cmd/collect.go	4;"	i	line:4
+context	cmd/context.go	4;"	i	line:4
+context	cmd/daemon.go	4;"	i	line:4
+context	cmd/describe.go	4;"	i	line:4
+context	cmd/itest/common_test.go	4;"	i	line:4
+context	cmd/list.go	4;"	i	line:4
+context	cmd/run.go	4;"	i	line:4
+context	cmd/terminate.go	4;"	i	line:4
+context	pkg/api/builder.go	4;"	i	line:4
+context	pkg/api/engine.go	4;"	i	line:4
+context	pkg/api/runner.go	4;"	i	line:4
+context	pkg/build/golang/deps.go	4;"	i	line:4
+context	pkg/build/golang/docker.go	4;"	i	line:4
+context	pkg/build/golang/exec.go	4;"	i	line:4
+context	pkg/client/client.go	5;"	i	line:5
+context	pkg/daemon/daemon.go	4;"	i	line:4
+context	pkg/docker/container.go	4;"	i	line:4
+context	pkg/docker/network.go	4;"	i	line:4
+context	pkg/dockermanager/dockermanager.go	4;"	i	line:4
+context	pkg/engine/engine.go	4;"	i	line:4
+context	pkg/runner/cluster_k8s.go	7;"	i	line:7
+context	pkg/runner/cluster_swarm.go	5;"	i	line:5
+context	pkg/runner/common.go	5;"	i	line:5
+context	pkg/runner/local_docker.go	4;"	i	line:4
+context	pkg/runner/local_exec.go	4;"	i	line:4
+context	pkg/runner/pretty.go	5;"	i	line:5
+context	pkg/sidecar/docker_instance.go	6;"	i	line:6
+context	pkg/sidecar/instance.go	6;"	i	line:6
+context	pkg/sidecar/k8s_instance.go	6;"	i	line:6
+context	pkg/sidecar/sidecar.go	6;"	i	line:6
+context	plans/bitswap-tuning/test/transfer.go	4;"	i	line:4
+context	plans/bitswap-tuning/utils/createnode.go	4;"	i	line:4
+context	plans/bitswap-tuning/utils/net.go	4;"	i	line:4
+context	plans/bitswap-tuning/utils/peers.go	5;"	i	line:5
+context	plans/bitswap-tuning/utils/state.go	4;"	i	line:4
+context	plans/bitswap-tuning/utils/walker.go	4;"	i	line:4
+context	plans/chew-datasets/main.go	4;"	i	line:4
+context	plans/chew-datasets/test/ipfs_add_defaults.go	4;"	i	line:4
+context	plans/chew-datasets/test/ipfs_add_dir_sharding.go	4;"	i	line:4
+context	plans/chew-datasets/test/ipfs_add_trickle_dag.go	4;"	i	line:4
+context	plans/chew-datasets/test/ipfs_file_store.go	4;"	i	line:4
+context	plans/chew-datasets/test/ipfs_mfs.go	4;"	i	line:4
+context	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	4;"	i	line:4
+context	plans/chew-datasets/test/ipfs_url_store.go	4;"	i	line:4
+context	plans/chew-datasets/utils/create-ipfs-instance.go	4;"	i	line:4
+context	plans/chew-datasets/utils/testcase.go	4;"	i	line:4
+context	plans/dht/test/common.go	4;"	i	line:4
+context	plans/dht/test/find_peers.go	4;"	i	line:4
+context	plans/dht/test/find_providers.go	4;"	i	line:4
+context	plans/dht/test/tracers.go	4;"	i	line:4
+context	plans/example/sync.go	4;"	i	line:4
+context	plans/mytest/test/first_try.go	4;"	i	line:4
+context	plans/network/main.go	4;"	i	line:4
+context	plans/placebo/main.go	4;"	i	line:4
+context	plans/smlbench/main.go	4;"	i	line:4
+context	plans/smlbench/test/simple_add_get.go	4;"	i	line:4
+context	sdk/iptb/daemon.go	4;"	i	line:4
+context	sdk/iptb/ensemble.go	5;"	i	line:5
+context	sdk/runtime/metrics.go	4;"	i	line:4
+context	sdk/sync/common.go	4;"	i	line:4
+context	sdk/sync/helper.go	4;"	i	line:4
+context	sdk/sync/redis_test.go	4;"	i	line:4
+context	sdk/sync/subscription.go	4;"	i	line:4
+context	sdk/sync/watch.go	4;"	i	line:4
+context	sdk/sync/write.go	4;"	i	line:4
+controlGateway	pkg/runner/common.go	22;"	v	access:private	line:22
+controlNetworkIfname	pkg/sidecar/k8s_instance.go	25;"	c	access:private	line:25
+controlSubnet	pkg/runner/common.go	21;"	v	access:private	line:21
+conv	pkg/conv/conversions.go	1;"	p	line:1
+copyFile	pkg/build/golang/docker.go	420;"	f	access:private	line:420	signature:(dst, src string)	type:error
+count	pkg/runner/pretty.go	45;"	w	access:private	ctype:PrettyPrinter	line:45	type:uint32
+createConfigurationFile	sdk/iptb/ensemble.go	185;"	f	access:private	line:185	signature:(cfg *config.Config)	type:string, error
+createNode	plans/chew-datasets/utils/create-ipfs-instance.go	73;"	f	access:private	line:73	signature:(ctx context.Context, repoPath string)	type:iCore.CoreAPI, error
+createPod	pkg/runner/cluster_k8s.go	538;"	m	access:private	ctype:ClusterK8sRunner	line:538	signature:(ctx context.Context, podName string, input *api.RunInput, runenv runtime.RunParams, env []v1.EnvVar, g api.RunGroup, i int)	type:error
+createSingletonComposition	cmd/all.go	57;"	f	access:private	line:57	signature:(c *cli.Context)	type:*api.Composition, error
+createTempRepo	plans/chew-datasets/utils/create-ipfs-instance.go	41;"	f	access:private	line:41	signature:(ctx context.Context, addFn iptb.AddRepoOptions)	type:string, error
+crypto/rand	sdk/runtime/files.go	5;"	i	line:5
+crypto/sha1	sdk/sync/redis_test.go	5;"	i	line:5
+ctx	pkg/engine/engine.go	54;"	w	access:private	ctype:Engine	line:54	type:context.Context
+ctx	sdk/iptb/ensemble.go	20;"	w	access:private	ctype:TestEnsemble	line:20	type:context.Context
+daemon	pkg/daemon/build.go	1;"	p	line:1
+daemon	pkg/daemon/daemon.go	1;"	p	line:1
+daemon	pkg/daemon/describe.go	1;"	p	line:1
+daemon	pkg/daemon/doc.go	1;"	p	line:1
+daemon	pkg/daemon/list.go	1;"	p	line:1
+daemon	pkg/daemon/outputs.go	1;"	p	line:1
+daemon	pkg/daemon/run.go	1;"	p	line:1
+daemon	pkg/daemon/terminate.go	1;"	p	line:1
+daemonCommand	cmd/daemon.go	22;"	f	access:private	line:22	signature:(c *cli.Context)	type:error
+dataNetworkIfname	pkg/sidecar/k8s_instance.go	26;"	c	access:private	line:26
+decodePayload	sdk/sync/common.go	172;"	f	access:private	line:172	signature:(val interface{}, typ reflect.Type)	type:reflect.Value, error
+defaultConfig	pkg/runner/local_docker.go	58;"	v	access:private	line:58
+defaultHandle	pkg/sidecar/link.go	18;"	v	access:private	line:18
+defaultK8sNetworkAnnotation	pkg/runner/cluster_k8s.go	48;"	c	access:private	line:48
+defaultKubernetesConfig	pkg/runner/cluster_k8s.go	132;"	f	access:private	ctype:KubernetesConfig	line:132	signature:()	type:KubernetesConfig
+deleteContainers	pkg/runner/local_docker.go	313;"	f	access:private	line:313	signature:(cli *client.Client, log *zap.SugaredLogger, ids []string)	type:error
+describeCommand	cmd/describe.go	21;"	f	access:private	line:21	signature:(c *cli.Context)	type:error
+describeHandler	pkg/daemon/describe.go	17;"	m	access:private	ctype:Daemon	line:17	signature:(engine api.Engine)	type:func(w http.ResponseWriter, r *http.Request)
+detachContainerFromNetwork	pkg/runner/local_docker.go	460;"	f	access:private	line:460	signature:(ctx context.Context, cli *client.Client, containerID string, networkID string)	type:error
+discoverTestPlans	pkg/engine/discovery.go	15;"	m	access:private	ctype:Engine	line:15	signature:()	type:[]*api.TestPlanDefinition, error
+doBuild	cmd/build.go	102;"	f	access:private	line:102	signature:(c *cli.Context, comp *api.Composition)	type:[]api.BuildOutput, error
+doRun	cmd/run.go	123;"	f	access:private	line:123	signature:(c *cli.Context, comp *api.Composition)	type:error
+docker	pkg/docker/container.go	1;"	p	line:1
+docker	pkg/docker/doc.go	2;"	p	line:2
+docker	pkg/docker/network.go	1;"	p	line:1
+docker	pkg/docker/output.go	1;"	p	line:1
+dockerLink	pkg/sidecar/docker_instance.go	276;"	t	access:private	line:276	type:struct
+dockerLinks	pkg/sidecar/docker_instance.go	32;"	f	access:private	line:32	signature:(nl *netlink.Handle, nsettings *types.NetworkSettings)	type:map[string]link, error
+dockermanager	pkg/dockermanager/dockermanager.go	1;"	p	line:1
+doneCh	pkg/daemon/daemon.go	19;"	w	access:private	ctype:Daemon	line:19	type:chan 
+ecrsvc	pkg/aws/ecr.go	23;"	t	access:private	line:23	type:struct
+emitMetrics	plans/bitswap-tuning/test/transfer.go	348;"	f	access:private	line:348	signature:(runenv *runtime.RunEnv, bsnode *utils.Node, runNum int, seq int64, latency time.Duration, bandwidthMB int, fileSize int, nodetp utils.NodeType, tpindex int, timeToFetch time.Duration)	type:error
+encoding/base64	pkg/aws/ecr.go	4;"	i	line:4
+encoding/base64	pkg/build/golang/docker.go	5;"	i	line:5
+encoding/base64	pkg/client/client.go	6;"	i	line:6
+encoding/json	pkg/aws/ecr.go	5;"	i	line:5
+encoding/json	pkg/build/golang/docker.go	6;"	i	line:6
+encoding/json	pkg/client/client.go	7;"	i	line:7
+encoding/json	pkg/daemon/build.go	4;"	i	line:4
+encoding/json	pkg/daemon/describe.go	4;"	i	line:4
+encoding/json	pkg/daemon/outputs.go	4;"	i	line:4
+encoding/json	pkg/daemon/run.go	4;"	i	line:4
+encoding/json	pkg/daemon/terminate.go	4;"	i	line:4
+encoding/json	pkg/docker/output.go	4;"	i	line:4
+encoding/json	pkg/engine/engine.go	5;"	i	line:5
+encoding/json	pkg/runner/pretty.go	6;"	i	line:6
+encoding/json	pkg/tgwriter/tgwriter.go	4;"	i	line:4
+encoding/json	sdk/iptb/ensemble.go	6;"	i	line:6
+encoding/json	sdk/runtime/runenv.go	4;"	i	line:4
+encoding/json	sdk/sync/common.go	5;"	i	line:5
+encoding/json	sdk/sync/write.go	5;"	i	line:5
+endpoint	pkg/client/client.go	24;"	w	access:private	ctype:Client	line:24	type:string
+engine	pkg/engine/census.go	1;"	p	line:1
+engine	pkg/engine/discovery.go	1;"	p	line:1
+engine	pkg/engine/engine.go	1;"	p	line:1
+ensureControlNetwork	pkg/runner/local_docker.go	335;"	f	access:private	line:335	signature:(ctx context.Context, cli *client.Client, log *zap.SugaredLogger)	type:string, error
+ensureDir	pkg/config/environment.go	169;"	f	access:private	line:169	signature:(path string)	type:error
+ensureRedis	sdk/sync/redis_test.go	28;"	f	access:private	line:28	signature:(t *testing.T)	type:func()
+ensureRedisContainer	pkg/runner/local_docker.go	387;"	f	access:private	line:387	signature:(ctx context.Context, cli *client.Client, log *zap.SugaredLogger, controlNetworkID string)	type:string, error
+ensureSidecarContainer	pkg/runner/local_docker.go	407;"	f	access:private	line:407	signature:(ctx context.Context, cli *client.Client, workDir string, log *zap.SugaredLogger, controlNetworkID string)	type:string, error
+envcfg	pkg/engine/engine.go	53;"	w	access:private	ctype:Engine	line:53	type:*config.EnvConfig
+errors	cmd/all.go	4;"	i	line:4
+errors	cmd/collect.go	5;"	i	line:5
+errors	cmd/describe.go	5;"	i	line:5
+errors	pkg/client/client.go	8;"	i	line:8
+errors	pkg/config/environment.go	5;"	i	line:5
+errors	pkg/docker/container.go	5;"	i	line:5
+errors	pkg/dockermanager/dockermanager.go	9;"	i	line:9
+errors	pkg/engine/census.go	4;"	i	line:4
+errors	pkg/engine/engine.go	16;"	i	line:16
+errors	pkg/runner/cluster_k8s.go	8;"	i	line:8
+errors	pkg/runner/cluster_swarm.go	6;"	i	line:6
+errors	pkg/runner/common.go	6;"	i	line:6
+errors	pkg/runner/local_docker.go	5;"	i	line:5
+errors	pkg/sidecar/k8s_instance.go	7;"	i	line:7
+errors	pkg/sidecar/other.go	6;"	i	line:6
+errors	plans/example/failure.go	4;"	i	line:4
+errors	plans/example/main.go	4;"	i	line:4
+eventType	pkg/runner/pretty.go	19;"	t	access:private	line:19	type:int
+failed	pkg/runner/pretty.go	44;"	w	access:private	ctype:PrettyPrinter	line:44	type:uint32
+fmt	./main.go	4;"	i	line:4
+fmt	cmd/all.go	5;"	i	line:5
+fmt	cmd/build.go	5;"	i	line:5
+fmt	cmd/collect.go	6;"	i	line:6
+fmt	cmd/context.go	5;"	i	line:5
+fmt	cmd/describe.go	6;"	i	line:6
+fmt	cmd/enum_flag.go	4;"	i	line:4
+fmt	cmd/list.go	5;"	i	line:5
+fmt	cmd/run.go	5;"	i	line:5
+fmt	cmd/sidecar.go	4;"	i	line:4
+fmt	pkg/api/composition.go	4;"	i	line:4
+fmt	pkg/api/definitions.go	4;"	i	line:4
+fmt	pkg/aws/ecr.go	6;"	i	line:6
+fmt	pkg/build/golang/deps_test.go	4;"	i	line:4
+fmt	pkg/build/golang/docker.go	7;"	i	line:7
+fmt	pkg/build/golang/exec.go	5;"	i	line:5
+fmt	pkg/client/client.go	9;"	i	line:9
+fmt	pkg/config/coalescing.go	5;"	i	line:5
+fmt	pkg/config/environment.go	6;"	i	line:6
+fmt	pkg/conv/conversions.go	4;"	i	line:4
+fmt	pkg/daemon/build.go	5;"	i	line:5
+fmt	pkg/daemon/daemon.go	5;"	i	line:5
+fmt	pkg/daemon/describe.go	5;"	i	line:5
+fmt	pkg/daemon/run.go	5;"	i	line:5
+fmt	pkg/dockermanager/dockermanager.go	5;"	i	line:5
+fmt	pkg/engine/discovery.go	4;"	i	line:4
+fmt	pkg/engine/engine.go	6;"	i	line:6
+fmt	pkg/runner/client_pool.go	4;"	i	line:4
+fmt	pkg/runner/cluster_k8s.go	9;"	i	line:9
+fmt	pkg/runner/cluster_swarm.go	7;"	i	line:7
+fmt	pkg/runner/common.go	7;"	i	line:7
+fmt	pkg/runner/local_docker.go	6;"	i	line:6
+fmt	pkg/runner/local_exec.go	5;"	i	line:5
+fmt	pkg/runner/pretty.go	7;"	i	line:7
+fmt	pkg/sidecar/docker_instance.go	7;"	i	line:7
+fmt	pkg/sidecar/instance.go	7;"	i	line:7
+fmt	pkg/sidecar/k8s_instance.go	8;"	i	line:8
+fmt	pkg/sidecar/link.go	6;"	i	line:6
+fmt	pkg/sidecar/sidecar.go	7;"	i	line:7
+fmt	pkg/tgwriter/tgwriter.go	5;"	i	line:5
+fmt	plans/bitswap-tuning/test/transfer.go	5;"	i	line:5
+fmt	plans/bitswap-tuning/utils/metrics.go	4;"	i	line:4
+fmt	plans/bitswap-tuning/utils/net.go	5;"	i	line:5
+fmt	plans/bitswap-tuning/utils/params.go	4;"	i	line:4
+fmt	plans/bitswap-tuning/utils/peers.go	6;"	i	line:6
+fmt	plans/chew-datasets/main.go	5;"	i	line:5
+fmt	plans/chew-datasets/test/ipfs_add_trickle_dag.go	5;"	i	line:5
+fmt	plans/chew-datasets/test/ipfs_file_store.go	5;"	i	line:5
+fmt	plans/chew-datasets/test/ipfs_mfs.go	5;"	i	line:5
+fmt	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	5;"	i	line:5
+fmt	plans/chew-datasets/test/ipfs_url_store.go	5;"	i	line:5
+fmt	plans/chew-datasets/utils/create-ipfs-instance.go	5;"	i	line:5
+fmt	plans/chew-datasets/utils/testconfig.go	4;"	i	line:4
+fmt	plans/dht/test/common.go	5;"	i	line:5
+fmt	plans/dht/test/find_peers.go	5;"	i	line:5
+fmt	plans/dht/test/find_providers.go	5;"	i	line:5
+fmt	plans/dht/test/provide_stress.go	4;"	i	line:4
+fmt	plans/dht/test/store_get_value.go	4;"	i	line:4
+fmt	plans/example/main.go	5;"	i	line:5
+fmt	plans/mytest/test/first_try.go	5;"	i	line:5
+fmt	plans/network/main.go	5;"	i	line:5
+fmt	plans/placebo/main.go	5;"	i	line:5
+fmt	plans/smlbench/test/simple_add.go	4;"	i	line:4
+fmt	plans/smlbench/test/simple_add_get.go	5;"	i	line:5
+fmt	sdk/iptb/node.go	4;"	i	line:4
+fmt	sdk/iptb/spec.go	4;"	i	line:4
+fmt	sdk/runtime/files.go	6;"	i	line:6
+fmt	sdk/runtime/output.go	4;"	i	line:4
+fmt	sdk/runtime/runenv.go	5;"	i	line:5
+fmt	sdk/runtime/runner.go	4;"	i	line:4
+fmt	sdk/sync/common.go	6;"	i	line:6
+fmt	sdk/sync/helper.go	5;"	i	line:5
+fmt	sdk/sync/redis_test.go	6;"	i	line:6
+fmt	sdk/sync/types.go	4;"	i	line:4
+fmt	sdk/sync/watch.go	5;"	i	line:5
+fmt	tools/src_generate.go	6;"	i	line:6
+generateValues	sdk/sync/redis_test.go	424;"	f	access:private	line:424	signature:(length int)	type:[]string
+getBootstrappers	plans/dht/test/common.go	394;"	f	access:private	line:394	signature:(ctx context.Context, runenv *runtime.RunEnv, watcher *sync.Watcher, opts *SetupOpts)	type:[]peer.AddrInfo, error
+getCurrentConfiguration	sdk/iptb/ensemble.go	169;"	f	access:private	line:169	signature:(node testbedi.Core)	type:*config.Config, error
+getGlobalRedisClient	sdk/sync/common.go	39;"	f	access:private	line:39	signature:(ctx context.Context)	type:*redis.Client, error
+getLatency	plans/bitswap-tuning/utils/net.go	63;"	f	access:private	line:63	signature:(runenv *runtime.RunEnv, nodetp NodeType, tpindex int)	type:time.Duration, error
+getPodLogs	pkg/runner/cluster_k8s.go	359;"	m	access:private	ctype:ClusterK8sRunner	line:359	signature:(log *zap.SugaredLogger, podName string)	type:string, error
+getRedisRoute	pkg/sidecar/k8s_instance.go	443;"	f	access:private	line:443	signature:(handle *netlink.Handle, redisIP net.IP)	type:*netlink.Route, error
+getRootCidSubtree	plans/bitswap-tuning/test/transfer.go	338;"	f	access:private	line:338	signature:(id int)	type:*sync.Subtree
+getTypeLatency	plans/bitswap-tuning/utils/net.go	85;"	f	access:private	line:85	signature:(runenv *runtime.RunEnv, param string, tpindex int, defaultLatency time.Duration)	type:time.Duration, error
+github.com/BurntSushi/toml	cmd/build.go	12;"	i	line:12
+github.com/BurntSushi/toml	cmd/run.go	14;"	i	line:14
+github.com/BurntSushi/toml	pkg/config/coalescing.go	8;"	i	line:8
+github.com/BurntSushi/toml	pkg/config/environment.go	12;"	i	line:12
+github.com/BurntSushi/toml	pkg/engine/discovery.go	10;"	i	line:10
+github.com/aws/aws-sdk-go/aws	pkg/aws/ecr.go	13;"	i	line:13
+github.com/aws/aws-sdk-go/aws	pkg/runner/cluster_k8s.go	25;"	i	line:25
+github.com/aws/aws-sdk-go/aws/awserr	pkg/aws/ecr.go	14;"	i	line:14
+github.com/aws/aws-sdk-go/aws/credentials	pkg/aws/ecr.go	15;"	i	line:15
+github.com/aws/aws-sdk-go/aws/session	pkg/aws/ecr.go	16;"	i	line:16
+github.com/aws/aws-sdk-go/aws/session	pkg/runner/cluster_k8s.go	26;"	i	line:26
+github.com/aws/aws-sdk-go/service/ecr	pkg/aws/ecr.go	17;"	i	line:17
+github.com/aws/aws-sdk-go/service/s3	pkg/runner/cluster_k8s.go	27;"	i	line:27
+github.com/aws/aws-sdk-go/service/s3/s3manager	pkg/runner/cluster_k8s.go	28;"	i	line:28
+github.com/containernetworking/cni/libcni	pkg/sidecar/k8s_instance.go	14;"	i	line:14
+github.com/docker/docker/api/types	pkg/aws/ecr.go	11;"	i	line:11
+github.com/docker/docker/api/types	pkg/build/golang/deps.go	10;"	i	line:10
+github.com/docker/docker/api/types	pkg/build/golang/docker.go	25;"	i	line:25
+github.com/docker/docker/api/types	pkg/docker/container.go	8;"	i	line:8
+github.com/docker/docker/api/types	pkg/docker/network.go	9;"	i	line:9
+github.com/docker/docker/api/types	pkg/dockermanager/dockermanager.go	11;"	i	line:11
+github.com/docker/docker/api/types	pkg/runner/cluster_swarm.go	19;"	i	line:19
+github.com/docker/docker/api/types	pkg/runner/local_docker.go	23;"	i	line:23
+github.com/docker/docker/api/types	pkg/sidecar/docker_instance.go	11;"	i	line:11
+github.com/docker/docker/api/types/container	pkg/build/golang/deps.go	11;"	i	line:11
+github.com/docker/docker/api/types/container	pkg/build/golang/docker.go	26;"	i	line:26
+github.com/docker/docker/api/types/container	pkg/docker/container.go	9;"	i	line:9
+github.com/docker/docker/api/types/container	pkg/runner/local_docker.go	24;"	i	line:24
+github.com/docker/docker/api/types/filters	pkg/docker/container.go	10;"	i	line:10
+github.com/docker/docker/api/types/filters	pkg/docker/network.go	6;"	i	line:6
+github.com/docker/docker/api/types/filters	pkg/dockermanager/dockermanager.go	12;"	i	line:12
+github.com/docker/docker/api/types/filters	pkg/runner/cluster_swarm.go	20;"	i	line:20
+github.com/docker/docker/api/types/filters	pkg/runner/local_docker.go	25;"	i	line:25
+github.com/docker/docker/api/types/filters	pkg/sidecar/docker_instance.go	12;"	i	line:12
+github.com/docker/docker/api/types/mount	pkg/build/golang/docker.go	27;"	i	line:27
+github.com/docker/docker/api/types/mount	pkg/runner/local_docker.go	26;"	i	line:26
+github.com/docker/docker/api/types/network	pkg/docker/container.go	11;"	i	line:11
+github.com/docker/docker/api/types/network	pkg/docker/network.go	10;"	i	line:10
+github.com/docker/docker/api/types/network	pkg/runner/cluster_swarm.go	21;"	i	line:21
+github.com/docker/docker/api/types/network	pkg/runner/local_docker.go	27;"	i	line:27
+github.com/docker/docker/api/types/network	pkg/sidecar/docker_instance.go	13;"	i	line:13
+github.com/docker/docker/api/types/swarm	pkg/runner/cluster_swarm.go	22;"	i	line:22
+github.com/docker/docker/client	pkg/build/golang/deps.go	12;"	i	line:12
+github.com/docker/docker/client	pkg/build/golang/docker.go	28;"	i	line:28
+github.com/docker/docker/client	pkg/docker/container.go	12;"	i	line:12
+github.com/docker/docker/client	pkg/docker/network.go	11;"	i	line:11
+github.com/docker/docker/client	pkg/dockermanager/dockermanager.go	13;"	i	line:13
+github.com/docker/docker/client	pkg/runner/cluster_swarm.go	23;"	i	line:23
+github.com/docker/docker/client	pkg/runner/local_docker.go	28;"	i	line:28
+github.com/docker/docker/pkg/archive	pkg/build/golang/deps.go	13;"	i	line:13
+github.com/docker/docker/pkg/archive	pkg/build/golang/docker.go	29;"	i	line:29
+github.com/docker/docker/pkg/ioutils	pkg/tgwriter/tgwriter.go	11;"	i	line:11
+github.com/docker/docker/pkg/jsonmessage	pkg/docker/output.go	7;"	i	line:7
+github.com/docker/docker/pkg/stdcopy	pkg/runner/cluster_swarm.go	24;"	i	line:24
+github.com/docker/docker/pkg/stdcopy	pkg/runner/local_docker.go	29;"	i	line:29
+github.com/dustin/go-humanize	plans/chew-datasets/utils/testconfig.go	7;"	i	line:7
+github.com/dustin/go-humanize	plans/smlbench/test/simple_add.go	9;"	i	line:9
+github.com/dustin/go-humanize	plans/smlbench/test/simple_add_get.go	10;"	i	line:10
+github.com/dustin/go-humanize	sdk/runtime/runenv.go	13;"	i	line:13
+github.com/go-playground/validator/v10	pkg/api/composition.go	7;"	i	line:7
+github.com/go-redis/redis/v7	sdk/sync/common.go	16;"	i	line:16
+github.com/go-redis/redis/v7	sdk/sync/subscription.go	7;"	i	line:7
+github.com/go-redis/redis/v7	sdk/sync/watch.go	12;"	i	line:12
+github.com/go-redis/redis/v7	sdk/sync/write.go	13;"	i	line:13
+github.com/google/uuid	pkg/engine/engine.go	18;"	i	line:18
+github.com/gorilla/mux	pkg/daemon/daemon.go	10;"	i	line:10
+github.com/hashicorp/go-getter	pkg/build/golang/docker.go	31;"	i	line:31
+github.com/hashicorp/go-getter	pkg/build/golang/exec.go	17;"	i	line:17
+github.com/hashicorp/go-multierror	pkg/runner/local_docker.go	31;"	i	line:31
+github.com/hashicorp/go-multierror	pkg/sidecar/instance.go	10;"	i	line:10
+github.com/imdario/mergo	pkg/runner/local_docker.go	32;"	i	line:32
+github.com/ipfs/go-bitswap	plans/bitswap-tuning/utils/createnode.go	9;"	i	line:9
+github.com/ipfs/go-bitswap/network	plans/bitswap-tuning/utils/createnode.go	10;"	i	line:10
+github.com/ipfs/go-blockservice	plans/bitswap-tuning/utils/createnode.go	11;"	i	line:11
+github.com/ipfs/go-blockservice	plans/mytest/test/first_try.go	9;"	i	line:9
+github.com/ipfs/go-cid	plans/bitswap-tuning/test/transfer.go	9;"	i	line:9
+github.com/ipfs/go-cid	plans/bitswap-tuning/utils/createnode.go	12;"	i	line:12
+github.com/ipfs/go-cid	plans/bitswap-tuning/utils/walker.go	6;"	i	line:6
+github.com/ipfs/go-cid	plans/dht/test/find_providers.go	10;"	i	line:10
+github.com/ipfs/go-datastore	plans/bitswap-tuning/utils/createnode.go	13;"	i	line:13
+github.com/ipfs/go-datastore	plans/dht/test/common.go	16;"	i	line:16
+github.com/ipfs/go-datastore	plans/mytest/test/first_try.go	7;"	i	line:7
+github.com/ipfs/go-datastore/delayed	plans/bitswap-tuning/utils/createnode.go	14;"	i	line:14
+github.com/ipfs/go-datastore/sync	plans/bitswap-tuning/utils/createnode.go	15;"	i	line:15
+github.com/ipfs/go-datastore/sync	plans/mytest/test/first_try.go	10;"	i	line:10
+github.com/ipfs/go-ipfs-api	plans/chew-datasets/test/ipfs_add_trickle_dag.go	9;"	i	line:9
+github.com/ipfs/go-ipfs-api	plans/chew-datasets/utils/testcase.go	6;"	i	line:6
+github.com/ipfs/go-ipfs-api	sdk/iptb/daemon.go	6;"	i	line:6
+github.com/ipfs/go-ipfs-api	sdk/iptb/node.go	6;"	i	line:6
+github.com/ipfs/go-ipfs-blockstore	plans/bitswap-tuning/test/transfer.go	10;"	i	line:10
+github.com/ipfs/go-ipfs-blockstore	plans/bitswap-tuning/utils/createnode.go	16;"	i	line:16
+github.com/ipfs/go-ipfs-blockstore	plans/mytest/test/first_try.go	11;"	i	line:11
+github.com/ipfs/go-ipfs-chunker	plans/bitswap-tuning/utils/createnode.go	17;"	i	line:17
+github.com/ipfs/go-ipfs-config	plans/chew-datasets/test/ipfs_add_dir_sharding.go	7;"	i	line:7
+github.com/ipfs/go-ipfs-config	plans/chew-datasets/test/ipfs_file_store.go	7;"	i	line:7
+github.com/ipfs/go-ipfs-config	plans/chew-datasets/test/ipfs_url_store.go	7;"	i	line:7
+github.com/ipfs/go-ipfs-config	plans/chew-datasets/utils/create-ipfs-instance.go	10;"	i	line:10
+github.com/ipfs/go-ipfs-config	sdk/iptb/ensemble.go	14;"	i	line:14
+github.com/ipfs/go-ipfs-config	sdk/iptb/spec.go	6;"	i	line:6
+github.com/ipfs/go-ipfs-delay	plans/bitswap-tuning/utils/createnode.go	18;"	i	line:18
+github.com/ipfs/go-ipfs-exchange-offline	plans/mytest/test/first_try.go	12;"	i	line:12
+github.com/ipfs/go-ipfs-files	plans/bitswap-tuning/utils/createnode.go	19;"	i	line:19
+github.com/ipfs/go-ipfs-files	plans/chew-datasets/utils/testconfig.go	8;"	i	line:8
+github.com/ipfs/go-ipfs-files	plans/chew-datasets/utils/unixfs.go	7;"	i	line:7
+github.com/ipfs/go-ipfs-routing/none	plans/bitswap-tuning/utils/createnode.go	20;"	i	line:20
+github.com/ipfs/go-ipfs-util	plans/dht/test/find_providers.go	11;"	i	line:11
+github.com/ipfs/go-ipfs/core	plans/chew-datasets/utils/create-ipfs-instance.go	11;"	i	line:11
+github.com/ipfs/go-ipfs/core/coreapi	plans/chew-datasets/utils/create-ipfs-instance.go	12;"	i	line:12
+github.com/ipfs/go-ipfs/core/node/libp2p	plans/chew-datasets/utils/create-ipfs-instance.go	13;"	i	line:13
+github.com/ipfs/go-ipfs/plugin/loader	plans/chew-datasets/utils/create-ipfs-instance.go	14;"	i	line:14
+github.com/ipfs/go-ipfs/repo/fsrepo	plans/chew-datasets/utils/create-ipfs-instance.go	15;"	i	line:15
+github.com/ipfs/go-ipld-format	plans/bitswap-tuning/utils/createnode.go	21;"	i	line:21
+github.com/ipfs/go-ipld-format	plans/bitswap-tuning/utils/walker.go	7;"	i	line:7
+github.com/ipfs/go-merkledag	plans/bitswap-tuning/utils/createnode.go	22;"	i	line:22
+github.com/ipfs/go-merkledag	plans/mytest/test/first_try.go	13;"	i	line:13
+github.com/ipfs/go-unixfs/file	plans/bitswap-tuning/utils/createnode.go	23;"	i	line:23
+github.com/ipfs/go-unixfs/importer/balanced	plans/bitswap-tuning/utils/createnode.go	24;"	i	line:24
+github.com/ipfs/go-unixfs/importer/helpers	plans/bitswap-tuning/utils/createnode.go	25;"	i	line:25
+github.com/ipfs/go-unixfs/importer/trickle	plans/bitswap-tuning/utils/createnode.go	26;"	i	line:26
+github.com/ipfs/interface-go-ipfs-core	plans/chew-datasets/utils/create-ipfs-instance.go	16;"	i	line:16
+github.com/ipfs/interface-go-ipfs-core	plans/chew-datasets/utils/testcase.go	7;"	i	line:7
+github.com/ipfs/interface-go-ipfs-core/options	plans/chew-datasets/test/ipfs_add_trickle_dag.go	10;"	i	line:10
+github.com/ipfs/interface-go-ipfs-core/options	plans/chew-datasets/test/ipfs_file_store.go	8;"	i	line:8
+github.com/ipfs/iptb-plugins/local	sdk/iptb/plugin.go	4;"	i	line:4
+github.com/ipfs/iptb/testbed	sdk/iptb/ensemble.go	15;"	i	line:15
+github.com/ipfs/iptb/testbed	sdk/iptb/plugin.go	5;"	i	line:5
+github.com/ipfs/iptb/testbed/interfaces	sdk/iptb/ensemble.go	16;"	i	line:16
+github.com/ipfs/iptb/testbed/interfaces	sdk/iptb/node.go	7;"	i	line:7
+github.com/ipfs/testground/cmd	./main.go	7;"	i	line:7
+github.com/ipfs/testground/cmd	cmd/itest/common_test.go	7;"	i	line:7
+github.com/ipfs/testground/pkg/api	cmd/all.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/api	cmd/build.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/api	cmd/run.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/api	pkg/build/golang/docker.go	20;"	i	line:20
+github.com/ipfs/testground/pkg/api	pkg/build/golang/exec.go	14;"	i	line:14
+github.com/ipfs/testground/pkg/api	pkg/client/types.go	3;"	i	line:3
+github.com/ipfs/testground/pkg/api	pkg/daemon/build.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/api	pkg/daemon/describe.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/api	pkg/daemon/list.go	6;"	i	line:6
+github.com/ipfs/testground/pkg/api	pkg/daemon/outputs.go	7;"	i	line:7
+github.com/ipfs/testground/pkg/api	pkg/daemon/run.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/api	pkg/daemon/terminate.go	7;"	i	line:7
+github.com/ipfs/testground/pkg/api	pkg/engine/census.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/api	pkg/engine/discovery.go	7;"	i	line:7
+github.com/ipfs/testground/pkg/api	pkg/engine/engine.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/api	pkg/runner/cluster_k8s.go	29;"	i	line:29
+github.com/ipfs/testground/pkg/api	pkg/runner/cluster_swarm.go	12;"	i	line:12
+github.com/ipfs/testground/pkg/api	pkg/runner/common.go	14;"	i	line:14
+github.com/ipfs/testground/pkg/api	pkg/runner/local_docker.go	17;"	i	line:17
+github.com/ipfs/testground/pkg/api	pkg/runner/local_exec.go	16;"	i	line:16
+github.com/ipfs/testground/pkg/aws	pkg/build/golang/docker.go	21;"	i	line:21
+github.com/ipfs/testground/pkg/aws	pkg/runner/cluster_swarm.go	13;"	i	line:13
+github.com/ipfs/testground/pkg/build/golang	pkg/engine/engine.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/client	cmd/all.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/client	cmd/build.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/client	cmd/collect.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/client	cmd/describe.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/client	cmd/list.go	7;"	i	line:7
+github.com/ipfs/testground/pkg/client	cmd/run.go	12;"	i	line:12
+github.com/ipfs/testground/pkg/client	cmd/terminate.go	6;"	i	line:6
+github.com/ipfs/testground/pkg/client	pkg/daemon/build.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/client	pkg/daemon/describe.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/client	pkg/daemon/outputs.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/client	pkg/daemon/run.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/client	pkg/daemon/terminate.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/config	cmd/all.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/config	cmd/daemon.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/config	pkg/api/builder.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/config	pkg/api/definitions.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/config	pkg/api/engine.go	7;"	i	line:7
+github.com/ipfs/testground/pkg/config	pkg/api/runner.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/config	pkg/aws/ecr.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/config	pkg/engine/engine.go	12;"	i	line:12
+github.com/ipfs/testground/pkg/conv	cmd/all.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/conv	pkg/runner/cluster_k8s.go	30;"	i	line:30
+github.com/ipfs/testground/pkg/conv	pkg/runner/cluster_swarm.go	14;"	i	line:14
+github.com/ipfs/testground/pkg/conv	pkg/runner/local_docker.go	18;"	i	line:18
+github.com/ipfs/testground/pkg/conv	pkg/runner/local_exec.go	17;"	i	line:17
+github.com/ipfs/testground/pkg/daemon	cmd/daemon.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/daemon	cmd/describe.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/daemon	cmd/itest/common_test.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/docker	pkg/build/golang/docker.go	22;"	i	line:22
+github.com/ipfs/testground/pkg/docker	pkg/runner/local_docker.go	19;"	i	line:19
+github.com/ipfs/testground/pkg/dockermanager	pkg/sidecar/docker_instance.go	17;"	i	line:17
+github.com/ipfs/testground/pkg/dockermanager	pkg/sidecar/k8s_instance.go	18;"	i	line:18
+github.com/ipfs/testground/pkg/engine	pkg/daemon/daemon.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/logging	./main.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/logging	cmd/build.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/logging	cmd/collect.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/logging	cmd/daemon.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/logging	cmd/run.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/logging	cmd/sidecar.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/logging	pkg/build/golang/docker.go	23;"	i	line:23
+github.com/ipfs/testground/pkg/logging	pkg/build/golang/exec.go	15;"	i	line:15
+github.com/ipfs/testground/pkg/logging	pkg/client/client.go	13;"	i	line:13
+github.com/ipfs/testground/pkg/logging	pkg/daemon/build.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/logging	pkg/daemon/daemon.go	12;"	i	line:12
+github.com/ipfs/testground/pkg/logging	pkg/daemon/describe.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/logging	pkg/daemon/list.go	7;"	i	line:7
+github.com/ipfs/testground/pkg/logging	pkg/daemon/outputs.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/logging	pkg/daemon/run.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/logging	pkg/daemon/terminate.go	9;"	i	line:9
+github.com/ipfs/testground/pkg/logging	pkg/dockermanager/dockermanager.go	15;"	i	line:15
+github.com/ipfs/testground/pkg/logging	pkg/engine/discovery.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/logging	pkg/engine/engine.go	13;"	i	line:13
+github.com/ipfs/testground/pkg/logging	pkg/runner/cluster_k8s.go	31;"	i	line:31
+github.com/ipfs/testground/pkg/logging	pkg/runner/cluster_swarm.go	15;"	i	line:15
+github.com/ipfs/testground/pkg/logging	pkg/runner/local_docker.go	20;"	i	line:20
+github.com/ipfs/testground/pkg/logging	pkg/runner/local_exec.go	18;"	i	line:18
+github.com/ipfs/testground/pkg/logging	pkg/runner/pretty.go	13;"	i	line:13
+github.com/ipfs/testground/pkg/logging	pkg/sidecar/instance.go	12;"	i	line:12
+github.com/ipfs/testground/pkg/logging	pkg/sidecar/k8s_instance.go	19;"	i	line:19
+github.com/ipfs/testground/pkg/logging	pkg/sidecar/sidecar.go	10;"	i	line:10
+github.com/ipfs/testground/pkg/logging	plans/network/main.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/logging	sdk/sync/common.go	13;"	i	line:13
+github.com/ipfs/testground/pkg/runner	pkg/engine/engine.go	14;"	i	line:14
+github.com/ipfs/testground/pkg/sidecar	cmd/sidecar.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/tgwriter	pkg/client/client.go	14;"	i	line:14
+github.com/ipfs/testground/pkg/tgwriter	pkg/daemon/build.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/tgwriter	pkg/daemon/describe.go	12;"	i	line:12
+github.com/ipfs/testground/pkg/tgwriter	pkg/daemon/list.go	8;"	i	line:8
+github.com/ipfs/testground/pkg/tgwriter	pkg/daemon/run.go	11;"	i	line:11
+github.com/ipfs/testground/pkg/tgwriter	pkg/daemon/terminate.go	10;"	i	line:10
+github.com/ipfs/testground/plans/bitswap-tuning/test	plans/bitswap-tuning/main.go	4;"	i	line:4
+github.com/ipfs/testground/plans/bitswap-tuning/utils	plans/bitswap-tuning/test/transfer.go	14;"	i	line:14
+github.com/ipfs/testground/plans/chew-datasets/test	plans/chew-datasets/main.go	7;"	i	line:7
+github.com/ipfs/testground/plans/chew-datasets/utils	plans/chew-datasets/main.go	8;"	i	line:8
+github.com/ipfs/testground/plans/chew-datasets/utils	plans/chew-datasets/test/ipfs_add_defaults.go	8;"	i	line:8
+github.com/ipfs/testground/plans/chew-datasets/utils	plans/chew-datasets/test/ipfs_add_dir_sharding.go	8;"	i	line:8
+github.com/ipfs/testground/plans/chew-datasets/utils	plans/chew-datasets/test/ipfs_add_trickle_dag.go	11;"	i	line:11
+github.com/ipfs/testground/plans/chew-datasets/utils	plans/chew-datasets/test/ipfs_file_store.go	9;"	i	line:9
+github.com/ipfs/testground/plans/chew-datasets/utils	plans/chew-datasets/test/ipfs_mfs.go	7;"	i	line:7
+github.com/ipfs/testground/plans/chew-datasets/utils	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	7;"	i	line:7
+github.com/ipfs/testground/plans/chew-datasets/utils	plans/chew-datasets/test/ipfs_url_store.go	8;"	i	line:8
+github.com/ipfs/testground/plans/dht/test	plans/dht/main.go	4;"	i	line:4
+github.com/ipfs/testground/plans/mytest/test	plans/mytest/main.go	4;"	i	line:4
+github.com/ipfs/testground/plans/smlbench/test	plans/smlbench/main.go	8;"	i	line:8
+github.com/ipfs/testground/plans/smlbench/utils	plans/smlbench/main.go	9;"	i	line:9
+github.com/ipfs/testground/plans/smlbench/utils	plans/smlbench/test/simple_add.go	11;"	i	line:11
+github.com/ipfs/testground/plans/smlbench/utils	plans/smlbench/test/simple_add_get.go	12;"	i	line:12
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/main.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/test/ipfs_add_defaults.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/test/ipfs_add_dir_sharding.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/test/ipfs_add_trickle_dag.go	12;"	i	line:12
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/test/ipfs_file_store.go	10;"	i	line:10
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/test/ipfs_mfs.go	8;"	i	line:8
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	8;"	i	line:8
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/test/ipfs_url_store.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/utils/create-ipfs-instance.go	17;"	i	line:17
+github.com/ipfs/testground/sdk/iptb	plans/chew-datasets/utils/testcase.go	8;"	i	line:8
+github.com/ipfs/testground/sdk/iptb	plans/smlbench/main.go	10;"	i	line:10
+github.com/ipfs/testground/sdk/iptb	plans/smlbench/test/simple_add.go	12;"	i	line:12
+github.com/ipfs/testground/sdk/iptb	plans/smlbench/test/simple_add_get.go	13;"	i	line:13
+github.com/ipfs/testground/sdk/iptb	plans/smlbench/utils/testcase.go	4;"	i	line:4
+github.com/ipfs/testground/sdk/runtime	pkg/runner/cluster_k8s.go	32;"	i	line:32
+github.com/ipfs/testground/sdk/runtime	pkg/runner/cluster_swarm.go	16;"	i	line:16
+github.com/ipfs/testground/sdk/runtime	pkg/runner/local_docker.go	21;"	i	line:21
+github.com/ipfs/testground/sdk/runtime	pkg/runner/local_exec.go	19;"	i	line:19
+github.com/ipfs/testground/sdk/runtime	pkg/runner/pretty.go	14;"	i	line:14
+github.com/ipfs/testground/sdk/runtime	pkg/sidecar/docker_instance.go	18;"	i	line:18
+github.com/ipfs/testground/sdk/runtime	pkg/sidecar/instance.go	13;"	i	line:13
+github.com/ipfs/testground/sdk/runtime	pkg/sidecar/k8s_instance.go	20;"	i	line:20
+github.com/ipfs/testground/sdk/runtime	plans/bitswap-tuning/main.go	5;"	i	line:5
+github.com/ipfs/testground/sdk/runtime	plans/bitswap-tuning/test/transfer.go	11;"	i	line:11
+github.com/ipfs/testground/sdk/runtime	plans/bitswap-tuning/utils/metrics.go	6;"	i	line:6
+github.com/ipfs/testground/sdk/runtime	plans/bitswap-tuning/utils/net.go	10;"	i	line:10
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/main.go	10;"	i	line:10
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/test/ipfs_add_defaults.go	10;"	i	line:10
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/test/ipfs_add_dir_sharding.go	10;"	i	line:10
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/test/ipfs_add_trickle_dag.go	13;"	i	line:13
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/test/ipfs_file_store.go	11;"	i	line:11
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/test/ipfs_mfs.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/test/ipfs_url_store.go	10;"	i	line:10
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/utils/metrics.go	6;"	i	line:6
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/utils/testcase.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/runtime	plans/chew-datasets/utils/testconfig.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/runtime	plans/dht/main.go	5;"	i	line:5
+github.com/ipfs/testground/sdk/runtime	plans/dht/test/common.go	13;"	i	line:13
+github.com/ipfs/testground/sdk/runtime	plans/dht/test/find_peers.go	8;"	i	line:8
+github.com/ipfs/testground/sdk/runtime	plans/dht/test/find_providers.go	13;"	i	line:13
+github.com/ipfs/testground/sdk/runtime	plans/dht/test/provide_stress.go	6;"	i	line:6
+github.com/ipfs/testground/sdk/runtime	plans/dht/test/store_get_value.go	6;"	i	line:6
+github.com/ipfs/testground/sdk/runtime	plans/dht/test/tracers.go	7;"	i	line:7
+github.com/ipfs/testground/sdk/runtime	plans/example/failure.go	6;"	i	line:6
+github.com/ipfs/testground/sdk/runtime	plans/example/main.go	7;"	i	line:7
+github.com/ipfs/testground/sdk/runtime	plans/example/output.go	4;"	i	line:4
+github.com/ipfs/testground/sdk/runtime	plans/example/panic.go	4;"	i	line:4
+github.com/ipfs/testground/sdk/runtime	plans/example/params.go	4;"	i	line:4
+github.com/ipfs/testground/sdk/runtime	plans/example/sync.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/runtime	plans/mytest/main.go	5;"	i	line:5
+github.com/ipfs/testground/sdk/runtime	plans/mytest/test/first_try.go	14;"	i	line:14
+github.com/ipfs/testground/sdk/runtime	plans/network/main.go	12;"	i	line:12
+github.com/ipfs/testground/sdk/runtime	plans/placebo/main.go	8;"	i	line:8
+github.com/ipfs/testground/sdk/runtime	plans/smlbench/main.go	11;"	i	line:11
+github.com/ipfs/testground/sdk/runtime	plans/smlbench/test/simple_add.go	13;"	i	line:13
+github.com/ipfs/testground/sdk/runtime	plans/smlbench/test/simple_add_get.go	14;"	i	line:14
+github.com/ipfs/testground/sdk/runtime	plans/smlbench/utils/metrics.go	3;"	i	line:3
+github.com/ipfs/testground/sdk/runtime	plans/smlbench/utils/testcase.go	5;"	i	line:5
+github.com/ipfs/testground/sdk/runtime	sdk/iptb/ensemble.go	12;"	i	line:12
+github.com/ipfs/testground/sdk/runtime	sdk/sync/common.go	14;"	i	line:14
+github.com/ipfs/testground/sdk/runtime	sdk/sync/helper.go	7;"	i	line:7
+github.com/ipfs/testground/sdk/runtime	sdk/sync/redis_test.go	15;"	i	line:15
+github.com/ipfs/testground/sdk/runtime	sdk/sync/watch.go	10;"	i	line:10
+github.com/ipfs/testground/sdk/runtime	sdk/sync/write.go	11;"	i	line:11
+github.com/ipfs/testground/sdk/sync	pkg/sidecar/docker_instance.go	19;"	i	line:19
+github.com/ipfs/testground/sdk/sync	pkg/sidecar/instance.go	14;"	i	line:14
+github.com/ipfs/testground/sdk/sync	pkg/sidecar/k8s_instance.go	21;"	i	line:21
+github.com/ipfs/testground/sdk/sync	pkg/sidecar/link.go	13;"	i	line:13
+github.com/ipfs/testground/sdk/sync	pkg/sidecar/sidecar.go	11;"	i	line:11
+github.com/ipfs/testground/sdk/sync	plans/bitswap-tuning/test/transfer.go	12;"	i	line:12
+github.com/ipfs/testground/sdk/sync	plans/bitswap-tuning/utils/net.go	11;"	i	line:11
+github.com/ipfs/testground/sdk/sync	plans/bitswap-tuning/utils/state.go	6;"	i	line:6
+github.com/ipfs/testground/sdk/sync	plans/dht/test/common.go	14;"	i	line:14
+github.com/ipfs/testground/sdk/sync	plans/dht/test/find_peers.go	9;"	i	line:9
+github.com/ipfs/testground/sdk/sync	plans/dht/test/find_providers.go	14;"	i	line:14
+github.com/ipfs/testground/sdk/sync	plans/example/sync.go	10;"	i	line:10
+github.com/ipfs/testground/sdk/sync	plans/mytest/test/first_try.go	15;"	i	line:15
+github.com/ipfs/testground/sdk/sync	plans/network/main.go	13;"	i	line:13
+github.com/libp2p/go-libp2p	plans/bitswap-tuning/test/transfer.go	15;"	i	line:15
+github.com/libp2p/go-libp2p	plans/dht/test/common.go	18;"	i	line:18
+github.com/libp2p/go-libp2p	plans/mytest/test/first_try.go	16;"	i	line:16
+github.com/libp2p/go-libp2p-connmgr	plans/dht/test/common.go	19;"	i	line:19
+github.com/libp2p/go-libp2p-core	plans/bitswap-tuning/utils/createnode.go	27;"	i	line:27
+github.com/libp2p/go-libp2p-core	plans/bitswap-tuning/utils/peers.go	8;"	i	line:8
+github.com/libp2p/go-libp2p-core/host	plans/bitswap-tuning/test/transfer.go	16;"	i	line:16
+github.com/libp2p/go-libp2p-core/host	plans/dht/test/common.go	20;"	i	line:20
+github.com/libp2p/go-libp2p-core/host	plans/dht/test/tracers.go	8;"	i	line:8
+github.com/libp2p/go-libp2p-core/network	plans/dht/test/common.go	21;"	i	line:21
+github.com/libp2p/go-libp2p-core/network	plans/dht/test/tracers.go	9;"	i	line:9
+github.com/libp2p/go-libp2p-core/peer	plans/bitswap-tuning/test/transfer.go	17;"	i	line:17
+github.com/libp2p/go-libp2p-core/peer	plans/bitswap-tuning/utils/peers.go	9;"	i	line:9
+github.com/libp2p/go-libp2p-core/peer	plans/dht/test/common.go	22;"	i	line:22
+github.com/libp2p/go-libp2p-core/peer	sdk/sync/presets.go	8;"	i	line:8
+github.com/libp2p/go-libp2p-core/peer	sdk/sync/redis_test.go	17;"	i	line:17
+github.com/libp2p/go-libp2p-core/routing	plans/dht/test/tracers.go	10;"	i	line:10
+github.com/libp2p/go-libp2p-crypto	plans/mytest/test/first_try.go	17;"	i	line:17
+github.com/libp2p/go-libp2p-kad-dht	plans/dht/test/common.go	23;"	i	line:23
+github.com/libp2p/go-libp2p-kad-dht/opts	plans/dht/test/common.go	24;"	i	line:24
+github.com/libp2p/go-libp2p-swarm	plans/dht/test/common.go	25;"	i	line:25
+github.com/libp2p/go-libp2p-transport-upgrader	plans/dht/test/common.go	26;"	i	line:26
+github.com/libp2p/go-tcp-transport	plans/dht/test/common.go	27;"	i	line:27
+github.com/logrusorgru/aurora	pkg/runner/pretty.go	16;"	i	line:16
+github.com/mitchellh/go-wordwrap	pkg/api/definitions.go	9;"	i	line:9
+github.com/mitchellh/mapstructure	pkg/client/client.go	16;"	i	line:16
+github.com/multiformats/go-multiaddr	sdk/iptb/node.go	8;"	i	line:8
+github.com/multiformats/go-multiaddr	sdk/sync/redis_test.go	18;"	i	line:18
+github.com/multiformats/go-multihash	plans/bitswap-tuning/utils/createnode.go	28;"	i	line:28
+github.com/otiai10/copy	pkg/build/golang/docker.go	32;"	i	line:32
+github.com/pborman/uuid	pkg/daemon/daemon.go	13;"	i	line:13
+github.com/pkg/errors	plans/bitswap-tuning/utils/createnode.go	29;"	i	line:29
+github.com/prometheus/client_golang/prometheus/promhttp	sdk/runtime/metrics.go	13;"	i	line:13
+github.com/shurcooL/vfsgen	tools/src_generate.go	9;"	i	line:9
+github.com/textileio/go-threads/core/service	plans/mytest/test/first_try.go	18;"	i	line:18
+github.com/textileio/go-threads/logstore/lstoremem	plans/mytest/test/first_try.go	19;"	i	line:19
+github.com/textileio/go-threads/service	plans/mytest/test/first_try.go	20;"	i	line:20
+github.com/textileio/go-threads/util	plans/mytest/test/first_try.go	21;"	i	line:21
+github.com/urfave/cli	./main.go	10;"	i	line:10
+github.com/urfave/cli	cmd/all.go	12;"	i	line:12
+github.com/urfave/cli	cmd/build.go	13;"	i	line:13
+github.com/urfave/cli	cmd/collect.go	13;"	i	line:13
+github.com/urfave/cli	cmd/daemon.go	12;"	i	line:12
+github.com/urfave/cli	cmd/describe.go	10;"	i	line:10
+github.com/urfave/cli	cmd/enum_flag.go	7;"	i	line:7
+github.com/urfave/cli	cmd/itest/common_test.go	10;"	i	line:10
+github.com/urfave/cli	cmd/list.go	8;"	i	line:8
+github.com/urfave/cli	cmd/run.go	15;"	i	line:15
+github.com/urfave/cli	cmd/sidecar.go	12;"	i	line:12
+github.com/urfave/cli	cmd/terminate.go	7;"	i	line:7
+github.com/vishvananda/netlink	pkg/sidecar/docker_instance.go	14;"	i	line:14
+github.com/vishvananda/netlink	pkg/sidecar/k8s_instance.go	15;"	i	line:15
+github.com/vishvananda/netlink	pkg/sidecar/link.go	11;"	i	line:11
+github.com/vishvananda/netns	pkg/sidecar/docker_instance.go	15;"	i	line:15
+github.com/vishvananda/netns	pkg/sidecar/k8s_instance.go	16;"	i	line:16
+globalRedisClient	sdk/sync/common.go	27;"	v	access:private	line:27	type:*redis.Client
+globalRedisErr	sdk/sync/common.go	28;"	v	access:private	line:28	type:error
+go.uber.org/zap	pkg/build/golang/deps.go	14;"	i	line:14
+go.uber.org/zap	pkg/build/golang/docker.go	33;"	i	line:33
+go.uber.org/zap	pkg/docker/container.go	14;"	i	line:14
+go.uber.org/zap	pkg/docker/network.go	7;"	i	line:7
+go.uber.org/zap	pkg/logging/log.go	6;"	i	line:6
+go.uber.org/zap	pkg/runner/cluster_k8s.go	33;"	i	line:33
+go.uber.org/zap	pkg/runner/local_docker.go	33;"	i	line:33
+go.uber.org/zap	pkg/tgwriter/tgwriter.go	13;"	i	line:13
+go.uber.org/zap	plans/dht/test/tracers.go	11;"	i	line:11
+go.uber.org/zap	sdk/runtime/files.go	12;"	i	line:12
+go.uber.org/zap	sdk/runtime/logger.go	7;"	i	line:7
+go.uber.org/zap	sdk/runtime/output.go	7;"	i	line:7
+go.uber.org/zap	sdk/runtime/runenv.go	11;"	i	line:11
+go.uber.org/zap/zapcore	./main.go	11;"	i	line:11
+go.uber.org/zap/zapcore	pkg/logging/log.go	7;"	i	line:7
+go.uber.org/zap/zapcore	sdk/runtime/files.go	13;"	i	line:13
+go.uber.org/zap/zapcore	sdk/runtime/logger.go	8;"	i	line:8
+go.uber.org/zap/zapcore	sdk/runtime/output.go	8;"	i	line:8
+go/build	pkg/build/golang/docker.go	18;"	i	line:18
+golang	pkg/build/golang/deps.go	1;"	p	line:1
+golang	pkg/build/golang/deps_test.go	1;"	p	line:1
+golang	pkg/build/golang/docker.go	1;"	p	line:1
+golang	pkg/build/golang/exec.go	1;"	p	line:1
+golang.org/x/sync/errgroup	pkg/engine/engine.go	19;"	i	line:19
+golang.org/x/sync/errgroup	pkg/runner/cluster_k8s.go	23;"	i	line:23
+golang.org/x/sync/errgroup	pkg/runner/cluster_swarm.go	17;"	i	line:17
+golang.org/x/sync/errgroup	pkg/runner/local_docker.go	34;"	i	line:34
+golang.org/x/sync/errgroup	plans/bitswap-tuning/utils/createnode.go	30;"	i	line:30
+golang.org/x/sync/errgroup	plans/bitswap-tuning/utils/peers.go	10;"	i	line:10
+golang.org/x/sync/errgroup	plans/bitswap-tuning/utils/walker.go	8;"	i	line:8
+golang.org/x/sync/errgroup	plans/dht/test/find_providers.go	8;"	i	line:8
+gomodHeader	pkg/config/environment.go	22;"	c	access:private	line:22
+handle	pkg/sidecar/link.go	42;"	w	access:private	ctype:NetlinkLink	line:42	type:*netlink.Handle
+handlesForIndex	pkg/sidecar/link.go	72;"	f	access:private	line:72	signature:(idx uint16)	type:uint32, uint32
+homeDir	pkg/runner/cluster_k8s.go	87;"	f	access:private	line:87	signature:()	type:string
+init	pkg/logging/log.go	19;"	f	access:private	line:19	signature:()
+init	pkg/runner/cluster_k8s.go	73;"	f	access:private	line:73	signature:()
+init	pkg/sidecar/link.go	83;"	m	access:private	ctype:NetlinkLink	line:83	signature:(idx uint16)	type:error
+init	plans/dht/test/common.go	30;"	f	access:private	line:30	signature:()
+init	sdk/iptb/plugin.go	8;"	f	access:private	line:8	signature:()
+init	sdk/runtime/logger.go	25;"	m	access:private	ctype:logger	line:25	signature:()
+init	sdk/sync/redis_test.go	21;"	f	access:private	line:21	signature:()
+int64Ptr	pkg/runner/cluster_k8s.go	607;"	f	access:private	line:607	signature:(i int64)	type:*int64
+io	cmd/collect.go	7;"	i	line:7
+io	cmd/run.go	6;"	i	line:6
+io	pkg/api/builder.go	5;"	i	line:5
+io	pkg/api/definitions.go	5;"	i	line:5
+io	pkg/api/engine.go	5;"	i	line:5
+io	pkg/api/runner.go	5;"	i	line:5
+io	pkg/build/golang/docker.go	8;"	i	line:8
+io	pkg/build/golang/exec.go	6;"	i	line:6
+io	pkg/client/client.go	10;"	i	line:10
+io	pkg/docker/output.go	5;"	i	line:5
+io	pkg/dockermanager/dockermanager.go	6;"	i	line:6
+io	pkg/engine/engine.go	7;"	i	line:7
+io	pkg/runner/cluster_k8s.go	10;"	i	line:10
+io	pkg/runner/cluster_swarm.go	8;"	i	line:8
+io	pkg/runner/common.go	8;"	i	line:8
+io	pkg/runner/local_docker.go	7;"	i	line:7
+io	pkg/runner/local_exec.go	10;"	i	line:10
+io	pkg/runner/pretty.go	8;"	i	line:8
+io	pkg/sidecar/instance.go	8;"	i	line:8
+io	pkg/sidecar/sidecar.go	8;"	i	line:8
+io	pkg/tgwriter/tgwriter.go	6;"	i	line:6
+io	plans/bitswap-tuning/utils/createnode.go	5;"	i	line:5
+io	plans/bitswap-tuning/utils/files.go	5;"	i	line:5
+io	sdk/runtime/files.go	7;"	i	line:7
+io	sdk/runtime/metrics.go	5;"	i	line:5
+io	sdk/runtime/runner.go	5;"	i	line:5
+io.Closer	pkg/sidecar/instance.go	32;"	e	access:public	line:32	ntype:Network
+io.Closer	pkg/sidecar/instance.go	39;"	e	access:public	line:39	ntype:Logs
+io.Closer	pkg/sidecar/sidecar.go	30;"	e	access:public	line:30	ntype:InstanceManager
+io.Writer	pkg/tgwriter/tgwriter.go	28;"	e	access:public	ctype:TgWriter	line:28	type:io.Writer
+io/ioutil	pkg/build/golang/deps.go	5;"	i	line:5
+io/ioutil	pkg/build/golang/docker.go	9;"	i	line:9
+io/ioutil	pkg/build/golang/exec.go	7;"	i	line:7
+io/ioutil	plans/chew-datasets/utils/create-ipfs-instance.go	7;"	i	line:7
+io/ioutil	sdk/iptb/ensemble.go	7;"	i	line:7
+io/ioutil	sdk/runtime/files.go	8;"	i	line:8
+iptb	sdk/iptb/daemon.go	1;"	p	line:1
+iptb	sdk/iptb/doc.go	20;"	p	line:20
+iptb	sdk/iptb/ensemble.go	1;"	p	line:1
+iptb	sdk/iptb/node.go	1;"	p	line:1
+iptb	sdk/iptb/plugin.go	1;"	p	line:1
+iptb	sdk/iptb/spec.go	1;"	p	line:1
+isNotRootDir	pkg/config/environment.go	185;"	f	access:private	line:185	signature:(path string)	type:bool
+isTestgroundRepo	pkg/config/environment.go	151;"	f	access:private	line:151	signature:(path string)	type:bool
+k8s.io/api/core/v1	pkg/conv/conversions.go	8;"	i	line:8
+k8s.io/api/core/v1	pkg/runner/cluster_k8s.go	35;"	i	line:35
+k8s.io/apimachinery/pkg/api/resource	pkg/runner/cluster_k8s.go	38;"	i	line:38
+k8s.io/apimachinery/pkg/apis/meta/v1	pkg/runner/cluster_k8s.go	39;"	i	line:39
+k8s.io/client-go/kubernetes	pkg/runner/client_pool.go	6;"	i	line:6
+k8s.io/client-go/plugin/pkg/client/auth/gcp	pkg/runner/client_pool.go	7;"	i	line:7
+k8s.io/client-go/plugin/pkg/client/auth/gcp	pkg/runner/cluster_k8s.go	36;"	i	line:36
+k8s.io/client-go/tools/clientcmd	pkg/runner/client_pool.go	8;"	i	line:8
+k8sLink	pkg/sidecar/k8s_instance.go	250;"	t	access:private	line:250	type:struct
+k8sSubnetIdx	pkg/runner/cluster_k8s.go	71;"	v	access:private	line:71	type:uint64
+keepAlive	sdk/sync/write.go	92;"	m	access:private	ctype:Writer	line:92	signature:(ctx context.Context)	type:error
+keepAliveSet	sdk/sync/write.go	45;"	w	access:private	ctype:Writer	line:45	type:map[string]
+keepAliveWorker	sdk/sync/write.go	75;"	m	access:private	ctype:Writer	line:75	signature:(ctx context.Context)
+key	sdk/sync/subscription.go	17;"	w	access:private	ctype:subscription	line:17	type:string
+kubeDnsClusterIP	pkg/sidecar/k8s_instance.go	31;"	v	access:private	line:31
+l	pkg/daemon/daemon.go	18;"	w	access:private	ctype:Daemon	line:18	type:net.Listener
+level	pkg/logging/log.go	14;"	v	access:private	line:14
+link	pkg/sidecar/docker_instance.go	26;"	t	access:private	line:26	type:struct
+list	pkg/sidecar/link.go	211;"	m	access:private	ctype:NetlinkLink	line:211	signature:(family int)	type:[]*net.IPNet, error
+listCommand	cmd/list.go	18;"	f	access:private	line:18	signature:(c *cli.Context)	type:error
+listHandler	pkg/daemon/list.go	11;"	m	access:private	ctype:Daemon	line:11	signature:(engine api.Engine)	type:func(w http.ResponseWriter, r *http.Request)
+lk	pkg/engine/census.go	15;"	w	access:private	ctype:TestCensus	line:15	type:sync.RWMutex
+lk	pkg/engine/engine.go	46;"	w	access:private	ctype:Engine	line:46	type:sync.RWMutex
+lk	sdk/sync/write.go	34;"	w	access:private	ctype:Writer	line:34	type:sync.RWMutex
+localSubnet	pkg/runner/local_exec.go	23;"	v	access:private	line:23
+locateSrcDir	pkg/config/environment.go	106;"	f	access:private	line:106	signature:()	type:string, error
+locateWorkDir	pkg/config/environment.go	133;"	f	access:private	line:133	signature:()	type:string, error
+log	pkg/tgwriter/tgwriter.go	30;"	w	access:private	ctype:TgWriter	line:30	type:*zap.SugaredLogger
+logger	pkg/logging/log.go	11;"	v	access:private	line:11	type:*zap.Logger
+logger	pkg/logging/log.go	76;"	w	access:private	ctype:Logging	line:76	type:*zap.Logger
+logger	sdk/runtime/logger.go	11;"	t	access:private	line:11	type:struct
+logger	sdk/runtime/logger.go	15;"	w	access:private	ctype:logger	line:15	type:*zap.Logger
+logging	pkg/logging/log.go	1;"	p	line:1
+logging.Logging	pkg/dockermanager/dockermanager.go	23;"	e	access:public	ctype:Manager	line:23	type:logging.Logging
+logging.Logging	pkg/dockermanager/dockermanager.go	48;"	e	access:public	ctype:Container	line:48	type:logging.Logging
+logging.Logging	pkg/sidecar/instance.go	19;"	e	access:public	ctype:Instance	line:19	type:logging.Logging
+m	pkg/engine/census.go	16;"	w	access:private	ctype:TestCensus	line:16	type:map[string]*api.TestPlanDefinition
+main	./main.go	14;"	f	access:private	line:14	signature:()
+main	./main.go	1;"	p	line:1
+main	plans/bitswap-tuning/main.go	12;"	f	access:private	line:12	signature:()
+main	plans/bitswap-tuning/main.go	1;"	p	line:1
+main	plans/chew-datasets/main.go	1;"	p	line:1
+main	plans/chew-datasets/main.go	23;"	f	access:private	line:23	signature:()
+main	plans/dht/main.go	15;"	f	access:private	line:15	signature:()
+main	plans/dht/main.go	1;"	p	line:1
+main	plans/example/failure.go	1;"	p	line:1
+main	plans/example/main.go	10;"	f	access:private	line:10	signature:()
+main	plans/example/main.go	1;"	p	line:1
+main	plans/example/output.go	1;"	p	line:1
+main	plans/example/panic.go	1;"	p	line:1
+main	plans/example/params.go	1;"	p	line:1
+main	plans/example/sync.go	1;"	p	line:1
+main	plans/mytest/main.go	12;"	f	access:private	line:12	signature:()
+main	plans/mytest/main.go	1;"	p	line:1
+main	plans/network/main.go	16;"	f	access:private	line:16	signature:()
+main	plans/network/main.go	1;"	p	line:1
+main	plans/placebo/main.go	11;"	f	access:private	line:11	signature:()
+main	plans/placebo/main.go	1;"	p	line:1
+main	plans/smlbench/doc.go	3;"	p	line:3
+main	plans/smlbench/main.go	1;"	p	line:1
+main	plans/smlbench/main.go	41;"	f	access:private	line:41	signature:()
+main	tools/src_generate.go	15;"	f	access:private	line:15	signature:()
+main	tools/src_generate.go	3;"	p	line:3
+makeService	plans/mytest/test/first_try.go	38;"	f	access:private	line:38	signature:()	type:core.Service, error
+manageContainer	pkg/sidecar/docker_instance.go	133;"	m	access:private	ctype:DockerInstanceManager	line:133	signature:(ctx context.Context, container *dockermanager.Container)	type:*Instance, error
+manageContainer	pkg/sidecar/k8s_instance.go	85;"	m	access:private	ctype:K8sInstanceManager	line:85	signature:(ctx context.Context, container *dockermanager.Container)	type:*Instance, error
+manager	pkg/sidecar/docker_instance.go	84;"	w	access:private	ctype:DockerInstanceManager	line:84	type:*dockermanager.Manager
+manager	pkg/sidecar/k8s_instance.go	36;"	w	access:private	ctype:K8sInstanceManager	line:36	type:*dockermanager.Manager
+materializeSymlink	pkg/build/golang/docker.go	428;"	f	access:private	line:428	signature:(dir string)	type:error
+math	pkg/api/composition.go	5;"	i	line:5
+math	pkg/runner/cluster_k8s.go	11;"	i	line:11
+math	pkg/sidecar/link.go	7;"	i	line:7
+math	plans/dht/test/common.go	6;"	i	line:6
+math/rand	pkg/runner/cluster_k8s.go	12;"	i	line:12
+math/rand	plans/bitswap-tuning/utils/files.go	6;"	i	line:6
+math/rand	plans/dht/test/common.go	7;"	i	line:7
+math/rand	plans/example/sync.go	5;"	i	line:5
+math/rand	sdk/sync/redis_test.go	7;"	i	line:7
+maxAllowedPods	pkg/runner/cluster_k8s.go	120;"	w	access:private	ctype:ClusterK8sRunner	line:120	type:int
+maxPods	pkg/runner/cluster_k8s.go	620;"	m	access:private	ctype:ClusterK8sRunner	line:620	signature:()	type:int, error
+minTestInstances	plans/dht/test/common.go	35;"	c	access:private	line:35
+monitorTestplanRunState	pkg/runner/cluster_k8s.go	460;"	m	access:private	ctype:ClusterK8sRunner	line:460	signature:(ctx context.Context, log *zap.SugaredLogger, input *api.RunInput, initialisedNetworks *uint64)	type:error
+net	pkg/daemon/daemon.go	6;"	i	line:6
+net	pkg/runner/cluster_k8s.go	13;"	i	line:13
+net	pkg/runner/common.go	9;"	i	line:9
+net	pkg/runner/local_docker.go	8;"	i	line:8
+net	pkg/runner/local_exec.go	11;"	i	line:11
+net	pkg/sidecar/docker_instance.go	8;"	i	line:8
+net	pkg/sidecar/k8s_instance.go	9;"	i	line:9
+net	pkg/sidecar/link.go	8;"	i	line:8
+net	plans/network/main.go	6;"	i	line:6
+net	sdk/runtime/metrics.go	6;"	i	line:6
+net	sdk/runtime/runenv.go	6;"	i	line:6
+net	sdk/sync/common.go	7;"	i	line:7
+net	sdk/sync/presets.go	4;"	i	line:4
+net	sdk/sync/redis_test.go	8;"	i	line:8
+net.IPNet	sdk/runtime/runenv.go	35;"	e	access:public	ctype:IPNet	line:35	type:net.IPNet
+net/http	cmd/daemon.go	5;"	i	line:5
+net/http	cmd/sidecar.go	5;"	i	line:5
+net/http	pkg/client/client.go	11;"	i	line:11
+net/http	pkg/daemon/build.go	6;"	i	line:6
+net/http	pkg/daemon/daemon.go	7;"	i	line:7
+net/http	pkg/daemon/describe.go	6;"	i	line:6
+net/http	pkg/daemon/list.go	4;"	i	line:4
+net/http	pkg/daemon/outputs.go	5;"	i	line:5
+net/http	pkg/daemon/run.go	6;"	i	line:6
+net/http	pkg/daemon/terminate.go	5;"	i	line:5
+net/http	pkg/tgwriter/tgwriter.go	7;"	i	line:7
+net/http	sdk/runtime/metrics.go	7;"	i	line:7
+net/http	tools/src_generate.go	7;"	i	line:7
+net/http/pprof	cmd/sidecar.go	6;"	i	line:6
+netconf	pkg/sidecar/k8s_instance.go	255;"	w	access:private	ctype:k8sLink	line:255	type:*libcni.NetworkConfigList
+netlink.Link	pkg/sidecar/docker_instance.go	27;"	e	access:public	ctype:link	line:27	type:netlink.Link
+netlink.Link	pkg/sidecar/link.go	41;"	e	access:public	ctype:NetlinkLink	line:41	type:netlink.Link
+netnsPath	pkg/sidecar/k8s_instance.go	264;"	w	access:private	ctype:K8sNetwork	line:264	type:string
+newDataNetwork	pkg/runner/local_docker.go	348;"	f	access:private	line:348	signature:(ctx context.Context, cli *client.Client, log *zap.SugaredLogger, env *runtime.RunParams, name string)	type:string, *net.IPNet, error
+newLogger	sdk/runtime/logger.go	19;"	f	access:private	ctype:logger	line:19	signature:(runenv *RunParams)	type:*logger
+newNetworkConfigList	pkg/sidecar/k8s_instance.go	393;"	f	access:private	line:393	signature:(t string, addr string)	type:*libcni.NetworkConfigList, error
+newPool	pkg/runner/client_pool.go	16;"	f	access:private	ctype:pool	line:16	signature:(workers int, config KubernetesConfig)	type:*pool, error
+newService	pkg/aws/ecr.go	26;"	m	access:private	ctype:ecrsvc	line:26	signature:(cfg config.AWSConfig)	type:*ecr.ECR, error
+newTestCensus	pkg/engine/census.go	21;"	f	access:private	ctype:TestCensus	line:21	signature:()	type:*TestCensus
+nextDataNetwork	pkg/runner/common.go	25;"	f	access:private	line:25	signature:(lenNetworks int)	type:*net.IPNet, string, error
+nextK8sSubnet	pkg/runner/cluster_k8s.go	79;"	f	access:private	line:79	signature:()	type:*net.IPNet, error
+nl	pkg/sidecar/docker_instance.go	285;"	w	access:private	ctype:DockerNetwork	line:285	type:*netlink.Handle
+nl	pkg/sidecar/k8s_instance.go	261;"	w	access:private	ctype:K8sNetwork	line:261	type:*netlink.Handle
+once	pkg/runner/cluster_k8s.go	44;"	v	access:private	line:44
+oneRedis	sdk/sync/common.go	29;"	v	access:private	line:29	type:chan bool
+os	./main.go	5;"	i	line:5
+os	cmd/build.go	6;"	i	line:6
+os	cmd/collect.go	8;"	i	line:8
+os	cmd/context.go	6;"	i	line:6
+os	cmd/run.go	7;"	i	line:7
+os	pkg/build/golang/deps.go	6;"	i	line:6
+os	pkg/build/golang/docker.go	10;"	i	line:10
+os	pkg/build/golang/exec.go	8;"	i	line:8
+os	pkg/config/environment.go	7;"	i	line:7
+os	pkg/docker/container.go	6;"	i	line:6
+os	pkg/engine/census.go	5;"	i	line:5
+os	pkg/runner/cluster_k8s.go	14;"	i	line:14
+os	pkg/runner/common.go	10;"	i	line:10
+os	pkg/runner/local_docker.go	9;"	i	line:9
+os	pkg/runner/local_exec.go	6;"	i	line:6
+os	pkg/sidecar/docker_instance.go	9;"	i	line:9
+os	pkg/sidecar/k8s_instance.go	10;"	i	line:10
+os	plans/bitswap-tuning/utils/net.go	6;"	i	line:6
+os	plans/chew-datasets/test/ipfs_add_defaults.go	5;"	i	line:5
+os	plans/chew-datasets/test/ipfs_add_trickle_dag.go	6;"	i	line:6
+os	plans/chew-datasets/utils/testconfig.go	5;"	i	line:5
+os	plans/chew-datasets/utils/unixfs.go	5;"	i	line:5
+os	plans/dht/test/common.go	8;"	i	line:8
+os	plans/network/main.go	7;"	i	line:7
+os	plans/smlbench/main.go	5;"	i	line:5
+os	plans/smlbench/test/simple_add.go	5;"	i	line:5
+os	plans/smlbench/test/simple_add_get.go	6;"	i	line:6
+os	sdk/iptb/ensemble.go	8;"	i	line:8
+os	sdk/runtime/files.go	9;"	i	line:9
+os	sdk/runtime/logger.go	4;"	i	line:4
+os	sdk/runtime/metrics.go	8;"	i	line:8
+os	sdk/runtime/runenv.go	7;"	i	line:7
+os	sdk/runtime/runner.go	6;"	i	line:6
+os	sdk/sync/common.go	8;"	i	line:8
+os	sdk/sync/redis_test.go	9;"	i	line:9
+os/exec	pkg/build/golang/docker.go	11;"	i	line:11
+os/exec	pkg/build/golang/exec.go	9;"	i	line:9
+os/exec	pkg/runner/local_exec.go	12;"	i	line:12
+os/exec	sdk/sync/redis_test.go	10;"	i	line:10
+os/signal	cmd/context.go	7;"	i	line:7
+outCh	sdk/sync/subscription.go	19;"	w	access:private	ctype:subscription	line:19	type:reflect.Value
+output	pkg/tgwriter/tgwriter.go	29;"	w	access:private	ctype:TgWriter	line:29	type:io.Writer
+outputsHandler	pkg/daemon/outputs.go	12;"	m	access:private	ctype:Daemon	line:12	signature:(engine api.Engine)	type:func(w http.ResponseWriter, r *http.Request)
+parseDependencies	pkg/build/golang/deps.go	17;"	f	access:private	line:17	signature:(raw string)	type:map[string]string
+parseDependenciesFromDocker	pkg/build/golang/deps.go	41;"	f	access:private	line:41	signature:(ctx context.Context, log *zap.SugaredLogger, cli *client.Client, imageID string)	type:map[string]string, error
+parseGeneric	pkg/client/client.go	119;"	f	access:private	line:119	signature:(r io.ReadCloser, fnProgress, fnResult func(interface{}) error)	type:error
+path	pkg/build/golang/deps.go	7;"	i	line:7
+path	pkg/config/environment.go	8;"	i	line:8
+path	sdk/runtime/metrics.go	9;"	i	line:9
+path/filepath	pkg/build/golang/docker.go	12;"	i	line:12
+path/filepath	pkg/build/golang/exec.go	10;"	i	line:10
+path/filepath	pkg/config/environment.go	9;"	i	line:9
+path/filepath	pkg/engine/discovery.go	5;"	i	line:5
+path/filepath	pkg/runner/cluster_k8s.go	15;"	i	line:15
+path/filepath	pkg/runner/common.go	11;"	i	line:11
+path/filepath	pkg/runner/local_docker.go	10;"	i	line:10
+path/filepath	pkg/runner/local_exec.go	7;"	i	line:7
+path/filepath	pkg/sidecar/k8s_instance.go	11;"	i	line:11
+path/filepath	plans/chew-datasets/utils/create-ipfs-instance.go	8;"	i	line:8
+path/filepath	sdk/runtime/files.go	10;"	i	line:10
+path/filepath	sdk/runtime/logger.go	5;"	i	line:5
+pkg	pkg/doc.go	6;"	p	line:6
+podCidr	pkg/sidecar/k8s_instance.go	27;"	c	access:private	line:27
+podResourceCPU	pkg/runner/cluster_k8s.go	117;"	w	access:private	ctype:ClusterK8sRunner	line:117	type:resource.Quantity
+podResourceMemory	pkg/runner/cluster_k8s.go	118;"	w	access:private	ctype:ClusterK8sRunner	line:118	type:resource.Quantity
+pool	pkg/runner/client_pool.go	11;"	t	access:private	line:11	type:struct
+pool	pkg/runner/cluster_k8s.go	115;"	w	access:private	ctype:ClusterK8sRunner	line:115	type:*pool
+print	pkg/runner/pretty.go	205;"	m	access:private	ctype:PrettyPrinter	line:205	signature:(idx uint32, id string, now time.Time, evtType eventType, message )
+printProgress	pkg/client/client.go	147;"	f	access:private	line:147	signature:(progress interface{})	type:error
+process	sdk/sync/subscription.go	25;"	m	access:private	ctype:subscription	line:25	signature:()
+processContext	cmd/context.go	14;"	v	access:private	line:14	type:context.Context
+processContextOnce	cmd/context.go	15;"	v	access:private	line:15	type:sync.Once
+processStderr	pkg/runner/pretty.go	92;"	m	access:private	ctype:PrettyPrinter	line:92	signature:(idx uint32, id string, stderr io.ReadCloser)
+processStdout	pkg/runner/pretty.go	107;"	m	access:private	ctype:PrettyPrinter	line:107	signature:(idx uint32, id string, stdout io.ReadCloser)
+produce	sdk/sync/redis_test.go	414;"	f	access:private	line:414	signature:(t *testing.T, writer *Writer, subtree *Subtree, values []string)
+proxyLk	pkg/build/golang/docker.go	42;"	w	access:private	ctype:DockerGoBuilder	line:42	type:sync.Mutex
+pushToAWSRegistry	pkg/build/golang/docker.go	265;"	f	access:private	line:265	signature:(ctx context.Context, log *zap.SugaredLogger, client *client.Client, in *api.BuildInput, out *api.BuildOutput)	type:error
+pushToDockerHubRegistry	pkg/build/golang/docker.go	309;"	f	access:private	line:309	signature:(ctx context.Context, log *zap.SugaredLogger, client *client.Client, in *api.BuildInput, out *api.BuildOutput)	type:error
+qlogger	plans/dht/test/tracers.go	16;"	v	access:private	line:16	type:*zap.SugaredLogger
+qonce	plans/dht/test/tracers.go	15;"	v	access:private	line:15	type:sync.Once
+randReader	plans/bitswap-tuning/utils/files.go	9;"	v	access:private	line:9	type:*rand.Rand
+randomRunEnv	sdk/sync/redis_test.go	441;"	f	access:private	line:441	signature:()	type:*runtime.RunEnv
+randomTestSubtree	sdk/sync/redis_test.go	432;"	f	access:private	line:432	signature:()	type:*Subtree
+rawDirConfig	plans/chew-datasets/utils/testconfig.go	129;"	t	access:private	line:129	type:struct
+re	sdk/sync/watch.go	17;"	w	access:private	ctype:Watcher	line:17	type:*runtime.RunEnv
+re	sdk/sync/write.go	36;"	w	access:private	ctype:Writer	line:36	type:*runtime.RunEnv
+redis	pkg/sidecar/docker_instance.go	83;"	w	access:private	ctype:DockerInstanceManager	line:83	type:net.IP
+redis	pkg/sidecar/k8s_instance.go	35;"	w	access:private	ctype:K8sInstanceManager	line:35	type:net.IP
+redisCPUs	pkg/runner/cluster_k8s.go	51;"	c	access:private	line:51
+redisClient	sdk/sync/common.go	70;"	f	access:private	line:70	signature:(ctx context.Context)	type:*redis.Client, error
+reflect	pkg/api/builder.go	6;"	i	line:6
+reflect	pkg/api/common.go	4;"	i	line:4
+reflect	pkg/api/runner.go	6;"	i	line:6
+reflect	pkg/build/golang/deps_test.go	5;"	i	line:5
+reflect	pkg/build/golang/docker.go	13;"	i	line:13
+reflect	pkg/build/golang/exec.go	11;"	i	line:11
+reflect	pkg/config/coalescing.go	6;"	i	line:6
+reflect	pkg/runner/cluster_k8s.go	16;"	i	line:16
+reflect	pkg/runner/cluster_swarm.go	9;"	i	line:9
+reflect	pkg/runner/local_docker.go	11;"	i	line:11
+reflect	pkg/runner/local_exec.go	13;"	i	line:13
+reflect	plans/bitswap-tuning/test/transfer.go	6;"	i	line:6
+reflect	plans/dht/test/common.go	9;"	i	line:9
+reflect	plans/example/sync.go	6;"	i	line:6
+reflect	plans/network/main.go	8;"	i	line:8
+reflect	sdk/runtime/runenv_test.go	4;"	i	line:4
+reflect	sdk/sync/common.go	9;"	i	line:9
+reflect	sdk/sync/presets.go	5;"	i	line:5
+reflect	sdk/sync/redis_test.go	11;"	i	line:11
+reflect	sdk/sync/subscription.go	5;"	i	line:5
+reflect	sdk/sync/types.go	5;"	i	line:5
+reflect	sdk/sync/watch.go	6;"	i	line:6
+reflect	sdk/sync/write.go	6;"	i	line:6
+request	pkg/client/client.go	216;"	m	access:private	ctype:Client	line:216	signature:(ctx context.Context, method string, path string, body io.Reader)	type:io.ReadCloser, error
+retry	pkg/runner/cluster_swarm.go	398;"	f	access:private	line:398	signature:(attempts int, sleep time.Duration, f func() error)	type:error
+root	sdk/sync/watch.go	19;"	w	access:private	ctype:Watcher	line:19	type:string
+root	sdk/sync/write.go	41;"	w	access:private	ctype:Writer	line:41	type:string
+rootHandle	pkg/sidecar/link.go	17;"	v	access:private	line:17
+rt	pkg/sidecar/k8s_instance.go	254;"	w	access:private	ctype:k8sLink	line:254	type:*libcni.RuntimeConf
+run	plans/bitswap-tuning/main.go	16;"	f	access:private	line:16	signature:(runenv *runtime.RunEnv)	type:error
+run	plans/chew-datasets/main.go	26;"	f	access:private	line:26	signature:(runenv *runtime.RunEnv)	type:error
+run	plans/dht/main.go	19;"	f	access:private	line:19	signature:(runenv *runtime.RunEnv)	type:error
+run	plans/example/main.go	16;"	f	access:private	line:16	signature:(runenv *runtime.RunEnv)	type:error
+run	plans/mytest/main.go	16;"	f	access:private	line:16	signature:(runenv *runtime.RunEnv)	type:error
+run	plans/network/main.go	20;"	f	access:private	line:20	signature:(runenv *runtime.RunEnv)	type:error
+run	plans/placebo/main.go	14;"	f	access:private	line:14	signature:(runenv *runtime.RunEnv)	type:error
+runCompositionCmd	cmd/run.go	92;"	f	access:private	line:92	signature:(c *cli.Context)	type:error
+runHandler	pkg/daemon/run.go	14;"	m	access:private	ctype:Daemon	line:14	signature:(engine api.Engine)	type:func(w http.ResponseWriter, r *http.Request)
+runSingle	cmd/itest/common_test.go	13;"	f	access:private	line:13	signature:(t *testing.T, args )	type:error
+runSingleCmd	cmd/run.go	115;"	f	access:private	line:115	signature:(c *cli.Context)	type:error
+runenv	sdk/runtime/logger.go	12;"	w	access:private	ctype:logger	line:12	type:*RunParams
+runner	pkg/runner/client_pool.go	1;"	p	line:1
+runner	pkg/runner/cluster_k8s.go	1;"	p	line:1
+runner	pkg/runner/cluster_swarm.go	1;"	p	line:1
+runner	pkg/runner/common.go	1;"	p	line:1
+runner	pkg/runner/common_test.go	1;"	p	line:1
+runner	pkg/runner/local_docker.go	1;"	p	line:1
+runner	pkg/runner/local_exec.go	1;"	p	line:1
+runner	pkg/runner/pretty.go	1;"	p	line:1
+runners	pkg/engine/engine.go	52;"	w	access:private	ctype:Engine	line:52	type:map[string]api.Runner
+runners	pkg/sidecar/sidecar.go	14;"	v	access:private	line:14
+runtime	cmd/sidecar.go	7;"	i	line:7
+runtime	pkg/config/environment.go	10;"	i	line:10
+runtime	sdk/runtime/doc.go	3;"	p	line:3
+runtime	sdk/runtime/files.go	1;"	p	line:1
+runtime	sdk/runtime/logger.go	1;"	p	line:1
+runtime	sdk/runtime/metrics.go	1;"	p	line:1
+runtime	sdk/runtime/output.go	1;"	p	line:1
+runtime	sdk/runtime/runenv.go	1;"	p	line:1
+runtime	sdk/runtime/runenv_test.go	1;"	p	line:1
+runtime	sdk/runtime/runner.go	1;"	p	line:1
+runtime/debug	sdk/runtime/output.go	5;"	i	line:5
+sameAddrs	plans/network/main.go	267;"	f	access:private	line:267	signature:(a, b []net.Addr)	type:bool
+server	pkg/daemon/daemon.go	17;"	w	access:private	ctype:Daemon	line:17	type:*http.Server
+setHtb	pkg/sidecar/link.go	117;"	m	access:private	ctype:NetlinkLink	line:117	signature:(idx uint16, attrs netlink.HtbClassAttrs)	type:error
+setNetem	pkg/sidecar/link.go	130;"	m	access:private	ctype:NetlinkLink	line:130	signature:(idx uint16, attrs netlink.NetemQdiscAttrs)	type:error
+setupClient	cmd/all.go	42;"	f	access:private	line:42	signature:(c *cli.Context)	type:*client.Client, error
+setupGoProxy	pkg/build/golang/docker.go	353;"	f	access:private	line:353	signature:(ctx context.Context, log *zap.SugaredLogger, cli *client.Client, buildNetworkID string, cfg *DockerGoBuilderConfig)	type:string, error
+setupLk	pkg/runner/local_docker.go	75;"	w	access:private	ctype:LocalDockerRunner	line:75	type:sync.Mutex
+setupLk	pkg/runner/local_exec.go	31;"	w	access:private	ctype:LocalExecutableRunner	line:31	type:sync.Mutex
+setupPlugins	plans/chew-datasets/utils/create-ipfs-instance.go	22;"	f	access:private	line:22	signature:(externalPluginsPath string)	type:error
+setupSeed	plans/bitswap-tuning/test/transfer.go	328;"	f	access:private	line:328	signature:(ctx context.Context, node *utils.Node, fileSize int)	type:cid.Cid, error
+sidecar	pkg/sidecar/docker_instance.go	3;"	p	line:3
+sidecar	pkg/sidecar/instance.go	3;"	p	line:3
+sidecar	pkg/sidecar/k8s_instance.go	3;"	p	line:3
+sidecar	pkg/sidecar/link.go	3;"	p	line:3
+sidecar	pkg/sidecar/other.go	3;"	p	line:3
+sidecar	pkg/sidecar/sidecar.go	3;"	p	line:3
+sidecarCPUs	pkg/runner/cluster_k8s.go	53;"	c	access:private	line:53
+sidecarCommand	cmd/sidecar.go	45;"	f	access:private	line:45	signature:(c *cli.Context)	type:error
+slogger	sdk/runtime/logger.go	16;"	w	access:private	ctype:logger	line:16	type:*zap.SugaredLogger
+sort	plans/dht/test/common.go	10;"	i	line:10
+spec	sdk/iptb/ensemble.go	22;"	w	access:private	ctype:TestEnsemble	line:22	type:*TestEnsembleSpec
+start	pkg/runner/pretty.go	47;"	w	access:private	ctype:PrettyPrinter	line:47	type:time.Time
+state	pkg/state/doc.go	20;"	p	line:20
+strconv	pkg/conv/conversions.go	5;"	i	line:5
+strconv	pkg/runner/cluster_k8s.go	17;"	i	line:17
+strconv	pkg/runner/local_docker.go	12;"	i	line:12
+strconv	pkg/runner/local_exec.go	8;"	i	line:8
+strconv	plans/bitswap-tuning/utils/params.go	5;"	i	line:5
+strconv	plans/chew-datasets/utils/metrics.go	4;"	i	line:4
+strconv	plans/smlbench/main.go	6;"	i	line:6
+strconv	sdk/runtime/metrics.go	10;"	i	line:10
+strconv	sdk/runtime/runenv.go	8;"	i	line:8
+strconv	sdk/sync/common.go	10;"	i	line:10
+stringInSlice	pkg/engine/engine.go	467;"	f	access:private	line:467	signature:(a string, list []string)	type:bool
+strings	cmd/all.go	6;"	i	line:6
+strings	cmd/enum_flag.go	5;"	i	line:5
+strings	cmd/sidecar.go	8;"	i	line:8
+strings	pkg/aws/ecr.go	7;"	i	line:7
+strings	pkg/build/golang/deps.go	8;"	i	line:8
+strings	pkg/build/golang/docker.go	14;"	i	line:14
+strings	pkg/build/golang/exec.go	12;"	i	line:12
+strings	pkg/conv/conversions.go	6;"	i	line:6
+strings	pkg/daemon/describe.go	7;"	i	line:7
+strings	pkg/runner/cluster_k8s.go	18;"	i	line:18
+strings	pkg/runner/common.go	12;"	i	line:12
+strings	pkg/runner/local_docker.go	13;"	i	line:13
+strings	pkg/tgwriter/tgwriter.go	8;"	i	line:8
+strings	plans/bitswap-tuning/utils/createnode.go	6;"	i	line:6
+strings	plans/bitswap-tuning/utils/net.go	7;"	i	line:7
+strings	plans/bitswap-tuning/utils/params.go	6;"	i	line:6
+strings	plans/smlbench/test/simple_add.go	6;"	i	line:6
+strings	plans/smlbench/test/simple_add_get.go	7;"	i	line:7
+strings	sdk/runtime/runenv.go	9;"	i	line:9
+strings	sdk/runtime/runner.go	7;"	i	line:7
+strings	sdk/sync/types.go	6;"	i	line:6
+strings	sdk/sync/write.go	7;"	i	line:7
+structured	sdk/runtime/runenv.go	103;"	w	access:private	ctype:RunEnv	line:103	type:chan *zap.Logger
+subnet	pkg/sidecar/k8s_instance.go	263;"	w	access:private	ctype:K8sNetwork	line:263	type:string
+subs	sdk/sync/watch.go	20;"	w	access:private	ctype:Watcher	line:20	type:sync.WaitGroup
+subscription	sdk/sync/subscription.go	13;"	t	access:private	line:13	type:struct
+subtree	sdk/sync/subscription.go	16;"	w	access:private	ctype:subscription	line:16	type:*Subtree
+sugared	pkg/logging/log.go	12;"	v	access:private	line:12	type:*zap.SugaredLogger
+sugared	pkg/logging/log.go	77;"	w	access:private	ctype:Logging	line:77	type:*zap.SugaredLogger
+sync	cmd/context.go	8;"	i	line:8
+sync	pkg/build/golang/docker.go	15;"	i	line:15
+sync	pkg/engine/census.go	6;"	i	line:6
+sync	pkg/engine/engine.go	8;"	i	line:8
+sync	pkg/runner/cluster_k8s.go	19;"	i	line:19
+sync	pkg/runner/local_docker.go	14;"	i	line:14
+sync	pkg/runner/local_exec.go	14;"	i	line:14
+sync	pkg/runner/pretty.go	9;"	i	line:9
+sync	pkg/tgwriter/tgwriter.go	9;"	i	line:9
+sync	plans/dht/test/tracers.go	5;"	i	line:5
+sync	sdk/iptb/ensemble.go	9;"	i	line:9
+sync	sdk/sync/common.go	1;"	p	line:1
+sync	sdk/sync/doc.go	12;"	p	line:12
+sync	sdk/sync/helper.go	1;"	p	line:1
+sync	sdk/sync/presets.go	1;"	p	line:1
+sync	sdk/sync/redis_test.go	1;"	p	line:1
+sync	sdk/sync/subscription.go	1;"	p	line:1
+sync	sdk/sync/types.go	1;"	p	line:1
+sync	sdk/sync/watch.go	1;"	p	line:1
+sync	sdk/sync/watch.go	7;"	i	line:7
+sync	sdk/sync/write.go	1;"	p	line:1
+sync	sdk/sync/write.go	8;"	i	line:8
+sync.Mutex	pkg/tgwriter/tgwriter.go	26;"	e	access:public	ctype:TgWriter	line:26	type:sync.Mutex
+sync/atomic	pkg/runner/cluster_k8s.go	20;"	i	line:20
+sync/atomic	pkg/runner/pretty.go	10;"	i	line:10
+syscall	cmd/context.go	9;"	i	line:9
+tags	sdk/iptb/ensemble.go	24;"	w	access:private	ctype:TestEnsemble	line:24	type:map[string]*testNode
+tags	sdk/iptb/spec.go	10;"	w	access:private	ctype:TestEnsembleSpec	line:10	type:map[string]NodeOpts
+terminal	pkg/logging/log.go	16;"	v	access:private	line:16
+terminateCommand	cmd/terminate.go	23;"	f	access:private	line:23	signature:(c *cli.Context)	type:error
+terminateHandler	pkg/daemon/terminate.go	13;"	m	access:private	ctype:Daemon	line:13	signature:(engine api.Engine)	type:func(w http.ResponseWriter, r *http.Request)
+test	plans/bitswap-tuning/test/transfer.go	1;"	p	line:1
+test	plans/chew-datasets/test/ipfs_add_defaults.go	1;"	p	line:1
+test	plans/chew-datasets/test/ipfs_add_dir_sharding.go	1;"	p	line:1
+test	plans/chew-datasets/test/ipfs_add_trickle_dag.go	1;"	p	line:1
+test	plans/chew-datasets/test/ipfs_file_store.go	1;"	p	line:1
+test	plans/chew-datasets/test/ipfs_mfs.go	1;"	p	line:1
+test	plans/chew-datasets/test/ipfs_mfs_dir_sharding.go	1;"	p	line:1
+test	plans/chew-datasets/test/ipfs_url_store.go	1;"	p	line:1
+test	plans/dht/test/common.go	1;"	p	line:1
+test	plans/dht/test/find_peers.go	1;"	p	line:1
+test	plans/dht/test/find_providers.go	1;"	p	line:1
+test	plans/dht/test/provide_stress.go	1;"	p	line:1
+test	plans/dht/test/store_get_value.go	1;"	p	line:1
+test	plans/dht/test/tracers.go	1;"	p	line:1
+test	plans/mytest/test/first_try.go	1;"	p	line:1
+test	plans/smlbench/test/simple_add.go	1;"	p	line:1
+test	plans/smlbench/test/simple_add_get.go	1;"	p	line:1
+testCases	plans/bitswap-tuning/main.go	8;"	v	access:private	line:8
+testCases	plans/chew-datasets/main.go	13;"	v	access:private	line:13
+testCases	plans/dht/main.go	8;"	v	access:private	line:8
+testCases	plans/mytest/main.go	8;"	v	access:private	line:8
+testCasesSet	plans/smlbench/main.go	15;"	v	access:private	line:15
+testNode	sdk/iptb/node.go	11;"	t	access:private	line:11	type:struct
+testParseDependencies	pkg/build/golang/deps_test.go	9;"	v	access:private	line:9
+testbed	sdk/iptb/ensemble.go	23;"	w	access:private	ctype:TestEnsemble	line:23	type:*testbed.BasicTestbed
+testbedi.Core	sdk/iptb/node.go	12;"	e	access:public	ctype:testNode	line:12	type:testbedi.Core
+testing	cmd/itest/build_test.go	4;"	i	line:4
+testing	cmd/itest/common_test.go	5;"	i	line:5
+testing	cmd/itest/describe_test.go	4;"	i	line:4
+testing	cmd/itest/list_test.go	4;"	i	line:4
+testing	cmd/itest/run_test.go	4;"	i	line:4
+testing	cmd/itest/sidecar_test.go	4;"	i	line:4
+testing	pkg/build/golang/deps_test.go	6;"	i	line:6
+testing	pkg/runner/common_test.go	4;"	i	line:4
+testing	sdk/runtime/runenv_test.go	5;"	i	line:5
+testing	sdk/sync/redis_test.go	12;"	i	line:12
+testplanSysctls	pkg/runner/cluster_k8s.go	68;"	v	access:private	line:68
+text/tabwriter	pkg/api/definitions.go	6;"	i	line:6
+tgwriter	pkg/tgwriter/tgwriter.go	1;"	p	line:1
+time	cmd/context.go	10;"	i	line:10
+time	cmd/daemon.go	6;"	i	line:6
+time	pkg/auto/types.go	3;"	i	line:3
+time	pkg/build/golang/docker.go	16;"	i	line:16
+time	pkg/daemon/daemon.go	8;"	i	line:8
+time	pkg/dockermanager/dockermanager.go	7;"	i	line:7
+time	pkg/logging/log.go	4;"	i	line:4
+time	pkg/runner/cluster_k8s.go	21;"	i	line:21
+time	pkg/runner/cluster_swarm.go	10;"	i	line:10
+time	pkg/runner/local_docker.go	15;"	i	line:15
+time	pkg/runner/pretty.go	11;"	i	line:11
+time	pkg/sidecar/k8s_instance.go	12;"	i	line:12
+time	pkg/sidecar/link.go	9;"	i	line:9
+time	plans/bitswap-tuning/test/transfer.go	7;"	i	line:7
+time	plans/bitswap-tuning/utils/createnode.go	7;"	i	line:7
+time	plans/bitswap-tuning/utils/net.go	8;"	i	line:8
+time	plans/chew-datasets/test/ipfs_add_defaults.go	6;"	i	line:6
+time	plans/chew-datasets/test/ipfs_add_dir_sharding.go	5;"	i	line:5
+time	plans/chew-datasets/test/ipfs_add_trickle_dag.go	7;"	i	line:7
+time	plans/dht/test/common.go	11;"	i	line:11
+time	plans/dht/test/find_peers.go	6;"	i	line:6
+time	plans/dht/test/find_providers.go	6;"	i	line:6
+time	plans/example/sync.go	7;"	i	line:7
+time	plans/network/main.go	9;"	i	line:9
+time	plans/placebo/main.go	6;"	i	line:6
+time	plans/smlbench/test/simple_add.go	7;"	i	line:7
+time	plans/smlbench/test/simple_add_get.go	8;"	i	line:8
+time	sdk/iptb/ensemble.go	10;"	i	line:10
+time	sdk/runtime/metrics.go	11;"	i	line:11
+time	sdk/sync/common.go	11;"	i	line:11
+time	sdk/sync/presets.go	6;"	i	line:6
+time	sdk/sync/redis_test.go	13;"	i	line:13
+time	sdk/sync/watch.go	8;"	i	line:8
+time	sdk/sync/write.go	9;"	i	line:9
+toBool	sdk/runtime/runenv.go	187;"	f	access:private	line:187	signature:(s string)	type:bool
+toInt	sdk/runtime/runenv.go	179;"	f	access:private	line:179	signature:(s string)	type:int
+toMicroseconds	pkg/sidecar/link.go	142;"	f	access:private	line:142	signature:(t time.Duration)	type:uint32
+toNet	sdk/runtime/runenv.go	193;"	f	access:private	ctype:IPNet	line:193	signature:(s string)	type:*IPNet
+unpackParams	sdk/runtime/runenv.go	166;"	f	access:private	line:166	signature:(packed string)	type:map[string]string
+unstructured	sdk/runtime/runenv.go	102;"	w	access:private	ctype:RunEnv	line:102	type:chan *os.File
+utilisation	pkg/runner/cluster_k8s.go	58;"	c	access:private	line:58
+utils	plans/bitswap-tuning/utils/createnode.go	1;"	p	line:1
+utils	plans/bitswap-tuning/utils/files.go	1;"	p	line:1
+utils	plans/bitswap-tuning/utils/metrics.go	1;"	p	line:1
+utils	plans/bitswap-tuning/utils/net.go	1;"	p	line:1
+utils	plans/bitswap-tuning/utils/params.go	1;"	p	line:1
+utils	plans/bitswap-tuning/utils/peers.go	1;"	p	line:1
+utils	plans/bitswap-tuning/utils/state.go	1;"	p	line:1
+utils	plans/bitswap-tuning/utils/walker.go	1;"	p	line:1
+utils	plans/chew-datasets/utils/create-ipfs-instance.go	1;"	p	line:1
+utils	plans/chew-datasets/utils/metrics.go	1;"	p	line:1
+utils	plans/chew-datasets/utils/testcase.go	1;"	p	line:1
+utils	plans/chew-datasets/utils/testconfig.go	1;"	p	line:1
+utils	plans/chew-datasets/utils/unixfs.go	1;"	p	line:1
+utils	plans/smlbench/utils/metrics.go	1;"	p	line:1
+utils	plans/smlbench/utils/testcase.go	1;"	p	line:1
+v	cmd/enum_flag.go	14;"	w	access:private	ctype:EnumValue	line:14	type:string
+validateSdkDir	pkg/build/golang/docker.go	409;"	f	access:private	line:409	signature:(dir string)	type:error
+w	pkg/runner/cluster_k8s.go	610;"	w	access:private	ctype:FakeWriterAt	line:610	type:io.Writer
+w	sdk/sync/subscription.go	15;"	w	access:private	ctype:subscription	line:15	type:*Watcher
+waitNetworkInitialised	pkg/runner/cluster_k8s.go	421;"	m	access:private	ctype:ClusterK8sRunner	line:421	signature:(ctx context.Context, log *zap.SugaredLogger, podName string)	type:error
+waitNetworksInitialised	pkg/runner/cluster_k8s.go	391;"	m	access:private	ctype:ClusterK8sRunner	line:391	signature:(ctx context.Context, log *zap.SugaredLogger, runID string, initialisedNetworks *uint64)	type:error
+walk	plans/bitswap-tuning/utils/walker.go	22;"	f	access:private	line:22	signature:(ctx context.Context, nd ipld.Node, ng ipld.NodeGetter)	type:error
+wg	pkg/runner/pretty.go	48;"	w	access:private	ctype:PrettyPrinter	line:48	type:sync.WaitGroup
+workerShutdownTick	pkg/dockermanager/dockermanager.go	19;"	c	access:private	line:19
+workerShutdownTimeout	pkg/dockermanager/dockermanager.go	18;"	c	access:private	line:18
+zipRunOutputs	pkg/runner/common.go	39;"	f	access:private	line:39	signature:(ctx context.Context, basedir string, input *api.CollectionInput, w io.Writer)	type:error
