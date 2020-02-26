@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"reflect"
 	"strings"
+	"time"
 
 	ds "github.com/ipfs/go-datastore"
 	"github.com/mr-tron/base58"
@@ -75,7 +76,7 @@ func FirstTry(runenv *runtime.RunEnv) error {
 		if err != nil {
 			return fmt.Errorf("creating thread: %s", err)
 		}
-		addr := addrinfo.Addrs[0].String() + "/p2p/" + api.Host().ID().String() + "/thread/" + info.ID.String()
+		addr := addrinfo.Addrs[2].String() + "/p2p/" + api.Host().ID().String() + "/thread/" + info.ID.String()
 		bfk := base58.Encode(info.FollowKey.Bytes())
 		brk := base58.Encode(info.ReadKey.Bytes())
 		inv := fmt.Sprintf("%s:%s:%s", addr, bfk, brk)
@@ -83,6 +84,7 @@ func FirstTry(runenv *runtime.RunEnv) error {
 		if _, err = writer.Write(ctx, threadSubtree, &inv); err != nil {
 			return fmt.Errorf("writing to threadSubtree: %s", err)
 		}
+		time.Sleep(time.Second * 30)
 	} else {
 		ch := make(chan *string)
 		if err := watcher.Subscribe(ctx, threadSubtree, ch); err != nil {
