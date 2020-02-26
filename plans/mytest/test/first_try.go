@@ -4,9 +4,11 @@ import (
 	"context"
 	"fmt"
 	"reflect"
-	"time"
+	"strings"
 
 	ds "github.com/ipfs/go-datastore"
+	"github.com/mr-tron/base58"
+	"github.com/multiformats/go-multiaddr"
 
 	bserv "github.com/ipfs/go-blockservice"
 	syncds "github.com/ipfs/go-datastore/sync"
@@ -27,12 +29,14 @@ import (
 	"github.com/textileio/go-threads/util"
 )
 
+var empty = ""
+
 var threadSubtree = &sync.Subtree{
 	GroupKey: "thread",
 	KeyFunc: func(payload interface{}) string {
-		return payload.(thread.ID).KeyString()
+		return payload.(string)
 	},
-	PayloadType: reflect.TypeOf(&thread.ID{}),
+	PayloadType: reflect.TypeOf(&empty),
 }
 
 func FirstTry(runenv *runtime.RunEnv) error {
@@ -55,7 +59,9 @@ func FirstTry(runenv *runtime.RunEnv) error {
 	runenv.Message("My seq is %d and peer id %s", seq, addrinfo.ID)
 
 	if seq == 1 {
-		time.Sleep(time.Second * 5)
+		if err := <-watcher.Barrier(ctx, sync.State("ready"), int64(runenv.RunParams.TestInstanceCount-1)); err != nil {
+			return fmt.Errorf("waiting for barrier: %s", err)
+		}
 		id := thread.NewIDV1(thread.Raw, 32)
 		fk, err := symmetric.CreateKey()
 		if err != nil {
@@ -69,17 +75,47 @@ func FirstTry(runenv *runtime.RunEnv) error {
 		if err != nil {
 			return fmt.Errorf("creating thread: %s", err)
 		}
-		runenv.Message("Created thread %s", info.ID)
-		if _, err = writer.Write(ctx, threadSubtree, &id); err != nil {
+		addr := addrinfo.Addrs[0].String() + "/p2p/" + api.Host().ID().String() + "/thread/" + info.ID.String()
+		bfk := base58.Encode(info.FollowKey.Bytes())
+		brk := base58.Encode(info.ReadKey.Bytes())
+		inv := fmt.Sprintf("%s:%s:%s", addr, bfk, brk)
+		runenv.Message("Created thread %s", inv)
+		if _, err = writer.Write(ctx, threadSubtree, &inv); err != nil {
 			return fmt.Errorf("writing to threadSubtree: %s", err)
 		}
 	} else {
-		ch := make(chan *thread.ID)
+		ch := make(chan *string)
 		if err := watcher.Subscribe(ctx, threadSubtree, ch); err != nil {
 			return fmt.Errorf("subscribing to threadSubtree: %s", err)
 		}
-		valID := <-ch
-		runenv.Message("I noticed there's a new thread: %s", valID)
+		if _, err := writer.SignalEntry(ctx, "ready"); err != nil {
+			return fmt.Errorf("signalling entry: %s", err)
+		}
+		inv := <-ch
+		runenv.Message("I noticed there's a new thread: %s", *inv)
+		splits := strings.Split(*inv, ":")
+		fk, err := base58.Decode(splits[1])
+		if err != nil {
+			return fmt.Errorf("decoding followkey: %s", err)
+		}
+		rk, err := base58.Decode(splits[2])
+		if err != nil {
+			return fmt.Errorf("decoding readkey: %s", err)
+		}
+		rfk, err := symmetric.NewKey(fk)
+		if err != nil {
+			return fmt.Errorf("creating sk of follow key: %s", err)
+		}
+		rrk, err := symmetric.NewKey(rk)
+		if err != nil {
+			return fmt.Errorf("creating sk of read key: %s", err)
+		}
+		maddr := multiaddr.StringCast(splits[0])
+		snfo, err := api.AddThread(ctx, maddr, core.FollowKey(rfk), core.ReadKey(rrk))
+		if err != nil {
+			return fmt.Errorf("adding thread: %s", err)
+		}
+		runenv.Message("Added thread correctly: %v", snfo.Logs)
 	}
 
 	return nil
